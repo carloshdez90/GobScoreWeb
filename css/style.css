@@ -27,6 +27,17 @@
 /*
 1. General
 **********************************************************************/
+ .centro{
+    text-align: center;
+ }
+ .azul{
+    color: #004370;
+ }
+ .cero{
+    margin: 0 !important;
+    padding: 0 !important;
+
+ }
  body {
     font-family:'Roboto', sans-serif;
     color: #FFF;
