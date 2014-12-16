@@ -62,7 +62,7 @@
                             <a href="#about">About</a>
                             </li> --> 
                             <li>
-                                <a href="#clients">Ultimos Interaciones</a>
+                                <a href="#clients">Ultimas Interaciones</a>
                             </li>
                             <!--<li>
                             <a href="#price">Price</a>
@@ -435,7 +435,7 @@
                                     <div> <h3>Calificación: <? echo $ranking[8]['calificacion']; ?></h3></div>
                                     <p><h3>Institución: <? echo $ranking[8]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[8]['descripcion']; ?></div>
+                                        <? echo $ranking[80]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -530,8 +530,7 @@
                             </div>
                         </li>
                         <li class="span4 mix photo">
-                            <div class="thumbnail">
-                                <img src="images/Portfolio08.png" alt="project 8">
+                            <div class="thumbnail">                               <img src="images/Portfolio08.png" alt="project 8">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                     <i class="icon-plus"></i>
                                 </a>
@@ -703,67 +702,58 @@
                 <div class="triangle"></div>
                 <div class="container">
                     <div class="title">
-                        <h1>Ultimos Comentarios/ Rankeos </h1>
-                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                        <h1>Ultimás Denuncias / Comentarios</h1>
+                        <p></p>
                     </div>
                     <div class="row">
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"I've worked too hard and too long to let anything stand in the way of my goals. I will not let my teammates down and I will not let myself down."</p>
+                                <p>
+                                    <? echo $mensajes[0]['denuncia']; ?>
+                                </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client1.png" class="centered" alt="client 1">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <strong>
+                                        <? echo $mensajes[0]['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"In motivating people, you've got to engage their minds and their hearts. I motivate people, I hope, by example - and perhaps by excitement, by having productive ideas to make others feel involved."</p>
+                                <p>
+                                    <? echo $mensajes[1]['denuncia']; ?>
+                                </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client2.png" class="centered" alt="client 2">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <strong>
+                                        <? echo $mensajes[1]['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <p>
+                                    <? echo $mensajes[2]['denuncia']; ?>
+                                </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <strong>
+                                        <? echo $mensajes[2]['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
                         </div>
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <p>
+                                    <? echo $mensajes[3]['denuncia']; ?>
+                                </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>John Doe
-                                        <small>Client</small>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <strong>
+                                        <? echo $mensajes[3]['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -771,12 +761,13 @@
 
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <p>
+                                    <? echo $mensajes[4]['denuncia']; ?>
+                                </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <strong>
+                                        <? echo $mensajes[4]['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -784,12 +775,13 @@
 
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <p>
+                                    <? echo $mensajes[5]['denuncia']; ?>
+                                </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <strong>
+                                        <? echo $mensajes[5]['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -797,12 +789,40 @@
 
                         <div class="span4">
                             <div class="testimonial">
-                                <p>"Determine never to be idle. No person will have occasion to complain of the want of time who never loses any. It is wonderful how much may be done if we are always doing."</p>
+                                <p>
+                                    <? echo $mensajes[6]['denuncia']; ?>
+                                </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
-                                    <img src="images/Client3.png" class="centered" alt="client 3">
-                                    <strong>John Doe
-                                        <small>Client</small>
+                                    <strong>
+                                        <? echo $mensajes[6]['nombre']; ?>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>
+                                    <? echo $mensajes[7]['denuncia']; ?>
+                                </p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <strong>
+                                        <? echo $mensajes[7]['nombre']; ?>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+                         <div class="span4">
+                            <div class="testimonial">
+                                <p>
+                                    <? echo $mensajes[8]['denuncia']; ?>
+                                </p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <strong>
+                                        <? echo $mensajes[8]['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
