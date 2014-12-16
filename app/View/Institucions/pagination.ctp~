@@ -1,0 +1,5 @@
+<?php include 'table.ctp'; ?>
+<?php if ($empresas): ?>
+	<?php echo $this->Html->limitePaginador('empresas', $pagina, $total, $limit); ?>
+<?php endif; ?>
+

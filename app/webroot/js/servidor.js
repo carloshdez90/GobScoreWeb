@@ -1,0 +1,1 @@
+var servidor = 'localhost/encuestas';

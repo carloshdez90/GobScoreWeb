@@ -1,0 +1,201 @@
+@font-face {
+    font-family: "Relay";
+    src: url('relay-regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Raleway";
+    src: url('Raleway-Regular.otf') format("truetype");
+}
+body {
+	padding-top : 20px;
+	/*font-family : "Lucida Grande", Helvetica, Arial, sans-serif;*/
+	/*font-family : "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+	font-size   : 12px;
+	/*color       : #46556F;*/
+	color : #073B69;
+
+	/*background  : #F4F4F4;*/
+	background : #ffffff;
+}
+
+a {
+	color: #0088cc;
+}
+
+a:hover,
+a:focus {
+	color: #0088cc;
+	text-decoration: underline;
+}
+
+.input {
+	margin-bottom: 10px;
+}
+
+.caja {
+	/*padding : 10px;*/
+	padding-bottom : 10px;
+	border : 1px solid #dddddd;
+	border-radius: 4px 4px 4px 4px;
+	-moz-box-shadow: 0 0 15px #7F9DE5;
+	-webkit-box-shadow: 0 0 15px #7F9DE5;
+	box-shadow: 0 0 15px #7F9DE5;
+	/*color: #4F5F79;*/
+	text-align: justify;
+	margin-bottom: 20px;
+	/*background   : #ffffff;*/
+}
+
+
+.pie {
+	height: 100px;
+	border-radius: 0px 0px 4px 4px;
+	background : #031835 url(../img/sitio/glow-bottom.png) no-repeat bottom center;
+	color : white;
+}
+
+
+.bordes {
+	border : 1px solid #DDDDDD;
+}
+
+.status {
+	width : 10px;
+}
+
+.actions {
+	width : 10px;
+	padding : 0px;
+}
+
+.center{
+	text-align : center;
+}
+
+.izquierdo {
+	margin-top : -1px;
+	margin-right : -4px;
+}
+
+.centro {
+	margin-top : -1px;
+	margin-left : -4px;
+	margin-right : -4px;
+}
+
+.derecho {
+	margin-top : -1px;
+	margin-left : -4px;
+}
+
+.without-bordes {
+	border : 0px;
+}
+
+.bold {
+	font-weight : bold;
+}
+
+.encabezado {
+	height : 100px;
+	margin-bottom: 20px;
+	border-radius: 4px 4px 0px 0px;
+	background : #09234E url(../img/sitio/glow.png);
+}
+
+.encabezado-hijo {
+	height: 64px;
+	border-radius: 4px 4px 0px 0px;
+	background : url(../img/sitio/bg-header.png);
+}
+
+.color-white {
+	color : white;
+}
+
+.contenido {
+	margin-left : 5px;
+	margin-right : 5px;
+}
+
+.pagina {
+	cursor: pointer;
+}
+
+
+/**
+* Configuraciones para el frontend
+*/
+.caja-sitio {
+	border : 0px solid #dddddd;
+	-moz-box-shadow: 0 0 15px #7F9DE5;
+	-webkit-box-shadow: 0 0 15px #7F9DE5;
+	box-shadow: 0 0 15px #7F9DE5;
+	text-align: justify;
+}
+.encabezado-sitio {
+	height : 100px;
+	margin-bottom: 1px;
+	border-radius: 4px 4px 0px 0px;
+	background : #09234E url(../img/sitio/glow.png);
+}
+
+.encabezado-hijo-sitio {
+	height: 64px;
+	border-radius: 4px 4px 0px 0px;
+	background : url(../img/sitio/bg-header.png);
+}
+.pie-sitio {
+	padding       : 0px;
+	border-radius : 0px 0px 4px 4px;
+	background    : #031835 url(../img/sitio/glow-bottom.png) no-repeat bottom center;
+	color         : white;
+	height        : 100px;
+}
+
+.fondo-blanco {
+	background : #ffffff;
+}
+
+legend {
+	text-align : right;
+}
+
+.pagination {
+	margin : 0px;
+}
+
+.color-black {
+	color : black;
+}
+
+.margen-menu {
+	margin-top:8px;
+	margin-bottom:30px;
+}
+
+.table > tbody > tr > td,td {
+	line-height: 2;
+	vertical-align: middle;
+	padding-top : 3px;
+	padding-bottom : 3px;
+}
+
+.limitePaginador {
+	margin-bottom : 0px;
+}
+
+.pagination > li {
+	cursor : pointer;
+}
+
+.text-align-right {
+	text-align: right;
+	margin-top : -1px;
+	margin-right : -4px;
+}
+
+.center {
+	text-align: center;
+}

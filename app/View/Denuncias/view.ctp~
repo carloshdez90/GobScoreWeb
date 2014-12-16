@@ -1,0 +1,49 @@
+<div class="denuncias view">
+	<table class="table table-condensed table-bordered table-striped table-hover">
+		<tbody>
+			<tr>
+				<td> Id	</td>
+				<td> <?php echo h($denuncia['Denuncia']['id']); ?>&nbsp; </td>
+			</tr>
+			<tr>
+				<td> Tipo de denuncia </td>
+				<td> <?php echo h($denuncia['Denuncia']['tipo_id']); ?>&nbsp; </td>
+			</tr>
+			<tr>
+				<td> Codigo	</td>
+				<td> <?php echo h($denuncia['Denuncia']['codigo']); ?>&nbsp; </td>
+			</tr>
+			<tr>
+				<td> Institucion </td>
+				<td> <?php echo h($denuncia['Institucion']['name']); ?>&nbsp; </td>
+			</tr>
+			<tr>
+				<td> Estado </td>
+				<td> <?php echo h($denuncia['Denuncia']['solucionada']); ?>&nbsp; </td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+
+
+<div class="related">
+	<?php if (!empty($denuncia['Mensaje'])): ?>
+		<table cellpadding = "0" cellspacing = "0">
+			<tr>
+				<th><?php echo __('Denuncia'); ?></th>
+			</tr>
+			<?php foreach ($denuncia['Mensaje'] as $mensaje): ?>
+				<tr>
+					<td><?php echo $mensaje['contenido']; ?></td>
+				</tr>
+			<?php endforeach; ?>
+		</table>
+	<?php endif; ?>
+</div>
+
+
+<div>
+	<?php echo $this->Form->create('Mensaje', array('controller' => 'mensajes', 'action' => 'add')); ?>
+	<?php echo $this->Form->input('contenido'); ?>	
+	<?php echo $this->Form->end(); ?>	
+</div>
