@@ -6,31 +6,6 @@ class WebsiteController extends AppController {
 	 *
 	 */
 	public function inicio() {
-		$this->loadModel('Mensaje');
-		$options = array(
-			'limit' => 9,
-			'order' => array('Mensaje.created DESC'),
-		);
-		$mensajes = $this->Mensaje->find('all', $options);
-		$this->set('mensajes', $mensajes);
-
-		$this->loadModel('Institucion');
-		$options = array(
-			'limit' => 9,
-		);
-		$institucions = $this->Institucion->find('all', $options);
-		$institucions[0]['calificacion'] = 9;
-		$institucions[1]['calificacion'] = 8.7;
-		$institucions[2]['calificacion'] = 8.5;
-		$institucions[3]['calificacion'] = 8.3;
-		$institucions[4]['calificacion'] = 8.2;
-		$institucions[5]['calificacion'] = 8;
-		$institucions[6]['calificacion'] = 7.8;
-		$institucions[7]['calificacion'] = 7.6;
-		$institucions[8]['calificacion'] = 7;
-		
-		$this->set('institucions', $institucions);
-		//echo $mensajes;
 	}
 
 	/**
@@ -185,13 +160,7 @@ class WebsiteController extends AppController {
 		$this->set(compact('institucions'));
 
 		$tipos = array(
-			'Empleado perdiendo el tiempo.',
-			'Acoso sexual',
-			'Acoso laboral',
-			'Abando de trabajo',
-			'Uso inadecuado de propiedad publica',
-			'Soborno',
-			'Negligencia',
+			'Empleado perdiendo el tiempo.'
 		);
 		$this->set(compact('tipos'));
 		

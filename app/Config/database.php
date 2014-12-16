@@ -69,8 +69,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => '1001',
-		'database' => 'preguntas',
+		'password' => '2357av',
+		'database' => 'gsdb',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

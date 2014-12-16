@@ -2501,3 +2501,290 @@ Request URL: /GobScoreWeb/inicio
 Stack Trace:
 #0 /var/www/GobScoreWeb/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2014-12-16 15:06:49 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /encuestas/crear-denuncias
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(3551): Model->setSource('institucions')
+#5 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(2919): Model->_readDataSource('list', Array)
+#7 /home/mathdebian/Documentos/www/encuestas/app/Controller/WebsiteController.php(159): Model->find('list')
+#8 [internal function]: WebsiteController->denuncias()
+#9 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#10 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#12 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-16 15:07:43 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /encuestas/crear-denuncias
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(3551): Model->setSource('institucions')
+#5 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(2919): Model->_readDataSource('list', Array)
+#7 /home/mathdebian/Documentos/www/encuestas/app/Controller/WebsiteController.php(159): Model->find('list')
+#8 [internal function]: WebsiteController->denuncias()
+#9 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#10 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#12 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-16 15:08:39 Error: [MissingTableException] Table denuncias for model Denuncia was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'denuncias',
+  'class' => 'Denuncia',
+  'ds' => 'default',
+)
+Request URL: /encuestas/crear-denuncias
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(3551): Model->setSource('denuncias')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Denuncia', 'fields')
+#4 /home/mathdebian/Documentos/www/encuestas/app/View/Website/denuncias.ctp(1): FormHelper->create('Denuncia', Array)
+#5 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(948): include('/home/mathdebia...')
+#6 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(910): View->_evaluate('/home/mathdebia...', Array)
+#7 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(471): View->_render('/home/mathdebia...')
+#8 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-16 15:09:01 Error: [MissingTableException] Table denuncias for model Denuncia was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'denuncias',
+  'class' => 'Denuncia',
+  'ds' => 'default',
+)
+Request URL: /encuestas/crear-denuncias
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(3551): Model->setSource('denuncias')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Denuncia', 'fields')
+#4 /home/mathdebian/Documentos/www/encuestas/app/View/Website/denuncias.ctp(1): FormHelper->create('Denuncia', Array)
+#5 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(948): include('/home/mathdebia...')
+#6 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(910): View->_evaluate('/home/mathdebia...', Array)
+#7 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(471): View->_render('/home/mathdebia...')
+#8 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-16 15:09:25 Error: [MissingTableException] Table denuncias for model Denuncia was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'denuncias',
+  'class' => 'Denuncia',
+  'ds' => 'default',
+)
+Request URL: /encuestas/crear-denuncias
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(3551): Model->setSource('denuncias')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Model/Model.php(1369): Model->getDataSource()
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/Helper/FormHelper.php(215): Model->schema()
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/Helper/FormHelper.php(468): FormHelper->_introspectModel('Denuncia', 'fields')
+#4 /home/mathdebian/Documentos/www/encuestas/app/View/Website/denuncias.ctp(1): FormHelper->create('Denuncia', Array)
+#5 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(948): include('/home/mathdebia...')
+#6 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(910): View->_evaluate('/home/mathdebia...', Array)
+#7 /home/mathdebian/Documentos/www/encuestas/lib/Cake/View/View.php(471): View->_render('/home/mathdebia...')
+#8 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#9 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#10 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/css/jquery.cslider.css
+Stack Trace:
+#0 [internal function]: DenunciasController->view('css', 'jquery.cslider....')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/css/jquery.bxslider.css
+Stack Trace:
+#0 [internal function]: DenunciasController->view('css', 'jquery.bxslider...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/css/animate.css
+Stack Trace:
+#0 [internal function]: DenunciasController->view('css', 'animate.css')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.js')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.mixitup.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.mixitup....')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/bootstrap.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'bootstrap.js')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.bxslider.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.bxslider...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.placeholder.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.placehol...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.inview.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.inview.j...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:24 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/app.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'app.js')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:25 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.cslider.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.cslider....')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:25 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/modernizr.custom.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'modernizr.custo...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:25 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.mixitup.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.mixitup....')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:27 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/bootstrap.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'bootstrap.js')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:27 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/modernizr.custom.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'modernizr.custo...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:27 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.bxslider.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.bxslider...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:28 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.cslider.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.cslider....')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:28 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.placeholder.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.placehol...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:28 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/jquery.inview.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'jquery.inview.j...')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-16 15:15:29 Error: [NotFoundException] Invalid denuncia
+Request URL: /encuestas/denuncias/view/js/app.js
+Stack Trace:
+#0 [internal function]: DenunciasController->view('js', 'app.js')
+#1 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(DenunciasController), Array)
+#2 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

@@ -230,10 +230,10 @@
                                     </span>
                                 </div>
                                 <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[0]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[0]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[0]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[0]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[0]['descripcion']; ?></div>
+                                        <?php echo $institucions[0]['descripcion']; ?></div>
                                     
                                 </div>      
                                 
@@ -257,10 +257,10 @@
                                     </span>
                                 </div>
                                  <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[1]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[1]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[1]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[1]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[1]['descripcion']; ?></div>
+                                        <?php echo $institucions[1]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -282,10 +282,10 @@
                                     </span>
                                 </div>
                                  <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[2]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[2]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[2]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[2]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[2]['descripcion']; ?></div>
+                                        <?php echo $institucions[2]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -307,10 +307,10 @@
                                     </span>
                                 </div>
                                  <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[3]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[3]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[3]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[3]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[3]['descripcion']; ?></div>
+                                        <?php echo $institucions[3]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -332,10 +332,10 @@
                                     </span>
                                 </div>
                                  <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[4]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[4]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[4]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[4]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[4]['descripcion']; ?></div>
+                                        <?php echo $institucions[4]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -357,10 +357,10 @@
                                     </span>
                                 </div>
                                 <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[5]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[5]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[5]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[5]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[5]['descripcion']; ?></div>
+                                        <?php echo $institucions[5]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -382,10 +382,10 @@
                                     </span>
                                 </div>
                                 <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[6]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[6]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[6]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[6]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[6]['descripcion']; ?></div>
+                                        <?php echo $institucions[6]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -407,10 +407,10 @@
                                     </span>
                                 </div>
                                 <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[7]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[7]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[7]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[7]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[7]['descripcion']; ?></div>
+                                        <?php echo $institucions[7]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -432,10 +432,10 @@
                                     </span>
                                 </div>
                                 <div class="project-info">
-                                    <div> <h3>Calificación: <? echo $ranking[8]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <? echo $ranking[8]['institucion']; ?></h3></p>
+                                    <div> <h3>Calificación: <?php echo $institucions[8]['calificacion']; ?></h3></div>
+                                    <p><h3>Institución: <?php echo $institucions[8]['institucion']; ?></h3></p>
                                     <div>
-                                        <? echo $ranking[80]['descripcion']; ?></div>
+                                        <?php echo $institucions[80]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -457,8 +457,8 @@
                                     <div style="font-size:10px; ">Ver más</div>
 
                                 </a>
-                                <h3>Calificación: <? echo $ranking[0]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[0]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[0]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[0]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -469,8 +469,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[1]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[1]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[1]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[1]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -480,8 +480,8 @@
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[2]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[2]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[2]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[2]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -491,8 +491,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[3]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[3]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[3]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[3]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -502,8 +502,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[4]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[4]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[4]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[4]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -513,8 +513,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[5]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[5]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[5]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[5]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -524,8 +524,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[6]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[6]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[6]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[6]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -534,8 +534,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[7]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[7]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo 6.5; ?></h3>
+                                <p>Institución: <?php echo $institucions[7]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -545,8 +545,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <? echo $ranking[8]['calificacion']; ?></h3>
-                                <p>Institución: <? echo $ranking[8]['Institucion']; ?></p>
+                                <h3>Calificación: <?php echo $institucions[8]['calificacion']; ?></h3>
+                                <p>Institución: <?php echo $institucions[8]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -709,12 +709,12 @@
                         <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[0]['denuncia']; ?>
+                                    <?php echo $mensajes[0]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[0]['nombre']; ?>
+                                        <?php echo $mensajes[0]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -722,12 +722,12 @@
                         <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[1]['denuncia']; ?>
+                                    <?php echo $mensajes[1]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[1]['nombre']; ?>
+                                        <?php echo $mensajes[1]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -735,12 +735,12 @@
                         <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[2]['denuncia']; ?>
+                                    <?php echo $mensajes[2]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[2]['nombre']; ?>
+                                        <?php echo $mensajes[2]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -748,26 +748,12 @@
                         <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[3]['denuncia']; ?>
+                                    <?php echo $mensajes[3]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[3]['nombre']; ?>
-                                    </strong>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="span4">
-                            <div class="testimonial">
-                                <p>
-                                    <? echo $mensajes[4]['denuncia']; ?>
-                                </p>
-                                <div class="whopic">
-                                    <div class="arrow"></div>
-                                    <strong>
-                                        <? echo $mensajes[4]['nombre']; ?>
+                                        <?php echo $mensajes[3]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -776,12 +762,12 @@
                         <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[5]['denuncia']; ?>
+                                    <?php echo $mensajes[4]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[5]['nombre']; ?>
+                                        <?php echo $mensajes[4]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -790,12 +776,12 @@
                         <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[6]['denuncia']; ?>
+                                    <?php echo $mensajes[5]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[6]['nombre']; ?>
+                                        <?php echo $mensajes[5]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -804,12 +790,26 @@
                         <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[7]['denuncia']; ?>
+                                    <?php echo $mensajes[6]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[7]['nombre']; ?>
+                                        <?php echo $mensajes[6]['Denuncia']['nombre']; ?>
+                                    </strong>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="span4">
+                            <div class="testimonial">
+                                <p>
+                                    <?php echo $mensajes[7]['Mensaje']['contenido']; ?>
+                                </p>
+                                <div class="whopic">
+                                    <div class="arrow"></div>
+                                    <strong>
+                                        <?php echo $mensajes[7]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
@@ -817,12 +817,12 @@
                          <div class="span4">
                             <div class="testimonial">
                                 <p>
-                                    <? echo $mensajes[8]['denuncia']; ?>
+                                    <?php echo $mensajes[8]['Mensaje']['contenido']; ?>
                                 </p>
                                 <div class="whopic">
                                     <div class="arrow"></div>
                                     <strong>
-                                        <? echo $mensajes[8]['nombre']; ?>
+                                        <?php echo $mensajes[8]['Denuncia']['nombre']; ?>
                                     </strong>
                                 </div>
                             </div>
