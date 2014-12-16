@@ -1,1 +1,1 @@
-var servidor = 'localhost/encuestas';
+var servidor = 'localhost/GobScoreWeb';

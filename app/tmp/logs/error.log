@@ -2492,3 +2492,12 @@ Stack Trace:
 #3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
 #4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-12-16 10:24:57 Error: [MissingControllerException] Controller class InicioController could not be found.
+Exception Attributes: array (
+  'class' => 'InicioController',
+  'plugin' => NULL,
+)
+Request URL: /GobScoreWeb/inicio
+Stack Trace:
+#0 /var/www/GobScoreWeb/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
