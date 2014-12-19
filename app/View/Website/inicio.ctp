@@ -62,7 +62,7 @@
                             <a href="#about">About</a>
                             </li> --> 
                             <li>
-                                <a href="#clients">Ultimas Interaciones</a>
+                                <a href="#clients">Interacciones</a>
                             </li>
                             <!--<li>
                             <a href="#price">Price</a>
@@ -151,7 +151,7 @@
                     <!--<h1>¿Que es GobScore?</h1>-->
                     <img src="images/GobScore.png" width="400" height="200" alt="Logo" />
                     <!-- Section's title goes here -->
-                    <p>GobScore trata .... Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, libero reiciendis esse pariatur magni, ipsa minima illum nihil voluptatibus distinctio.</p>
+                    <p>Este proyecto es una plataforma para la calificacion y puntuacion de las instituciones de gobierno, de acuerdo a un puntaje calculado en base a las denuncias de la población.</p>
                     <!--Simple description for section goes here. -->
                 </div>
                 <!--<div class="row-fluid">
@@ -192,7 +192,7 @@
             <div class="container">
                 <div class=" title">
                     <h1>Información mejor calificada</h1>
-                    <p>Acontinuación se presentan los mejores 9 calificados de toda la información disponible en infoÚtil.</p>
+                    <p>A continuación se presentan las 9 instituciones mejor valoradas en El Salvador.</p>
                 </div>
                 <!--<ul class="nav nav-pills">
                     <li class="filter" data-filter="all">
@@ -231,9 +231,9 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[0]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[0]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[0]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[0]['descripcion']; ?></div>
+                                        <?php //echo //$institucions[0]['descripcion']; ?></div>
                                     
                                 </div>      
                                 
@@ -258,9 +258,9 @@
                                 </div>
                                  <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[1]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[1]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[1]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[1]['descripcion']; ?></div>
+                                        <?php //echo $institucions[1]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -283,9 +283,9 @@
                                 </div>
                                  <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[2]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[2]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[2]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[2]['descripcion']; ?></div>
+                                        <?php //echo $institucions[2]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -308,9 +308,9 @@
                                 </div>
                                  <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[3]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[3]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[3]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[3]['descripcion']; ?></div>
+                                        <?php //echo $institucions[3]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -333,9 +333,9 @@
                                 </div>
                                  <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[4]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[4]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[4]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[4]['descripcion']; ?></div>
+                                        <?php //echo $institucions[4]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -358,9 +358,9 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[5]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[5]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[5]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[5]['descripcion']; ?></div>
+                                        <?php //echo $institucions[5]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -383,9 +383,9 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[6]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[6]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[6]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[6]['descripcion']; ?></div>
+                                        <?php //echo $institucions[6]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -408,9 +408,9 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[7]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[7]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[7]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[7]['descripcion']; ?></div>
+                                        <?php //echo $institucions[7]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -433,9 +433,9 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[8]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[8]['institucion']; ?></h3></p>
+                                    <p><h3>Institución: <?php echo $institucions[8]['Institucion']['name']; ?></h3></p>
                                     <div>
-                                        <?php echo $institucions[80]['descripcion']; ?></div>
+                                        <?php //echo $institucions[8]['descripcion']; ?></div>
                                     
                                 </div>  
                                 
@@ -702,7 +702,7 @@
                 <div class="triangle"></div>
                 <div class="container">
                     <div class="title">
-                        <h1>Ultimás Denuncias / Comentarios</h1>
+                        <h1>Últimas Denuncias / Comentarios</h1>
                         <p></p>
                     </div>
                     <div class="row">
@@ -829,7 +829,7 @@
                         </div>
                     </div>
                     <p class="testimonial-text">
-                        "Cambia todo, menos a tu mujer y tus hijos, dicho popular en korea del norte"
+                        "La ciudadania participando en GobsScore promueves la transparencia."
                     </p>
                 </div>
             </div>
@@ -969,8 +969,7 @@
             <div class="section secondary-section">
                 <div class="container">
                     <div class="title">
-                        <h1>Rankea La informacion de tu interes</h1>
-                        <p>Duis mollis placerat quam, eget laoreet tellus tempor eu. Quisque dapibus in purus in dignissim.</p>
+                        <h1>Participa enviando tu denuncia o comentario.</h1>
                     </div>
                 </div>
                 <div class="map-wrapper" style="background: url('images/Slider.png');">
@@ -1050,7 +1049,7 @@
         <!-- Contact section edn -->
         <!-- Footer section start -->
         <div class="footer">
-            <p>&copy; 2013 All Rights Reserved</p>
+            <p>&copy; 2013 All Rights Reserved | GobScore | Developer by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->

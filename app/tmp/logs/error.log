@@ -2788,3 +2788,88 @@ Stack Trace:
 #3 /home/mathdebian/Documentos/www/encuestas/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(DenunciasController), Object(CakeRequest))
 #4 /home/mathdebian/Documentos/www/encuestas/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #5 {main}
+2014-12-16 22:23:32 Error: [MissingConnectionException] Database connection "Mysql" is missing, or could not be created.
+Exception Attributes: array (
+  'class' => 'Mysql',
+  'message' => 'SQLSTATE[28000] [1045] Access denied for user \'root\'@\'localhost\' (using password: YES)',
+  'enabled' => true,
+)
+Request URL: /gobscore/
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(260): Mysql->connect()
+#1 /var/www/gobscore/lib/Cake/Model/ConnectionManager.php(105): DboSource->__construct(Array)
+#2 /var/www/gobscore/lib/Cake/Model/Model.php(3524): ConnectionManager::getDataSource('default')
+#3 /var/www/gobscore/lib/Cake/Model/Model.php(1136): Model->setDataSource('default')
+#4 /var/www/gobscore/lib/Cake/Model/Model.php(3551): Model->setSource('mensajes')
+#5 /var/www/gobscore/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#6 /var/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#7 /var/www/gobscore/app/Controller/WebsiteController.php(14): Model->find('all', Array)
+#8 [internal function]: WebsiteController->inicio()
+#9 /var/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#10 /var/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#11 /var/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#12 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#13 {main}
+2014-12-16 22:27:29 Error: [MissingTableException] Table mensajes for model Mensaje was not found in datasource default.
+Exception Attributes: array (
+  'table' => 'mensajes',
+  'class' => 'Mensaje',
+  'ds' => 'default',
+)
+Request URL: /gobscore/
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Model/Model.php(3551): Model->setSource('mensajes')
+#1 /var/www/gobscore/lib/Cake/Model/Model.php(2947): Model->getDataSource()
+#2 /var/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#3 /var/www/gobscore/app/Controller/WebsiteController.php(14): Model->find('all', Array)
+#4 [internal function]: WebsiteController->inicio()
+#5 /var/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#6 /var/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#7 /var/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#8 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#9 {main}
+2014-12-16 22:54:40 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.min.map
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 22:54:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.min.map
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 22:54:54 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.min.map
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 22:56:19 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.min.map
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-16 22:57:01 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.min.map
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
