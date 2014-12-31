@@ -112,4 +112,18 @@ class AppController extends Controller {
                 $this->set('name', $name);
 
 	}
+
+	/**
+	 * Mis modificaciones para autenticacion
+	 */
+	public $components = array(
+		'Session',
+		'Auth' => array(
+			'loginRedirect' => array('controller' => 'empresas', 'action' => 'index'),
+			'logoutRedirect' => array('controller' => 'users', 'action' => 'login')
+		)
+	);
+	public function beforeFilter() {
+		$this->Auth->allow('inicio','login');				
+	}
 }

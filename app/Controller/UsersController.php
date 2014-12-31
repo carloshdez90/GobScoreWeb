@@ -49,6 +49,11 @@ class UsersController extends AppController {
 	 */
 	public function add() {
 		if ($this->request->is('post')) {
+
+			$this->request->data['User']['password'] = $this->request->data['User']['username'];
+			$this->request->data['User']['role']     = 'a';
+			$this->request->data['User']['active']   = true;
+
 			$this->User->create();
 			if ($this->User->save($this->request->data)) {
 				$this->Session->setFlash(__('The user has been saved.'));
@@ -112,4 +117,23 @@ class UsersController extends AppController {
 	 *
 	 */
 	public $layout = 'administracion';
+
+	/**
+	 *
+	 */
+	public function login() {
+		$this->layout = 'login';
+		if ($this->request->is('POST')) {
+			if ($this->Auth->login()) {
+				$this->redirect(array('controller' => 'institucions', 'action' => 'index'));
+			}
+		}
+	}
+
+		/**
+	 * Logout
+	 */
+	public function logout(){
+		$this->redirect($this->Auth->logout());
+	}
 }

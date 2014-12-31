@@ -9,21 +9,21 @@ App::uses('AppController', 'Controller');
  */
 class QuestionsController extends AppController {
 
-/**
- * Components
- *
- * @var array
- */
+	/**
+	 * Components
+	 *
+	 * @var array
+	 */
 	public $components = array('Paginator', 'Session');
 
 
-/**
- * view method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
+	/**
+	 * view method
+	 *
+	 * @throws NotFoundException
+	 * @param string $id
+	 * @return void
+	 */
 	public function view($id = null) {
 		if (!$this->Question->exists($id)) {
 			throw new NotFoundException(__('Invalid question'));
@@ -32,11 +32,11 @@ class QuestionsController extends AppController {
 		$this->set('question', $this->Question->find('first', $options));
 	}
 
-/**
- * add method
- *
- * @return void
- */
+	/**
+	 * add method
+	 *
+	 * @return void
+	 */
 	public function add() {
 		if ($this->request->is('post')) {
 			$this->Question->create();
@@ -51,13 +51,13 @@ class QuestionsController extends AppController {
 		$this->set(compact('forms'));
 	}
 
-/**
- * edit method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
+	/**
+	 * edit method
+	 *
+	 * @throws NotFoundException
+	 * @param string $id
+	 * @return void
+	 */
 	public function edit($id = null) {
 		if (!$this->Question->exists($id)) {
 			throw new NotFoundException(__('Invalid question'));
@@ -77,13 +77,13 @@ class QuestionsController extends AppController {
 		$this->set(compact('forms'));
 	}
 
-/**
- * delete method
- *
- * @throws NotFoundException
- * @param string $id
- * @return void
- */
+	/**
+	 * delete method
+	 *
+	 * @throws NotFoundException
+	 * @param string $id
+	 * @return void
+	 */
 	public function delete($id = null) {
 		$this->Question->id = $id;
 		if (!$this->Question->exists()) {
@@ -96,5 +96,28 @@ class QuestionsController extends AppController {
 			$this->Session->setFlash(__('The question could not be deleted. Please, try again.'));
 		}
 		return $this->redirect(array('action' => 'index'));
+	}
+
+	/**
+	 *
+	 */
+	public function ajaxIndex() {
+		$this->layout = 'ajax';
+		$this->Question->recursive = 0;
+		$conditions = array(
+			//'active !=' => 'd',
+		);
+		$this->Paginator->settings = array(
+			'Question' => array(
+				'limit' => $this->limit,
+				'conditions' => $conditions,
+			)
+		);
+		$this->set('registros', $this->Paginator->paginate());
+		$this->set('total', $this->Question->find('count'));
+		$total = ($this->Question->find('count') + $this->limit -1)/$this->limit;
+		$this->set('total', floor($total));
+		$this->set('pagina', 1);
+		$this->set('limit', $this->limit);
 	}
 }

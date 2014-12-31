@@ -1,8 +1,8 @@
-drop database preguntas;
+drop database gobscore;
 
-create database preguntas;
+create database gobscore;
 
-use preguntas;
+use gobscore;
 
 create table institucions(
    id int(11) not null primary key auto_increment,

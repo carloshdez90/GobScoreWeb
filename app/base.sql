@@ -1,9 +1,9 @@
-drop database preguntas;
+drop database gobscore;
 
-create database preguntas;
+create database gobscore;
 
-use preguntas;
-
+use gobscore;
+drop table institucions;
 create table institucions(
    id int(11) not null primary key auto_increment,
 	name varchar(500) not null unique,
@@ -12,8 +12,10 @@ create table institucions(
 	updated TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP
 );
 
+drop table users;
 create table users(
    id int(11) not null primary key auto_increment,
+	name varchar(500) not null,
 	username varchar(500) not null unique,
 	password varchar(500) not null,
 	role varchar(500) not null,

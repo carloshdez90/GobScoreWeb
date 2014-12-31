@@ -1,23 +1,14 @@
-<div class="users form">
-<?php echo $this->Form->create('User'); ?>
-	<fieldset>
-		<legend><?php echo __('Add User'); ?></legend>
-	<?php
-		echo $this->Form->input('username');
-		echo $this->Form->input('password');
-		echo $this->Form->input('role');
-		echo $this->Form->input('active');
-		echo $this->Form->input('institucion_id');
-	?>
-	</fieldset>
-<?php echo $this->Form->end(__('Submit')); ?>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
+<div class="panel panel-primary">
+	<div class="panel-heading">
+		<h3 class="panel-title"> <?php echo __('Crear usuario'); ?> </h3>
+	</div>
+	<div class="panel-body">
+		<?php echo $this->Form->create('User'); ?>
+		<fieldset>
+			<?php include 'form.ctp'; ?>
 
-		<li><?php echo $this->Html->link(__('List Users'), array('action' => 'index')); ?></li>
-		<li><?php echo $this->Html->link(__('List Institucions'), array('controller' => 'institucions', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Institucion'), array('controller' => 'institucions', 'action' => 'add')); ?> </li>
-	</ul>
+			<!-- Usuarios -->
+		</fieldset>
+		<?php echo $this->Form->end(); ?>
+	</div>
 </div>

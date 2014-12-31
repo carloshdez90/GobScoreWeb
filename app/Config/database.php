@@ -69,8 +69,8 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'unafacil',
-		'database' => 'gsdb',
+		'password' => '2357av',
+		'database' => 'gobscore',
 		'prefix' => '',
 		'encoding' => 'utf8',
 	);

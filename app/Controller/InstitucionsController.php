@@ -63,8 +63,12 @@ class InstitucionsController extends AppController {
 	 */
 	public function add() {
 		if ($this->request->is('post')) {
-			$this->Institucion->create();
-			if ($this->Institucion->save($this->request->data)) {
+
+			// Password
+			$this->request->data['User'][0]['password'] = $this->request->data['User'][0]['username'];
+			
+			unset($this->Institucion->User->validate['institucion_id']);
+			if ($this->Institucion->saveAssociated($this->request->data)) {
 				$this->Session->setFlash(__('The institucion has been saved.'));
 				return $this->redirect(array('action' => 'index'));
 			} else {
