@@ -1,0 +1,10 @@
+<div class="forms index">
+	<h2 class="text-align-right"><?php echo __('Instituciones'); ?></h2>
+	<?php echo $this->Html->crearBuscar('institucions', 'Nueva institución', $total); ?>
+	<div id="pagination">
+		<?php if ($registros): ?>
+			<?php include '/home/mathdebian/Documentos/www/encuestas/app/View/App/tabla.ctp'; ?>
+			<?php echo $this->Html->limitePaginador('institucions', $pagina, $total, $limit); ?>
+		<?php endif; ?>
+	</div>
+</div>

@@ -1,0 +1,10 @@
+<div class="empresas index">
+	<h2 class="text-align-right"><?php echo __('Empresas'); ?></h2>
+	<?php echo $this->Html->crearBuscar('institucions', 'Nueva institución', $total); ?>
+	<div id="pagination">
+		<?php if ($registros): ?>
+			<?php include 'tabla.ctp'; ?>
+			<?php echo $this->Html->limitePaginador('empresas', $pagina, $total, $limit); ?>
+		<?php endif; ?>
+	</div>
+</div>

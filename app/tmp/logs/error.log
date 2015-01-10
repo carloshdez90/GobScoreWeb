@@ -1,0 +1,226 @@
+2014-12-21 08:57:06 Error: [MissingControllerException] Controller class InstitucionController could not be found.
+Exception Attributes: array (
+  'class' => 'InstitucionController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/institucion
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 09:12:27 Error: [MissingViewException] View file "/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp',
+)
+Request URL: /gobscore/users/pagination?pagina=1&role=&buscar=df&limit=5
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 09:12:27 Error: [MissingViewException] View file "/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp',
+)
+Request URL: /gobscore/users/pagination?pagina=1&role=&buscar=df&limit=5
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 09:12:30 Error: [MissingViewException] View file "/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp',
+)
+Request URL: /gobscore/users/pagination?pagina=1&role=&buscar=d&limit=5
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 09:12:33 Error: [MissingViewException] View file "/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mathdebian/Documentos/www/gobscore/app/View/Users/pagination.ctp',
+)
+Request URL: /gobscore/users/pagination?pagina=1&role=&buscar=&limit=5
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 10:12:39 Error: [MissingViewException] View file "/home/mathdebian/Documentos/www/gobscore/app/View/Users/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mathdebian/Documentos/www/gobscore/app/View/Users/login.ctp',
+)
+Request URL: /gobscore/users/login
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2014-12-21 10:15:25 Error: Fatal Error (1): Class 'AuthComponent' not found in [/home/mathdebian/Documentos/www/gobscore/app/Model/User.php, line 100]
+2014-12-21 10:15:25 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /gobscore/users/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/home/mathdebia...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/home/mathdebia...', 100, Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/home/mathdebia...', 100, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2014-12-21 10:26:29 Error: [MissingLayoutException] Layout file "/home/mathdebian/Documentos/www/gobscore/app/View/Layouts/login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mathdebian/Documentos/www/gobscore/app/View/Layouts/login.ctp',
+)
+Request URL: /gobscore/users/login
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(510): View->_getLayoutFileName('login')
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(479): View->renderLayout('', 'login')
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#5 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2014-12-21 10:26:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 10:27:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 10:27:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 10:27:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 10:27:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 10:27:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 10:32:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 10:38:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 11:23:35 Error: [PDOException] SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'Gastos del presidente' for key 'name'
+Request URL: /gobscore/forms/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('INSERT INTO `go...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1012): DboSource->execute('INSERT INTO `go...')
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(1854): DboSource->create(Object(Form), Array, Array)
+#4 /home/mathdebian/Documentos/www/gobscore/app/Controller/FormsController.php(44): Model->save(Array)
+#5 [internal function]: FormsController->add()
+#6 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(FormsController), Array)
+#7 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FormsController), Object(CakeRequest))
+#9 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2014-12-21 11:49:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 14:11:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 15:14:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 15:59:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2014-12-21 15:59:35 Error: [MissingViewException] View file "/home/mathdebian/Documentos/www/gobscore/app/View/Questions/ajax_index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/home/mathdebian/Documentos/www/gobscore/app/View/Questions/ajax_index.ctp',
+)
+Request URL: /gobscore/questions/ajaxIndex
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/View/View.php(468): View->_getViewFileName(NULL)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(954): View->render(NULL, NULL)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(198): Controller->render()
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(QuestionsController), Object(CakeRequest))
+#4 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}

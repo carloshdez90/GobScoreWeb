@@ -1,0 +1,5 @@
+<?php include 'tabla.ctp'; ?>
+<?php if ($registros): ?>
+	<?php echo $this->Html->limitePaginador('institucions', $pagina, $total, $limit); ?>
+<?php endif; ?>
+
