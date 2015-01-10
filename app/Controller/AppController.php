@@ -115,7 +115,7 @@ class AppController extends Controller {
 
 	/**
 	 * Mis modificaciones para autenticacion
-	 *
+	 */
 	public $components = array(
 	'Session',
 	'Auth' => array(

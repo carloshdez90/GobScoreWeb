@@ -61,18 +61,17 @@ class WebsiteController extends AppController {
 	 */
 	public function getFormulario($form_id = 1) {
 		$this->layout = 'ajax';
-		$this->set('form_id', $form_id);		
+		$this->set('form_id', $form_id);
 	}
 
 	/**
 	 *
 	 */
-	public function getPregunta($form_id = 1) {
+	public function getPregunta() {
 		$this->layout = 'ajax';
 
+		$form_id = $_POST['form_id'];
 		$user_id = $this->Session->read('user_id');
-
-		echo $form_id;
 
 		// Cargamos el modelo de las preguntas;
 		$this->loadModel('Question');
@@ -86,7 +85,7 @@ class WebsiteController extends AppController {
 		);
 		// Opciones de la consulta
 		$options = array(
-			'fields' => $fields,
+			'fields'     => $fields,
 			'conditions' => $conditions
 		);
 		// Obtenemos las preguntas del formulario
@@ -97,37 +96,40 @@ class WebsiteController extends AppController {
 		foreach ($questions_temp as $registro) {
 			$question_id[$i++] = $registro['Question']['id'];
 		}
-		
+
 		// Cargamos el modelo de las respuestas
 		$this->loadModel('Answer');
 		// Campos que necesitaremos
 		$fields = array('Answer.question_id');
 		// Condiciones
 		$conditions = array(
-			'Answer.user_id' => $user_id,
-			'Answer.question_id' => $question_id,	
+			'Answer.user_id'     => $user_id,
 		);
 		// Ordenado por la ultima pregunta
 		$order = array('Answer.question_id DESC');
-		// Opciones de busqueda
-		$options = array(
-			'fields' => $fields,
-			'conditions' => $conditions,
-			'order' => $order,
-		);
-		// Obtenemos el ultimo registro
-		$last_answer = $this->Answer->find('first', $options);
-		
-		// Asignamos la pregunta que debe ser presentada
-		$id = 0;
-		if (isset($last_answer['Answer'])) {
-			$id = $last_answer['Answer']['question_id'];
+		$pregunta_id = null;
+		$cont = 0;
+		foreach ($question_id as $id) {
+			$conditions['Answer.question_id'] = $id;
+			// Opciones de busqueda
+			$options = array(
+				'fields'     => $fields,
+				'conditions' => $conditions,
+				'order'       => $order,
+			);
+			// Obtenemos el ultimo registro
+			$last_answer = $this->Answer->find('first', $options);
+			if (!isset($last_answer['Answer'])) {
+				$pregunta_id = $id;
+				break;
+			}
+			$cont++;
 		}
 		$question = null;
-		// Verificamos que exista la pregunta
-		if (isset($questions_temp[$id])) {
-			$question = $questions_temp[$id];
+		if ($pregunta_id) {
+			$question = $questions_temp[$cont];
 		}
+
 		// Enviamos la pregunta a la vista
 		$this->set('question', $question);
 

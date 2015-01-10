@@ -113,3 +113,7 @@ create table calificacions(
    created datetime not null,
    updated TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP
 );
+
+
+
+insert into users values(1,'Administrador','xscharliexs@gmail.com','42aa600817f47639d605f74dbe228af30dadc47a','root',0,0,'2015-01-10 15:16:38','2015-01-10 15:16:38');

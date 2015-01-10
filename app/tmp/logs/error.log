@@ -1994,3 +1994,59 @@ Stack Trace:
 #1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(FormsController), Object(CakeRequest))
 #2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2015-01-10 13:06:04 Error: [MissingControllerException] Controller class GetFormularioController could not be found.
+Exception Attributes: array (
+  'class' => 'GetFormularioController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/getFormulario
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-10 14:41:34 Error: Fatal Error (4): syntax error, unexpected ':', expecting ',' or ';' in [/home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php, line 130]
+2015-01-10 14:41:34 Error: [FatalErrorException] syntax error, unexpected ':', expecting ',' or ';'
+Request URL: /gobscore/website/getFormulario/2
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mathdebia...', 130)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mathdebia...', 130, Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mathdebia...', 130, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-10 15:14:52 Error: Fatal Error (1): Class 'AuthComponent' not found in [/home/mathdebian/Documentos/www/gobscore/app/Model/User.php, line 100]
+2015-01-10 15:14:52 Error: [FatalErrorException] Class 'AuthComponent' not found
+Request URL: /gobscore/institucions/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Class 'AuthComp...', '/home/mathdebia...', 100)
+#1 [internal function]: ErrorHandler::handleError(1, 'Class 'AuthComp...', '/home/mathdebia...', 100, Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Class 'AuthComp...', '/home/mathdebia...', 100, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-10 15:15:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-10 15:15:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-10 15:16:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

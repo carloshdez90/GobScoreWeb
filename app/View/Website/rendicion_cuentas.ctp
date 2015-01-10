@@ -9,7 +9,7 @@
 		<div class="list-group">
 			<a class="list-group-item active"> Formularios </a>
 			<?php foreach($forms as $form): ?>
-				<a class="list-group-item" onClick="getFormulario(<?php echo $form['Form']['id'] ?>)">
+				<a class="list-group-item" onClick="getFormulario(<?php echo $form['Form']['id']; ?>)">
 					<?php echo $form['Form']['name']; ?>
 				</a>
 			<?php endforeach; ?>
@@ -21,19 +21,15 @@
 	</div>
 </div>
 
-
 <script>
-	var form_id  = null;
 	function getFormulario(form_id) {
-		$.ajax(
-			{
-				'url' : 'http://'+servidor+'/website/getFormulario/'+form_id,
-				'type' : 'post',
-				'data' : {},
-				'success' : function (data) {
-					$('#encuesta').html(data);
-				}
+		$.ajax({
+			'url'  : 'http://'+servidor+'/website/getFormulario/'+form_id,
+			'type' : 'post',
+			'data' : {},
+			'success' : function (data) {
+				$('#encuesta').html(data);
 			}
-		);	
+		});
 	}
 </script>

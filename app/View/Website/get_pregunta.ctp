@@ -1,5 +1,6 @@
 <center>
 	<?php if ($question['Question']['name']): ?>
+		
 		<h4 class="center">
 			<?php echo $question['Question']['name']; ?>
 		</h4>
