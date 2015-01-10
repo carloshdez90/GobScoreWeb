@@ -92,16 +92,25 @@ class FormsController extends AppController {
 	 * @return void
 	 */
 	public function delete($id = null) {
-		$this->Form->id = $id;
-		if (!$this->Form->exists()) {
-			throw new NotFoundException(__('Invalid form'));
+		
+		$this->Form->id = $this->request->data['Form']['id'];
+		if (!$this->Form->exists()	) {
+		throw new NotFoundException(__('Invalid empresa'));
 		}
+		
 		$this->request->allowMethod('post', 'delete');
-		if ($this->Form->delete()) {
-			$this->Session->setFlash(__('The form has been deleted.'));
-		} else {
-			$this->Session->setFlash(__('The form could not be deleted. Please, try again.'));
+		$datos = array('deleted' => true);
+		$this->Session->setFlash(__('El formulario no ha sido eliminado.'));
+		
+		if ($this->Form->save($datos)) {
+			$estado = array('deleted' => true);
+			$conditions = array(
+				'form_id' => $id,
+			);
+			$this->Form->Question->updateAll($estado, $conditions);
+			$this->Session->setFlash(__('El formulario ha sido eliminado.'));
 		}
+		
 		return $this->redirect(array('action' => 'index'));
 	}
 }

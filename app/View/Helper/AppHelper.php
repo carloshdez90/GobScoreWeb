@@ -138,8 +138,8 @@ class AppHelper extends Helper {
 	/**
 	 *
 	 */
-	public function paginator($controller = null, $pagina = null, $total = null, $role = null) {
-		if (null == $controller && null == $pagina || null == $total) {
+	public function paginator($controller = null, $action = null, $pagina = null, $total = null) {
+		if (null == $controller && null == $action && null == $pagina || null == $total) {
 			return null;
 		}
 		$cadena  = '<div style="text-align : right;">';
@@ -147,7 +147,7 @@ class AppHelper extends Helper {
 		if (1 == $pagina){
 			$cadena .= '<li class="disabled"><a>&laquo</a></li>';
 		} else {
-			$cadena .= '<li><a onClick=pagina("'.$controller.'",'.($pagina - 1).',"'.$role.'") >&laquo</a></li>';
+			$cadena .= '<li><a onClick=buscar("'.$controller.'","'.$action.'",'.($pagina - 1).') >&laquo</a></li>';
 		}
 		$inicio = 1;
 		$fin    = $total;
@@ -167,13 +167,13 @@ class AppHelper extends Helper {
 			if ($i == $pagina) {
 				$cadena .= '<li class="active"><a>'.$i.'</a></li>';
 			} else {
-				$cadena .= '<li onClick=pagina("'.$controller.'",'.$i.',"'.$role.'")><a>'.$i.'</a></li>';
+				$cadena .= '<li onClick=buscar("'.$controller.'","'.$action.'",'.$i.')><a>'.$i.'</a></li>';
 			}
 		}
 		if ($total == $pagina){
 			$cadena .= '<li class="disabled"><a>&raquo</a></li>';
 		} else {
-			$cadena .= '<li><a onClick=pagina("'.$controller.'",'.($pagina + 1).',"'.$role.'")>&raquo</a></li>';
+			$cadena .= '<li><a onClick=buscar("'.$controller.'","'.$action.'",'.($pagina + 1).')>&raquo</a></li>';
 		}
 		$cadena .= '</div>';
 		return $cadena;
@@ -227,17 +227,29 @@ class AppHelper extends Helper {
 		return $cadena;
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+	
 	/**
 	 *
 	 */
-	public function limitePaginador($controller, $pagina, $total, $limit, $role = 'null') {
+	public function limitePaginador($controller, $action, $pagina, $total, $limit) {
 		$options = array(5,10,25,50);
 		$cadena  = '';
 		$cadena .= '<div class="row">'.
 				   '   <div class="col-xs-2">'.
 				   '      <select id="limit"'.
 				   '              class="form-control input-sm limitePaginador"'.
-				   '              onChange='."'".'buscarTemp("'.$controller.'", "1", "'.$role.'")'."'".'>';
+				   '              onChange='."'".'buscar("'.$controller.'", "'.$action.'", 1)'."'".'>';
 		foreach ($options as $option) {
 			$selected = '';
 			if (0 == $limit - $option) {
@@ -248,20 +260,28 @@ class AppHelper extends Helper {
 		$cadena .= '      </select>'.
 				   '   </div>'.
 				   '   <div class="col-xs-10">';
-		if ('null' == $role) {
-			$cadena .= $this->paginator($controller, $pagina, $total);	
-		} else {
-			$cadena .= $this->paginator($controller, $pagina, $total, $role);
-		}
+		$cadena .= $this->paginator($controller, $action, $pagina, $total);
 		$cadena .= '	</div>'.
 				   '</div>';
 		return $cadena;
 	}
 
+
+
+
+
+
+
+
+
+
+
+
+	
 	/**
 	 *
 	 */
-	public function crearBuscar($controller, $mensaje, $band, $role = null) {
+	public function crearBuscar($controller, $action, $mensaje, $band, $role = null) {
 		$url = $this->url(array('action' => 'add'));
 		if (null != $role) {
 			$url = $this->url(array('action' => 'add', $role));
@@ -269,7 +289,7 @@ class AppHelper extends Helper {
 		$cadena  = '';
 		$cadena .= '<div class="row">'.
 				   '   <div class="col-xs-7">';
-		if ($mensaje && 'cliente' != $role) {
+		if ($mensaje) {
 			$cadena .= '      <a href="'.$url.'"'.
 					   '         class="btn btn-primary btn-sm"> '.$mensaje.
 					   '         <span class="glyphicon glyphicon-file"></span>'.
@@ -283,7 +303,7 @@ class AppHelper extends Helper {
 					   '   <input type="text"'.
 					   '          placeholder="Buscar"'.
 					   '          id="buscar"'.
-					   '          onKeyUp='."'".'buscar("'.$controller.'", "1", "'.$role.'")'."'".
+					   '          onKeyUp='."'".'buscar("'.$controller.'", "'.$action.'", 1)'."'".
 					   '          class="form-control input-sm">'.
 					   '<br>'.
 					   '</div>';
@@ -397,6 +417,134 @@ class AppHelper extends Helper {
 		}
 		$cadena .= '	</div>'.
 				   '</div>';
+		return $cadena;
+	}
+
+		/**
+	 *
+	 */
+	public function eliminar($id) {
+		$cadena  = '';
+		$cadena .= '<td class="actions">';
+		$cadena .= '<center><a class="btn btn-xs btn-warning derecho"';
+		$cadena .= '   data-toggle="modal" data-target="#myModal"';
+		$cadena .= '   onClick="asignarId('.$id.')">';
+		$cadena .= '     &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-trash"></span>&nbsp;&nbsp;&nbsp;';
+		$cadena .= '</a></center>';
+		$cadena .= '</td>';
+		return $cadena;
+	}
+
+
+
+
+
+
+
+
+	/**
+	 *
+	 *
+	public function limitePaginador($controller, $pagina, $total, $limit, $role = 'null') {
+		$options = array(5,10,25,50);
+		$cadena  = '';
+		$cadena .= '<div class="row">'.
+				   '   <div class="col-xs-2">'.
+				   '      <select id="limit"'.
+				   '              class="form-control input-sm limitePaginador"'.
+				   '              onChange='."'".'buscarTemp("'.$controller.'", "1", "'.$role.'")'."'".'>';
+		foreach ($options as $option) {
+			$selected = '';
+			if (0 == $limit - $option) {
+				$selected = 'selected';
+			}
+			$cadena .= '<option value="'.$option.'" '.$selected.'> '.$option.' </option>';
+		}
+		$cadena .= '      </select>'.
+				   '   </div>'.
+				   '   <div class="col-xs-10">';
+		if ('null' == $role) {
+			$cadena .= $this->paginator($controller, $pagina, $total);	
+		} else {
+			$cadena .= $this->paginator($controller, $pagina, $total, $role);
+		}
+		$cadena .= '	</div>'.
+				   '</div>';
+		return $cadena;
+	}
+	*/
+
+
+
+
+	/**
+	 *
+	 */
+	public function crearBuscarHijo($controller, $action, $mensaje, $band, $role = null) {
+		$url = $this->url(array('action' => 'add'));
+		if (null != $role) {
+			$url = $this->url(array('action' => 'add', $role));
+		}
+		$cadena  = '';
+		$cadena .= '<div class="row">'.
+				   '   <div class="col-xs-7">';
+		if ($mensaje) {
+			$cadena .= '      <button'.
+					   '          data-toggle="modal" data-target="#addModal"'.
+					   '         class="btn btn-primary btn-sm"> '.$mensaje.
+					   '         <span class="glyphicon glyphicon-file"></span>'.
+					   '      </button>'.
+					   '      <br>'.
+					   '      <br>';
+		}
+		$cadena .=  '   </div>';
+		if ($band) {
+			$cadena .= '<div id="busqueda" style="text-align : right;" class="col-xs-5">'.
+					   '   <input type="text"'.
+					   '          placeholder="Buscar"'.
+					   '          id="buscar"'.
+					   '          onKeyUp='."'".'buscar("'.$controller.'", "'.$action.'", 1)'."'".
+					   '          class="form-control input-sm">'.
+					   '<br>'.
+					   '</div>';
+		} else {
+			$cadena .= '<br>'.
+					   '<br>';
+		}
+		
+
+		$cadena .= '</div>';
+		return $cadena;
+	}
+
+
+	/**
+	 * Modal de advertencia
+	 */
+	public function modalAdvertenciaAjax($model) {
+		$action = $this->url(array('action' => 'delete'));
+		$name   = 'data['.$model.'][id]';
+		$cadena  = '';
+		$cadena .= '<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">';
+		$cadena .= '   <div class="modal-dialog">';
+		$cadena .= '      <div class="modal-content">';
+		$cadena .= '         <div class="modal-header">';
+		$cadena .= ' 		<button type="button" class="close" data-dismiss="modal">';
+		$cadena .= '			<span aria-hidden="true">&times;</span><span class="sr-only">Close</span>';
+		$cadena .= '		</button>';
+		$cadena .= '		<h4 class="modal-title" id="myModalLabel">Confirmación de eliminación de registro</h4>';
+		$cadena .= '	</div>';
+		$cadena .= '	<div class="modal-body">';
+		$cadena .= '		Realmente quiere elimiar el registro <span id="registro_id"></span>';
+		$cadena .= '		<input type="hidden" id="id">';
+		$cadena .= '	</div>';
+		$cadena .= '	<div class="modal-footer">';
+		$cadena .= '	   <button id="delete-button" class="btn btn-danger">Elimiar</button>';
+		$cadena .= '	</div>';
+		$cadena .= '</div>';
+		$cadena .= '</div>';
+		$cadena .= '</div>';
+		$cadena .= '<script>function asignarId(id){$("#registro_id").html(id);$("#id").val(id);}</script>';
 		return $cadena;
 	}
 }

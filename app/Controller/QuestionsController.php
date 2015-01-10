@@ -120,4 +120,33 @@ class QuestionsController extends AppController {
 		$this->set('pagina', 1);
 		$this->set('limit', $this->limit);
 	}
+
+		/**
+	 * add method
+	 *
+	 * @return void
+	 */
+	public function addAjax() {
+		$this->autoRender = false;
+		$this->request->onlyAllow('ajax');
+		$this->response->type('json');
+
+		$mensaje = 'Operación no permitida!!!';
+		if ($this->request->is('post')) {
+			$this->Question->create();
+
+			$data = array(
+				'name'    => $_POST['name'],
+				'form_id' => $_POST['form_id'],
+				'deleted' => false,
+			);
+			$mensaje = 'Los datos no han sido guardados.';
+			if ($this->Question->save($data)) {
+				$mensaje = 'Los datos han sido guardados.';
+			}
+		}
+		$data = array('mensaje' => $mensaje);
+		return json_encode($data);
+	}
+	
 }

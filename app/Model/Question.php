@@ -8,11 +8,11 @@ App::uses('AppModel', 'Model');
  */
 class Question extends AppModel {
 
-/**
- * Validation rules
- *
- * @var array
- */
+	/**
+	 * Validation rules
+	 *
+	 * @var array
+	 */
 	public $validate = array(
 		'name' => array(
 			'notEmpty' => array(
@@ -38,11 +38,11 @@ class Question extends AppModel {
 
 	//The Associations below have been created with all possible keys, those that are not needed can be removed
 
-/**
- * belongsTo associations
- *
- * @var array
- */
+	/**
+	 * belongsTo associations
+	 *
+	 * @var array
+	 */
 	public $belongsTo = array(
 		'Form' => array(
 			'className' => 'Form',
@@ -53,11 +53,11 @@ class Question extends AppModel {
 		)
 	);
 
-/**
- * hasMany associations
- *
- * @var array
- */
+	/**
+	 * hasMany associations
+	 *
+	 * @var array
+	 */
 	public $hasMany = array(
 		'Answer' => array(
 			'className' => 'Answer',

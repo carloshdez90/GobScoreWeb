@@ -5,7 +5,7 @@
 	</div>
 	<div class="panel-body">
 		
-		<?php include ROOT.'/app/View/App/index.ctp'; ?>
+		<?php include ROOT.'/app/View/App/index_ajax.ctp'; ?>
 
 	</div>
 </div>

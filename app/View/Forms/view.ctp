@@ -36,6 +36,10 @@
 	</div>
 </div>
 
+<script>
+	var form_id = '<?php echo $form['Form']['id']; ?>';
+</script>
+
 <div id="questions">
 </div>
 
@@ -43,10 +47,18 @@
 <script>
 	$.ajax({
 		'type'    : 'post',
-		'url'     : 'http://'+servidor+'/questions/ajaxIndex',
+		'url'     : 'http://'+servidor+'/questions/indexAjax',
 		'success' : function (data) {
 			$('#questions').html(data);
 		}
-	});
+	});				   
+	function cargar() {
+		$.ajax({
+			'type'    : 'post',
+			'url'     : 'http://'+servidor+'/questions/indexAjax',
+			'success' : function (data) {
+				$('#questions').html(data);
+			}
+		});	
+	}
 </script>
-

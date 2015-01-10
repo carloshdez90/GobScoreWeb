@@ -41,7 +41,7 @@ class AppController extends Controller {
 		$modelo = $this->modelClass;
 		$this->{$modelo}->recursive = 0;
 		$conditions = array(
-			//'active !=' => 'd',
+			$modelo.'.deleted' => false,
 		);
 		$this->Paginator->settings = array(
 			$modelo => array(
@@ -79,16 +79,16 @@ class AppController extends Controller {
 		}
 		$this->layout = 'ajax';
 		$this->{$modelo}->recursive = 0;
-		$conditions = array();
+		$conditions = array(
+			$modelo.'.deleted' => false,
+		);
 		$name = 'name';
-                if ('Denuncia' === $modelo) {
-                        $name = 'codigo';
-                }
+        if ('Denuncia' === $modelo) {
+            $name = 'codigo';
+        }
 		if ('' != $buscar) {
-			$conditions = array(
-				'OR' => array(
-					array($modelo.'.'.$name.' LIKE' => '%'.$buscar.'%'),
-				)
+			$conditions['OR'] = array(
+				array($modelo.'.'.$name.' LIKE' => '%'.$buscar.'%'),
 			);	
 		}
 		$this->Paginator->settings = array(
@@ -109,21 +109,122 @@ class AppController extends Controller {
 		
 		$this->set('modelo', $modelo);
 		$this->set('controller', $this->params['controller']);
-                $this->set('name', $name);
+        $this->set('name', $name);
 
 	}
 
 	/**
 	 * Mis modificaciones para autenticacion
-	 */
+	 *
 	public $components = array(
-		'Session',
-		'Auth' => array(
-			'loginRedirect' => array('controller' => 'empresas', 'action' => 'index'),
-			'logoutRedirect' => array('controller' => 'users', 'action' => 'login')
-		)
+	'Session',
+	'Auth' => array(
+	'loginRedirect' => array('controller' => 'empresas', 'action' => 'index'),
+	'logoutRedirect' => array('controller' => 'users', 'action' => 'login')
+	)
 	);
 	public function beforeFilter() {
-		$this->Auth->allow('inicio','login');				
+	$this->Auth->allow('inicio','login', 'rendicionCuentas');				
+	}
+	/**/
+
+	/**
+	 *
+	 */
+	public function indexAjax($modelo = 'User') {
+		$this->layout = 'ajax';
+		$modelo = $this->modelClass;
+		$this->{$modelo}->recursive = 0;
+		$conditions = array(
+			$modelo.'.deleted' => false,
+		);
+		$this->Paginator->settings = array(
+			$modelo => array(
+				'limit' => $this->limit,
+				'conditions' => $conditions,
+			)
+		);
+		$this->set('registros', $this->Paginator->paginate());
+		$this->set('total', $this->{$modelo}->find('count'));
+		$total = ($this->{$modelo}->find('count') + $this->limit -1)/$this->limit;
+		$this->set('total', floor($total));
+		$this->set('pagina', 1);
+		$this->set('limit', $this->limit);
+
+		$this->set('modelo', $modelo);
+		$this->set('controller', $this->params['controller']);
+		$name = 'name';
+		if ('Denuncia' === $modelo) {
+			$name = 'codigo';
+		}
+		$this->set('name', $name);
+	}
+
+	/**
+	 *
+	 */
+	public function paginationAjax() {
+		$modelo = $this->modelClass;
+		$pagina = $_GET['pagina'];
+		$buscar = $_GET['buscar'];
+		if (isset($_GET['limit'])) {
+			// Si hemos seleccionado un limite este sera configurado
+			$this->limit = $_GET['limit'];
+		}
+		$this->layout = 'ajax';
+		$this->{$modelo}->recursive = 0;
+		$conditions = array(
+			$modelo.'.deleted' => false,
+		);
+		$name = 'name';
+        if ('Denuncia' === $modelo) {
+            $name = 'codigo';
+        }
+		if ('' != $buscar) {
+			$conditions['OR'] = array(
+				array($modelo.'.'.$name.' LIKE' => '%'.$buscar.'%'),
+			);	
+		}
+		$this->Paginator->settings = array(
+			$modelo => array(
+				'page'       => $pagina,
+				'limit'      => $this->limit,
+				'conditions' => $conditions
+			),
+		);
+		$this->set('registros', $this->Paginator->paginate());
+		$options = array(
+			'conditions' => $conditions
+		);
+		$total = ($this->{$modelo}->find('count', $options) + $this->limit - 1)/$this->limit;
+		$this->set('total', floor($total));
+		$this->set('pagina', $pagina);
+		$this->set('limit', $this->limit);
+		
+		$this->set('modelo', $modelo);
+		$this->set('controller', $this->params['controller']);
+        $this->set('name', $name);
+
+	}
+	
+	public function deleteAjax($id = null) {
+		$this->autoRender = false;
+		$this->request->onlyAllow('ajax');
+		$this->response->type('json');
+
+		$modelo = $this->modelClass;
+		
+		$mensaje = 'Operación no permitida!!!';
+		if ($this->request->is('post')) {
+			$this->{$modelo}->id = $id;
+			$datos = array('deleted' => true);
+			$mensaje = 'El registro no ha sido eliminado.';
+			if ($this->{$modelo}->save($datos)) {
+				$mensaje = 'El registro ha sido eliminado con éxito.';
+			}
+		}
+
+		$data = array('mensaje' => $mensaje);
+		return json_encode($data);
 	}
 }

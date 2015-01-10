@@ -38,7 +38,22 @@ class WebsiteController extends AppController {
 	 */
 	public function rendicionCuentas() {
 		$user_id = rand(1,100);
+		$user_id = 1;
 		$this->Session->write('user_id', $user_id);
+
+		$this->loadModel('Form');
+		$fields = array('id', 'name');
+		$conditions = array(
+			'deleted' => false
+		);
+		$options = array(
+			'fields' => $fields,
+			'conditions' => $conditions
+		);
+		$forms = $this->Form->find('all', $conditions);
+
+		$this->set('forms', $forms);
+		
 	}
 
 	/**
@@ -46,7 +61,7 @@ class WebsiteController extends AppController {
 	 */
 	public function getFormulario($form_id = 1) {
 		$this->layout = 'ajax';
-		$this->set('form_id', $form_id);
+		$this->set('form_id', $form_id);		
 	}
 
 	/**
@@ -196,4 +211,5 @@ class WebsiteController extends AppController {
 		$this->set(compact('tipos'));
 		
 	}
+
 }
