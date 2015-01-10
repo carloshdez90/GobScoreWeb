@@ -54,7 +54,7 @@ class WebsiteController extends AppController {
 
 		$this->set('forms', $forms);
 		
-	}
+		}
 
 	/**
 	 *
@@ -72,13 +72,17 @@ class WebsiteController extends AppController {
 
 		$user_id = $this->Session->read('user_id');
 
+		echo $form_id;
+
 		// Cargamos el modelo de las preguntas;
 		$this->loadModel('Question');
+		$this->Question->recursive = -1;
 		// Los campos que vamos a necesitar de ese modelo
-		$fields = array('id', 'name');
+		$fields = array('Question.id', 'Question.name');
 		// Condiciones para obtener la consulta
 		$conditions = array(
 			'Question.form_id' => $form_id,
+			'Question.deleted' => false,
 		);
 		// Opciones de la consulta
 		$options = array(
@@ -101,9 +105,7 @@ class WebsiteController extends AppController {
 		// Condiciones
 		$conditions = array(
 			'Answer.user_id' => $user_id,
-			'OR' => array(
-				'Answer.question_id' => $question_id,	
-			),
+			'Answer.question_id' => $question_id,	
 		);
 		// Ordenado por la ultima pregunta
 		$order = array('Answer.question_id DESC');
