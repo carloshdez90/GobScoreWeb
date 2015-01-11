@@ -87,7 +87,13 @@ class MensajesController extends AppController {
 				
 				
 				$this->Session->setFlash(__('The mensaje has been saved.'));
-				return $this->redirect(array('controller' => 'denuncias', 'action' => 'view', $this->request->data['Mensaje']['denuncia_id']));
+				return $this->redirect(
+					array(
+						'controller' => 'denuncias',
+						'action' => 'view',
+						$this->request->data['Mensaje']['denuncia_id']
+					)
+				);
 			} else {
 				$this->Session->setFlash(__('The mensaje could not be saved. Please, try again.'));
 			}

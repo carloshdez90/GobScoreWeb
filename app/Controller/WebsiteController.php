@@ -37,6 +37,7 @@ class WebsiteController extends AppController {
 	 *
 	 */
 	public function rendicionCuentas() {
+		$this->layout = 'rendicion';
 		$user_id = rand(1,100);
 		$user_id = 1;
 		$this->Session->write('user_id', $user_id);
@@ -67,7 +68,7 @@ class WebsiteController extends AppController {
 	/**
 	 *
 	 */
-	public function getPregunta() {
+	public function getPregunta($form_id = 1) {
 		$this->layout = 'ajax';
 
 		$form_id = $_POST['form_id'];
@@ -135,8 +136,8 @@ class WebsiteController extends AppController {
 
 		// Eliminamos el user_id de las pruebas
 		if (!$question) {
-			$user_id = rand(1,100);
-			$this->Session->write('user_id', $user_id);
+			//$user_id = rand(1,100);
+			//$this->Session->write('user_id', $user_id);
 		}
 		
 	}

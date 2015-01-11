@@ -281,11 +281,8 @@ class AppHelper extends Helper {
 	/**
 	 *
 	 */
-	public function crearBuscar($controller, $action, $mensaje, $band, $role = null) {
+	public function crearBuscar($controller, $action, $mensaje, $band) {
 		$url = $this->url(array('action' => 'add'));
-		if (null != $role) {
-			$url = $this->url(array('action' => 'add', $role));
-		}
 		$cadena  = '';
 		$cadena .= '<div class="row">'.
 				   '   <div class="col-xs-7">';

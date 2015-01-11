@@ -1,1 +1,1 @@
-<?php include '/home/mathdebian/Documentos/www/encuestas/app/View/App/index.ctp'; ?>
+<?php include ROOT.'/app/View/App/index.ctp'; ?>

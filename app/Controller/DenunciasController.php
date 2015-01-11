@@ -9,7 +9,7 @@ App::uses('AppController', 'Controller');
  */
 class DenunciasController extends AppController {
 
-	public $layout = 'admin';
+	public $layout = 'administracion';
 
 	/**
 	 * Components

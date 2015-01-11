@@ -33,6 +33,7 @@ App::uses('Controller', 'Controller');
 class AppController extends Controller {
 	
 	public $layout = 'administracion';
+
 	
 	/**
 	 *
@@ -43,6 +44,10 @@ class AppController extends Controller {
 		$conditions = array(
 			$modelo.'.deleted' => false,
 		);
+
+		if ('Denuncia' == $modelo) {
+			$conditions = array();
+		}
 		$this->Paginator->settings = array(
 			$modelo => array(
 				'limit' => $this->limit,
@@ -63,6 +68,7 @@ class AppController extends Controller {
 			$name = 'codigo';
 		}
 		$this->set('name', $name);
+		$this->set('band', true);
 	}
 
 	/**
@@ -82,6 +88,9 @@ class AppController extends Controller {
 		$conditions = array(
 			$modelo.'.deleted' => false,
 		);
+		if ('Denuncia' == $modelo) {
+			$conditions = array();
+		}
 		$name = 'name';
         if ('Denuncia' === $modelo) {
             $name = 'codigo';
@@ -124,7 +133,7 @@ class AppController extends Controller {
 	)
 	);
 	public function beforeFilter() {
-	$this->Auth->allow('inicio','login', 'rendicionCuentas');				
+	$this->Auth->allow('inicio','login', 'rendicionCuentas', 'getFormulario', 'getPregunta', 'calificarPregunta');				
 	}
 	/**/
 
