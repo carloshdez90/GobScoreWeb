@@ -32,20 +32,21 @@
 	            <ul class="btn-group">
 					
 					
-	                <li class="btn"><a title="" href="login.html"><i class="fa fa-user"></i> <span class="text">Cerrar sesión</span></a></li>
+	                <li class="btn"><a title="" href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'logout')); ?>"><i class="fa fa-user"></i> <span class="text">Cerrar sesión</span></a></li>
 	            </ul>
 	        </div>
 			
 			<div id="sidebar">
 				
 				<ul>
-					<li class="active"><a href="index.html"><i class="fa fa-home"></i> <span>Instituciones</span></a></li>
 					
-					<li><a href="admins.html"><i class="fa fa-users"></i> <span>Administradores</span></a></li>
-					<li><a href="forms.html"><i class="fa fa-th-list"></i> <span>Formularios</span></a></li>
+					<li>
+						<a href="<?php echo $this->Html->url(array('controller' => 'forms', 'action' => 'index')); ?>">
+							<i class="fa fa-th-list"></i> <span>Formularios</span></a>
+					</li>
 					
 					<li >
-						<a href="denuncias.html"><i class="fa fa-bullhorn"></i> <span>Denuncias</span></a>
+						<a href="<?php echo $this->Html->url(array('controller' => 'denuncias', 'action' => 'index')); ?>"><i class="fa fa-bullhorn"></i> <span>Denuncias</span></a>
 					</li>
 					
 				</ul>

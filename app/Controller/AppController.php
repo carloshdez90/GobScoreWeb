@@ -70,7 +70,6 @@ class AppController extends Controller {
 		$this->set('name', $name);
 		$this->set('band', true);
 
-
 	}
 
 	/**
@@ -121,7 +120,6 @@ class AppController extends Controller {
 		$this->set('modelo', $modelo);
 		$this->set('controller', $this->params['controller']);
         $this->set('name', $name);
-
 	}
 
 	/**

@@ -113,4 +113,6 @@ class FormsController extends AppController {
 		
 		return $this->redirect(array('action' => 'index'));
 	}
+
+	public $layout = 'administracion';
 }
