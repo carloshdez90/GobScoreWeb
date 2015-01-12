@@ -68,10 +68,16 @@
                             <a href="#price">Price</a>
                             </li> -->
                             <li>
-                                <a href="#contact">Participar</a>
+                                <a href="#contact">Denuncia</a>
+                            </li>
+							 <li>
+                                <a href="<?php echo $this->Html->url(array('controller' => 'website', 'action' => 'rendicionCuentas')); ?> ">Rendición</a>
+                             </li>
+							 <li>
+                                <a href="<?php echo $this->Html->url(array('controller' => 'website', 'action' => 'seguimiento')); ?> ">Seguimiento</a>
                             </li>
 							<li>
-                                <a id="openBtn">Ingresar</a>
+                                <a href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'login')); ?>">Ingresar</a>
                             </li>
                         </ul>
                     </div>
