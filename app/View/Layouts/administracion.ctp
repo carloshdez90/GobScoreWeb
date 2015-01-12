@@ -17,7 +17,8 @@
 		<script type="text/javascript" src="js/respond.min.js"></script>
 		<![endif]-->
 		
-		
+		<?php echo $this->Html->script('jquery.min'); ?>
+
 	</head>	
 	<body data-color="grey" class="flat">
 		<div id="wrapper">
@@ -96,6 +97,7 @@
 		<?php echo $this->Html->script('administracion/js/unicorn'); ?>
 		<?php echo $this->Html->script('administracion/js/unicorn.dashboard'); ?>
 
+		<?php echo $this->Html->script('jquery.min'); ?>
 		<?php echo $this->Html->script('servidor'); ?>
 		<?php echo $this->Html->script('pagination'); ?>
 	</body>
