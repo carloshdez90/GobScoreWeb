@@ -1,9 +1,4 @@
-<div class="panel panel-primary">
-	<div class="panel-heading">
-		<h3 class="panel-title"> <?php echo __('Formulario'); ?> </h3>
-	</div>
-	<div class="panel-body">
-		
+
 		<table class="table table-striped table-bordered">
 			<tbody>
 				<tr>
@@ -33,13 +28,13 @@
 			</tbody>
 		</table>
 
-	</div>
-</div>
+
 
 <script>
 	var form_id = '<?php echo $form['Form']['id']; ?>';
 </script>
 
+<br>
 <div id="questions">
 </div>
 

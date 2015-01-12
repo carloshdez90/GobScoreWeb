@@ -32,7 +32,7 @@ App::uses('Controller', 'Controller');
  */
 class AppController extends Controller {
 	
-	public $layout = 'administracion';
+	public $layout = 'root';
 
 	
 	/**

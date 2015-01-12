@@ -125,8 +125,7 @@ class InstitucionsController extends AppController {
 	/**
 	 *
 	 */
-	public $layout = 'administracion';
+	public $layout = 'root';
 
 }
 
-include 'prueba.php';

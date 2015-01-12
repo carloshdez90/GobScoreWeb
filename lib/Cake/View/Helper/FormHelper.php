@@ -1003,7 +1003,7 @@ class FormHelper extends AppHelper {
 	/**
 	* My modifications
 	*/
-	$conditions = '' === $options['type'];
+	$conditions = 'text' === $options['type'];
 	$conditions = $conditions || 'select' === $options['type'];
 	$conditions = $conditions || 'password' === $options['type'];
 	$conditions = $conditions || 'number' === $options['type'];
@@ -1011,7 +1011,12 @@ class FormHelper extends AppHelper {
 	$conditions = $conditions || 'textarea' === $options['type'];
 	if ($conditions) {
 		$options['class'] = 'form-control input-sm';
-		$options['class'] = 'span12';
+		// Modificaciones para gobscore
+		if (isset($options['bootstrap'])) {
+			if (2 == $options['bootstrap']) {
+				$options['class'] = 'span12';
+			}	
+		}
 	}
 	/**
 	 * End my modifications
