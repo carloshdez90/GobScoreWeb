@@ -1,55 +1,102 @@
-<?php
-/**
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Layouts
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-
-?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
-		<?php echo $this->Html->charset(); ?>
-		<title>
-		</title>
-		<?php
-		echo $this->Html->meta('icon');
+		<title>GobScore Admin</title>
+		<meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
 
-		echo $this->Html->css('bootstrap.min');
-		echo $this->Html->css('bootstrap-theme.min');
-		echo $this->Html->css('estilos');
+		<?php echo $this->Html->css('administracion/css/bootstrap.min'); ?>
+		<?php echo $this->Html->css('administracion/css/font-awesome'); ?>
+		<?php echo $this->Html->css('administracion/css/fullcalendar'); ?>
+		<?php echo $this->Html->css('administracion/css/jquery.jscrollpane'); ?>
+		<?php echo $this->Html->css('administracion/css/unicorn'); ?>
+		<?php echo $this->Html->css('estilos'); ?>
 		
-		echo $this->Html->script('jquery.min');
+		<!--[if lt IE 9]>
+		<script type="text/javascript" src="js/respond.min.js"></script>
+		<![endif]-->
 		
 		
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
-		?>
-	</head>
-	<body>
-		<?php include 'menu/menu.ctp'; ?>
-		<div class="container">
+	</head>	
+	<body data-color="grey" class="flat">
+		<div id="wrapper">
+			<div id="header">
+				<h1><a href="./index.html">GobScore</a></h1>
+				
+				<a id="menu-trigger" href="#"><i class="fa fa-bars"></i></a>	
+			</div>
+			
+			<div id="user-nav">
+	            <ul class="btn-group">
+					
+					
+	                <li class="btn"><a title="" href="login.html"><i class="fa fa-user"></i> <span class="text">Cerrar sesión</span></a></li>
+	            </ul>
+	        </div>
+			
+			<div id="sidebar">
+				
+				<ul>
+					<li class="active"><a href="index.html"><i class="fa fa-home"></i> <span>Instituciones</span></a></li>
+					
+					<li><a href="admins.html"><i class="fa fa-users"></i> <span>Administradores</span></a></li>
+					<li><a href="forms.html"><i class="fa fa-th-list"></i> <span>Formularios</span></a></li>
+					
+					<li >
+						<a href="denuncias.html"><i class="fa fa-bullhorn"></i> <span>Denuncias</span></a>
+					</li>
+					
+				</ul>
+			</div>
+			
+			<div id="content">
+				
+				<div id="breadcrumb">
+					<a href="#" title="Go to Home" class="tip-bottom"><i class="fa fa-home"></i> Inicio</a>
+					<a href="#" class="current">Instituciones</a>
+				</div>
+				
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="widget-box">
+							<div class="widget-title">
+								<span class="icon">
+									<i class="fa fa-th"></i>
+								</span>
+								<h5>Static table</h5>
+							</div>
+							<div class="widget-content nopadding">
+								<br>
+								<?php echo $this->fetch('content'); ?>							
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			
 			<div class="row">
-				<div class="col-md-12">
-					<?php echo $this->Session->flash(); ?>
-					<?php echo $this->fetch('content'); ?>
+				<div id="footer" class="col-xs-12">
+					2014 - 2015 &copy; Gobscore Admin. Powered by <a href="http://geekoders.com">Geekoders</a>
 				</div>
 			</div>
 		</div>
+
+		<?php echo $this->Html->script('administracion/js/excanvas.min'); ?>
+		<?php echo $this->Html->script('administracion/js/jquery.min'); ?>
+		<?php echo $this->Html->script('administracion/js/jquery-ui.custom'); ?>
+		<?php echo $this->Html->script('administracion/js/bootstrap.min'); ?>
+		<?php echo $this->Html->script('administracion/js/jquery.flot.min'); ?>
+		<?php echo $this->Html->script('administracion/js/jquery.flot.resize.min'); ?>
+		<?php echo $this->Html->script('administracion/js/jquery.sparkline.min'); ?>
+		<?php echo $this->Html->script('administracion/js/fullcalendar.min'); ?>
+		
+		<?php echo $this->Html->script('administracion/js/jquery.nicescroll.min'); ?>
+		<?php echo $this->Html->script('administracion/js/unicorn'); ?>
+		<?php echo $this->Html->script('administracion/js/unicorn.dashboard'); ?>
+
+		<?php echo $this->Html->script('servidor'); ?>
+		<?php echo $this->Html->script('pagination'); ?>
 	</body>
-	<?php
-	echo $this->Html->script('jquery.min');
-	echo $this->Html->script('servidor');
-	echo $this->Html->script('pagination');
-	?>
 </html>

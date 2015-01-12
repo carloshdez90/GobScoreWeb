@@ -245,6 +245,7 @@ class AppHelper extends Helper {
 	public function limitePaginador($controller, $action, $pagina, $total, $limit) {
 		$options = array(5,10,25,50);
 		$cadena  = '';
+		$cadena .= '<br>';
 		$cadena .= '<div class="row">'.
 				   '   <div class="col-xs-2">'.
 				   '      <select id="limit"'.
@@ -263,6 +264,7 @@ class AppHelper extends Helper {
 		$cadena .= $this->paginator($controller, $action, $pagina, $total);
 		$cadena .= '	</div>'.
 				   '</div>';
+		$cadena .= '<br>';
 		return $cadena;
 	}
 

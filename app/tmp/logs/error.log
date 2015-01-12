@@ -5649,3 +5649,2838 @@ Request URL: /gobscore/css/administracion/js/unicorn.login.css
 Stack Trace:
 #0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery-ui.custom.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/excanvas.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.resize.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.sparkline.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/fullcalendar.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.nicescroll.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:38:33 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.dashboard.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/excanvas.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery-ui.custom.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.resize.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.sparkline.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.nicescroll.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/fullcalendar.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.dashboard.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:41:30 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.resize.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/excanvas.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/fullcalendar.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.sparkline.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery-ui.custom.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.dashboard.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:03 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.nicescroll.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/excanvas.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery-ui.custom.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.resize.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/fullcalendar.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.sparkline.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.dashboard.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.nicescroll.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:42:36 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery-ui.custom.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/excanvas.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/fullcalendar.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.nicescroll.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.resize.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.sparkline.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.dashboard.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/excanvas.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.sparkline.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.resize.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery-ui.custom.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/fullcalendar.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.nicescroll.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.dashboard.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:28 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/jquery.jscrollpane.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/unicorn.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:43:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fullcalendar.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/excanvas.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery-ui.custom.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.flot.resize.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/fullcalendar.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.sparkline.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/jquery.nicescroll.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/unicorn.dashboard.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:44:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:47:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:48:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:48:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:48:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:48:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:49:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:49:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:49:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:49:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:49:39 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:49:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:52:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:52:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:52:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:52:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:52:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:52:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:53:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:54:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:54:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:54:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:54:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:54:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:54:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:55:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:56:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:56:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:56:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:56:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:56:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:56:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:57:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:57:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:57:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:57:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:57:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:57:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:59:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:00:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:01:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:01:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:01:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:01:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:01:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:01:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:04:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:05:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:07:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:08:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:08:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:08:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:08:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:08:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:08:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:09:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:09:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:09:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:09:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:10:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:41 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:12:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:14:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:14:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:14:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:14:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:17:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:18:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:19:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:19:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:19:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:19:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:19:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:19:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.woff
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/fonts/glyphicons-halflings-regular.ttf
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/GobScore.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/breadcrumb.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/menu-active.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 05:21:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/img/pattern.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
