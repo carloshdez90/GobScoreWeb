@@ -13,7 +13,7 @@
 				<!-- Default panel contents -->
 				<div class="panel-heading">Seleccione la institucion</div>
 				<div class="panel-body">
-					<p>Escoga la institución que desea blah blah</p>
+					<p>Escoga la institución</p>
 				</div>
 
 				<!-- List group -->
