@@ -39,7 +39,7 @@
             <div class="navbar-inner">
                 <div class="container">
                     <a href="#" class="brand">
-                        <img src="images/GobScore.png" width="120" height="40" alt="Logo" />
+						<?php echo $this->Html->image('images/GobScore.png', array('width' => 120, 'height' => 40, 'alt' => 'logo')); ?>
                         <!-- This is website logo -->
                     </a>
                     <!-- Navigation button, visible on small resolution -->
@@ -95,7 +95,7 @@
                         <p>Por medio de la participacion cuidadana, hagamos un mejor El Salvador, dejando atras la corrupcion y mal uso de los fondos públicos.</p>
                         <a href="#" class="da-link button">Participar</a>
                         <div class="da-img">
-                            <img src="images/GobScore.png" alt="image01" width="320">
+							<?php echo $this->Html->image('images/GobScore.png', array('width' => 320, 'alt' => 'image01')); ?>
                         </div>
                     </div>
                     <!-- End first slide -->
@@ -106,8 +106,7 @@
                         <p>Es una herramienta que busca empoderar al usuario para  que este pueda interactuar y puntuar toda la informacion que gracias a la Ley de acceso a la informacion publica, puede ser consultada en infoÚtil.</p>
                         <a href="#" class="da-link button">Visitar</a>
                         <div class="da-img">
-                            <img src="images/InfoUtil.png" alt="image02" width="320">
-
+							<?php echo $this->Html->image('images/InfoUtil.png', array('width' => 320)); ?>
                         </div>
                     </div>
                     <!-- End second slide -->
@@ -118,7 +117,7 @@
                         <p>Le apuesta fuertemente al avance técnologico en materia de las técnologias de la información y crea este tipo de espacios para que el cuidadano aporte en materia de las tic's dentro del gobierno.</p>
                         <a href="#" class="da-link button">Visitar</a>
                         <div class="da-img">
-                            <img src="images/logosv.png" width="320" alt="image03">
+							<?php echo $this->Html->image('images/logosv.png', array('width' => 320)); ?>
                         </div>
                     </div>
                     <!-- Start third slide -->
@@ -129,7 +128,7 @@
                         <p>Las tecnologias de la información han cambiado la forma de hacer gobierno, por eso se presenta la estrategia del gobierno abierto, que incentiva la participación cuidadana.</p>
                         <a href="#" class="da-link button">Visitar</a>
                         <div class="da-img">
-                            <img src="images/logoGA.png" width="320" alt="image04">
+							<?php echo $this->Html->image('images/logoGA.png', array('width' => 320)); ?>
                         </div>
                     </div>
                     <!-- Start third slide -->
@@ -149,7 +148,7 @@
                 <!-- Start title section -->
                 <div class="title">
                     <!--<h1>¿Que es GobScore?</h1>-->
-                    <img src="images/GobScore.png" width="400" height="200" alt="Logo" />
+					<?php echo $this->Html->image('images/GobScore.png', array('width' => 400, 'height' => 200)); ?>
                     <!-- Section's title goes here -->
                     <p>Este proyecto es una plataforma para la calificacion y puntuacion de las instituciones de gobierno, de acuerdo a un puntaje calculado en base a las denuncias de la población.</p>
                     <!--Simple description for section goes here. -->
@@ -982,7 +981,7 @@
                                 <div id="successSend" class="alert alert-success invisible">
                                     <strong>Well done!</strong>Your message has been sent.</div>
 									<div id="errorSend" class="alert alert-error invisible">There was an error.</div>
-									<div id="formulario"> ff </div>
+									<div id="formulario"> </div>
 									<script>
 										$.ajax({
 											'type' : 'get',

@@ -12,8 +12,17 @@ class WebsiteController extends AppController {
 			'order' => array('Mensaje.created DESC'),
 		);
 		$mensajes = $this->Mensaje->find('all', $options);
+		$total = count($mensajes) - 1;
+		if (-1 == $total) {
+			$total = 0;
+		}
+		for ($i = $total; $i < 10; $i++) {
+			$mensajes[$i]['Denuncia']['nombre']   = '';
+			$mensajes[$i]['Mensaje']['contenido'] = '';
+		}
 		$this->set('mensajes', $mensajes);
-
+		
+		
 		// Obtenemos los mejores promedios
 		$this->loadModel('Tiempo');
 		$fields = array(
@@ -60,7 +69,8 @@ class WebsiteController extends AppController {
 			$tiempo_min = $tiempo_min['Tiempo']['total'];
 		}
 		foreach ($tiempos as $registro) {
-			$institucions[$i]['calificacion'] = 10 - ($registro['Tiempo']['total'] - $tiempo_min)/$tiempo_max*10;
+			$institucions[$i]['calificacion'] = 10 - ($registro['Tiempo']['total'] -
+													  $tiempo_min)/$tiempo_max*10;
 			$institucions[$i++]['Institucion']['name'] = $registro['Institucion']['name'];
 		}
 		
