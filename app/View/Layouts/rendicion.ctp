@@ -33,7 +33,7 @@
 						<span class="icon-bar"></span>
 					</button>
 					<a class="navbar-brand brand" href="#">
-	      				<img src="images/GobScore.png" width="120" height="40" alt="Logo" />
+						<?php echo $this->Html->image('images/GobScore.png', array('width' => 120, 'height' => 40)); ?>
 					</a>
 				</div>
 
