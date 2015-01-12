@@ -4337,3 +4337,1315 @@ Request URL: /gobscore/css/login.css
 Stack Trace:
 #0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-01-12 03:55:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/unicorn-login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/respond.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:00:05 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/bootstrap.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/respond.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/unicorn-login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:24 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/respond.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/unicorn-login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/font-awesome.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:02:54 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /gobscore/users/css/unicorn-login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/respond.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:03:17 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:04:14 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:04:14 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:04:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:04:14 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:04:14 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:04:14 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:04:14 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:09 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:05:09 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:09 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:09 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:10 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:11 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:05:11 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:11 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:11 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:11 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:11 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:11 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/logo.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:18 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:05:18 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:18 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:18 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:05:45 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:45 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:45 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:45 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:05:45 Error: [MissingActionException] Action UsersController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'img',
+)
+Request URL: /gobscore/users/img/demo/av1_1.jpg
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:06:10 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:06:10 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:06:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:06:10 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:07:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:07:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:07:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:07:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery-ui.custom.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:07:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:07:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/jquery.min.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:07:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /gobscore/users/js/unicorn.login.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest))
+#2 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2015-01-12 04:07:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:07:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:07:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:07:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:15:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:15:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:15:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:15:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:21:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:28:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:28:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:28:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:28:52 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:29:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:30:47 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-12 04:31:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
