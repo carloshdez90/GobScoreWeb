@@ -1,77 +1,84 @@
-<?php
-/**
- *
- * PHP 5
- *
- * CakePHP(tm) : Rapid Development Framework (http://cakephp.org)
- * Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- *
- * Licensed under The MIT License
- * For full copyright and license information, please see the LICENSE.txt
- * Redistributions of files must retain the above copyright notice.
- *
- * @copyright     Copyright (c) Cake Software Foundation, Inc. (http://cakefoundation.org)
- * @link          http://cakephp.org CakePHP(tm) Project
- * @package       app.View.Layouts
- * @since         CakePHP(tm) v 0.10.0.1076
- * @license       http://www.opensource.org/licenses/mit-license.php MIT License
- */
-
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
-?>
 <!DOCTYPE html>
-<html>
-	<head>
-		<?php echo $this->Html->charset(); ?>
-		<title>
-			<?php echo $cakeDescription ?>:
-			<?php echo $title_for_layout; ?>
-		</title>
-		<?php
-		echo $this->Html->meta('icon');
-		
-		echo $this->Html->css('bootstrap');
+<html lang="en">
+    <head>
+        <title>Unicorn Admin</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<?php echo $this->Html->css('administracion/css/bootstrap.min'); ?>
+		<?php echo $this->Html->css('administracion/css/font-awesome'); ?>
+		<?php echo $this->Html->css('administracion/css/unicorn-login'); ?>
 
+		<?php echo $this->Html->css('administracion/js/respond.min'); ?>
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+				(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+									 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+									 })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-		echo $this->Html->css('login');
-		echo $this->Html->css('bootstrap.min');
-		echo $this->Html->css('bootstrap-theme.min');
-		echo $this->Html->css('estilos');
-		
-		echo $this->Html->script('jquery.min');
-		echo $this->Html->script('bootstrap.min');
+			ga('create', 'UA-44987299-1', 'bootstrap-hunter.com');
+			ga('send', 'pageview');
 
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
-		echo $this->fetch('script');
-		?>
-	</head>
-	<body>
-		<div class="">
-			<header>
-				<h1></h1>
-			</header>
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="hero-unit" style="width:350px; margin: auto">
-							<div class="row">
-								<div class="col-md-12 caja">
-									<?php $mensaje = $this->Session->flash(); ?>
-									<?php if (null != $mensaje): ?>
-										<div class="alert alert-error" style="text-align : center;">
-											<?php echo $mensaje; ?>
-										</div>
-									<?php endif;?>
-									<?php echo $this->fetch('content'); ?>
-								</div>
-							</div>
-						</div>
+        </script></head>    <body>
+			<div id="container">
+				<div id="logo">
+					<?php echo $this->Html->image('administracion/img/logo.png'); ?>
+				</div>
+				<div id="user">
+					<div class="avatar">
+						<div class="inner"></div>
+						<?php echo $this->Html->image('administracion/img/av1_1.jpg'); ?>
+					</div>
+					<div class="text">
+						<h4>Hello,<span class="user_name"></span></h4>
 					</div>
 				</div>
+				<div id="loginbox">
+					<?php echo $this->fetch('content'); ?>
+				
+					<form id="recoverform" action="#">
+						<p>Enter your e-mail address below and we will send you instructions how to recover a password.</p>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-envelope"></i></span><input class="form-control" type="text" placeholder="E-mail address" />
+						</div>
+						<div class="form-actions clearfix">
+							<div class="pull-left">
+								<a href="#loginform" class="grey flip-link to-login">Click to login</a>
+							</div>
+							<div class="pull-right">
+								<a href="#registerform" class="blue flip-link to-register">Create new account</a>
+							</div>
+							<input type="submit" class="btn btn-block btn-inverse" value="Recover" />
+						</div>
+					</form>
+					<form id="registerform" action="#">
+						<p>Enter information required to register:</p>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-user"></i></span><input class="form-control" type="text" placeholder="Enter Username" />
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-lock"></i></span><input class="form-control" type="password" placeholder="Choose Password" />
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-lock"></i></span><input class="form-control" type="password" placeholder="Confirm password" />
+						</div>
+						<div class="input-group">
+							<span class="input-group-addon"><i class="fa fa-envelope"></i></span><input class="form-control" type="text" placeholder="Enter E-mail address" />
+						</div>
+						<div class="form-actions clearfix">
+							<div class="pull-left">
+								<a href="#loginform" class="grey flip-link to-login">Click to login</a>
+							</div>
+							<div class="pull-right">
+								<a href="#recoverform" class="grey flip-link to-recover">Lost password?</a>
+							</div>
+							<input type="submit" class="btn btn-block btn-success" value="Register" />
+						</div>
+					</form>
+				</div>
 			</div>
-			<footer>
-			</footer>
-		</div>
-	</body>
+			
+			<?php echo $this->Html->css('administracion/js/jquery.min'); ?>
+			<?php echo $this->Html->css('administracion/js/jquery-ui.custom.min'); ?>
+			<?php echo $this->Html->css('administracion/js/unicorn.login'); ?>
+		</body>
 </html>
