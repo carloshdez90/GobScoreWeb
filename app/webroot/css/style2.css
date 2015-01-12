@@ -58,7 +58,7 @@ p {
     color: #fff;
 }
 .navbar {
-    background: #004370 /*Color Tema*/;
+    background: #004370 !important/*Color Tema*/;
     margin-bottom:0;
     min-height:70px !important;
 }
