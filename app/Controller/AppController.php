@@ -69,6 +69,8 @@ class AppController extends Controller {
 		}
 		$this->set('name', $name);
 		$this->set('band', true);
+
+
 	}
 
 	/**

@@ -125,7 +125,12 @@ class UsersController extends AppController {
 		$this->layout = 'login';
 		if ($this->request->is('POST')) {
 			if ($this->Auth->login()) {
-				$this->redirect(array('controller' => 'institucions', 'action' => 'index'));
+				$redireccionar = array(
+					'root'          => array('controller' => 'institucions', 'action' => 'index'),
+					'administrador' => array('controller' => 'denuncias', 'action' => 'index'),
+				);
+				$role = $this->Auth->user('role');
+				$this->redirect($redireccionar[$role]);
 			}
 		}
 	}

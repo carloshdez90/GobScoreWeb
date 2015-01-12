@@ -33,7 +33,7 @@
 					
 					
 	                <li class="btn">
-						<a title="" href="login.html">
+						<a title="" href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'logout')); ?>">
 							<i class="fa fa-user"></i>
 							<span class="text">Cerrar sesión</span>
 						</a>
