@@ -114,11 +114,6 @@ create table calificacions(
    updated TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP
 );
 
-
-
-insert into users values(1,'Administrador','xscharliexs@gmail.com','42aa600817f47639d605f74dbe228af30dadc47a','root',0,0,'2015-01-10 15:16:38','2015-01-10 15:16:38');
-
-
 drop table tiempos;
 create table tiempos(
    id int(11) not null primary key auto_increment,
@@ -127,3 +122,10 @@ create table tiempos(
    created datetime not null,
    updated TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP
 );
+
+
+
+select count(calificacions.id) from calificacions, denuncias where denuncias.id=calificacions.denuncia_id and denuncias.institucion_id=1 and calificacions.respuesta!=-1;
+
+insert into users values(1,'Administrador','xscharliexs@gmail.com','42aa600817f47639d605f74dbe228af30dadc47a','root',0,0,'2015-01-10 15:16:38','2015-01-10 15:16:38');
+

@@ -133,7 +133,7 @@ class AppController extends Controller {
 	)
 	);
 	public function beforeFilter() {
-	$this->Auth->allow('inicio','login', 'rendicionCuentas', 'getFormulario', 'getPregunta', 'calificarPregunta');				
+	$this->Auth->allow('inicio','login', 'rendicionCuentas', 'getFormulario', 'getPregunta', 'calificarPregunta', 'seguimiento', 'tiempo');				
 	}
 	/**/
 

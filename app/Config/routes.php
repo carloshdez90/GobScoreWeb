@@ -38,6 +38,7 @@
 Router::connect('/', array('controller' => 'website', 'action' => 'inicio'));
 Router::connect('/rendicion-de-cuentas', array('controller' => 'website', 'action' => 'rendicionCuentas'));
 Router::connect('/crear-denuncias', array('controller' => 'website', 'action' => 'denuncias'));
+Router::connect('/seguimiento', array('controller' => 'website', 'action' => 'seguimiento'));
 
 
 /**

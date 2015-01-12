@@ -2580,3 +2580,1724 @@ Request URL: /gobscore/css/images/Slider.png
 Stack Trace:
 #0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-01-10 20:06:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-10 20:06:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-10 20:06:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 08:49:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 09:32:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 09:32:56 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:19:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Denuncia.id' in 'field list'
+Request URL: /gobscore/seguimiento
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Denunci...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Denunci...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Denunci...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(AppModel), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(237): Model->find('first', Array)
+#7 [internal function]: WebsiteController->seguimiento()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 10:21:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Denuncia.id' in 'field list'
+Request URL: /gobscore/seguimiento
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Denunci...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Denunci...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Denunci...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(AppModel), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(237): Model->find('first', Array)
+#7 [internal function]: WebsiteController->seguimiento()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 10:21:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Denuncia.id' in 'field list'
+Request URL: /gobscore/seguimiento
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Denunci...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Denunci...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Denunci...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(AppModel), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(237): Model->find('first', Array)
+#7 [internal function]: WebsiteController->seguimiento()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 10:21:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Denuncia.id' in 'field list'
+Request URL: /gobscore/seguimiento
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Denunci...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Denunci...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Denunci...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(AppModel), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(237): Model->find('first', Array)
+#7 [internal function]: WebsiteController->seguimiento()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 10:37:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:37:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:43:15 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:43:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:53:28 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:54:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:55:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:55:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:56:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:56:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:56:50 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 10:56:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:01:44 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:01:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:01:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:02:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:02:00 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:02:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:02:50 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:02:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:02:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:04:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:04:26 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:04:30 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:04:49 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:04:49 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:04:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:13:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:13:23 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:13:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:14:07 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:14:07 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:14:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:14:34 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:14:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:14:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:14:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:15:03 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:15:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:15:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:16:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:16:20 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:16:23 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:17:10 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:17:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:17:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:18:02 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:18:02 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:18:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:18:05 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:18:06 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:19:19 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:19:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:19:21 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:19:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:19:34 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:19:37 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:20:01 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:20:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:20:05 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:00 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:14 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:17 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:45 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:21:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:22:19 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:22:19 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:22:25 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:26:53 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:26:53 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:26:54 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:27:31 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:27:31 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:27:35 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:30:45 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:30:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:30:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:30:59 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:30:59 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:31:03 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:31:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:31:14 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:31:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:33:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:33:09 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:33:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:33:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:33:29 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:33:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:16 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:16 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:20 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:20 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:36 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:34:38 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:35:00 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:35:00 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:35:01 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:35:55 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:35:55 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:35:58 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:36:43 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:36:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:36:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:37:10 Error: [MissingControllerException] Controller class JRating.jquery.jsController could not be found.
+Exception Attributes: array (
+  'class' => 'JRating.jquery.jsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/jRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:37:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:37:13 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:43:12 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:43:12 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:43:18 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:51:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:51:09 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:51:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:55:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:55:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:55:51 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:56:04 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:57:08 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:57:08 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 11:57:09 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:02:45 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:02:45 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:02:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:03:29 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:03:29 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:03:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:04:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:04:43 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:04:46 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/images/Slider.png
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:05:34 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:05:34 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:07:48 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/JRating.jquery.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:07:48 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 12:13:46 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/js/JRating.jquery.js
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 14:30:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 14:32:34 Error: [MissingControllerException] Controller class TiempoController could not be found.
+Exception Attributes: array (
+  'class' => 'TiempoController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/tiempo
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 16:18:42 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 16:18:43 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-11 17:01:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Denuncia.institucion_id' in 'where clause'
+Request URL: /gobscore/website/tiempo
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(AppModel), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('count', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(289): Model->find('count', Array)
+#7 [internal function]: WebsiteController->tiempo()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:06:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Calificacion.channel_id' in 'on clause'
+Request URL: /gobscore/website/tiempo
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT COUNT(*)...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT COUNT(*)...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT COUNT(*)...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(AppModel), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('count', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(299): Model->find('count', Array)
+#7 [internal function]: WebsiteController->tiempo()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:08:27 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Calificacion.denuncia_id' in 'on clause'
+Request URL: /gobscore/mensajes/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Tiempo), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/MensajesController.php(105): Model->find('first', Array)
+#7 [internal function]: MensajesController->add()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MensajesController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(MensajesController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:13:18 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Calificacion.denuncia_id' in 'on clause'
+Request URL: /gobscore/mensajes/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Tiempo), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/MensajesController.php(109): Model->find('first', Array)
+#7 [internal function]: MensajesController->add()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MensajesController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(MensajesController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:13:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Calificacion.denuncia_id' in 'on clause'
+Request URL: /gobscore/mensajes/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Tiempo), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/MensajesController.php(108): Model->find('first', Array)
+#7 [internal function]: MensajesController->add()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MensajesController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(MensajesController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:15:26 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Calificacion.denuncia_id' in 'on clause'
+Request URL: /gobscore/mensajes/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Tiempo), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/MensajesController.php(109): Model->find('first', Array)
+#7 [internal function]: MensajesController->add()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MensajesController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(MensajesController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:24:50 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Calificacion.denuncia_id' in 'on clause'
+Request URL: /gobscore/mensajes/add
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Tiempo), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('first', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/MensajesController.php(110): Model->find('first', Array)
+#7 [internal function]: MensajesController->add()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(MensajesController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(MensajesController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:53:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tiempo.total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:53:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tiempo.name' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Tiempo), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(33): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:54:15 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Institucion.total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Institu...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Institu...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Institu...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:55:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tiempo.total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:55:38 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tiempo.total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:55:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tiempo.total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:56:24 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tiempo.total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:57:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `total` ...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `total` ...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `total` ...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:57:20 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `total` ...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `total` ...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `total` ...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(36): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:57:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Institucion.total' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Institu...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Institu...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Institu...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Institucion), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(35): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 17:58:54 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Tiempo.name' in 'field list'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(458): PDOStatement->execute(Array)
+#1 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(424): DboSource->_execute('SELECT `Tiempo`...', Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(666): DboSource->execute('SELECT `Tiempo`...', Array, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Datasource/DboSource.php(1106): DboSource->fetchAll('SELECT `Tiempo`...', false)
+#4 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2947): DboSource->read(Object(Tiempo), Array)
+#5 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Model/Model.php(2919): Model->_readDataSource('all', Array)
+#6 /home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php(28): Model->find('all', Array)
+#7 [internal function]: WebsiteController->inicio()
+#8 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(WebsiteController), Array)
+#9 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(191): Controller->invokeAction(Object(CakeRequest))
+#10 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Routing/Dispatcher.php(165): Dispatcher->_invoke(Object(WebsiteController), Object(CakeRequest))
+#11 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2015-01-11 18:17:47 Error: Fatal Error (4): syntax error, unexpected ';' in [/home/mathdebian/Documentos/www/gobscore/app/Controller/WebsiteController.php, line 32]
+2015-01-11 18:17:47 Error: [FatalErrorException] syntax error, unexpected ';'
+Request URL: /gobscore/
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/mathdebia...', 32)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/mathdebia...', 32, Array)
+#2 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/mathdebia...', 32, Array)
+#3 /home/mathdebian/Documentos/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-11 19:13:50 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/login.css
+Stack Trace:
+#0 /home/mathdebian/Documentos/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

@@ -55,36 +55,71 @@ class MensajesController extends AppController {
 			$this->Mensaje->create();
 			if ($this->Mensaje->save($this->request->data)) {
 
+				$denuncia_id = $this->request->data['Mensaje']['denuncia_id'];
 				
 				$this->loadModel('Denuncia');
-				$conditions = array(
-					'Denuncia.id' => $this->request->data['Mensaje']['denuncia_id']
-				);
-				$options = array(
-					'conditions' => $conditions,
+
+				$options['conditions'] = array(
+					'Denuncia.id' => $denuncia_id,
 				);
 				$denuncia = $this->Denuncia->find('first', $options);
 				
 				$this->loadModel('Calificacion');
-				$conditions = array(
+				$options['conditions'] = array(
 					'Calificacion.denuncia_id' => $this->request->data['Mensaje']['denuncia_id']
-				);
-				$options = array(
-					'conditions' => $conditions,
 				);
 				$calificacion = $this->Calificacion->find('first', $options);
 				
 				$fecha_i = $denuncia['Denuncia']['created'];
 				$fecha_f = date('Y-m-d H:i:s');
-        		$tiempo  = (strtotime($fecha_i) - strtotime($fecha_f));
-				$tiempo  = abs($tiempo);
+        		$tiempo_final  = (strtotime($fecha_i) - strtotime($fecha_f));
+				$tiempo_final  = abs($tiempo_final);
 				
 				$this->Calificacion->id = $calificacion['Calificacion']['id'];
 				$datos = array(
-					'respuesta'    => $tiempo,
+					'respuesta'    => $tiempo_final,
 				);
 				$this->Calificacion->save($datos);
+
+				// Tiempos para el ranking
+				$institucion_id = $denuncia['Denuncia']['institucion_id'];
+
+				$this->loadModel('Calificacion');
+				$this->Calificacion->recursive = -1;
+				$options['conditions'] = array(
+					'Denuncia.institucion_id'   => $institucion_id,
+					'Calificacion.respuesta !=' => -1,
+				);
+				$options['joins'] = array(
+					array(
+						'table' => 'denuncias',
+						'alias' => 'Denuncia',
+						'type' => 'LEFT',
+						'conditions' => array(
+							'Denuncia.id = Calificacion.denuncia_id',
+						)
+					)
+				);
+				$total = $this->Calificacion->find('count', $options);
+				$this->Calificacion->recursive = 1;
+				$options = array();
 				
+				$this->loadModel('Tiempo');
+				$options['conditions'] = array(
+					'Tiempo.institucion_id' => $institucion_id,
+				);
+				$tiempo = $this->Tiempo->find('first', $options);
+				if (!$tiempo) {
+					$this->Tiempo->create();
+					$datos['created']        = date('Y-m-d H:i:s');
+					$datos['institucion_id'] = $institucion_id;
+					$datos['total']         = $tiempo_final;
+				} else {
+					$this->Tiempo->id = $tiempo['Tiempo']['id'];
+					$datos['total']  = ($tiempo['Tiempo']['total']*$total + $tiempo_final)/($total + 1);
+				}
+				$this->Tiempo->save($datos);
+				// Tiempos para el ranking
 				
 				$this->Session->setFlash(__('The mensaje has been saved.'));
 				return $this->redirect(

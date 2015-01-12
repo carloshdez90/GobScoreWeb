@@ -14,23 +14,60 @@ class WebsiteController extends AppController {
 		$mensajes = $this->Mensaje->find('all', $options);
 		$this->set('mensajes', $mensajes);
 
-		$this->loadModel('Institucion');
-		$options = array(
-			'limit' => 9,
+		// Obtenemos los mejores promedios
+		$this->loadModel('Tiempo');
+		$fields = array(
+			'total',
+			'Institucion.name'
 		);
-		$institucions = $this->Institucion->find('all', $options);
-		$institucions[0]['calificacion'] = 9;
-		$institucions[1]['calificacion'] = 8.7;
-		$institucions[2]['calificacion'] = 8.5;
-		$institucions[3]['calificacion'] = 8.3;
-		$institucions[4]['calificacion'] = 8.2;
-		$institucions[5]['calificacion'] = 8;
-		$institucions[6]['calificacion'] = 7.8;
-		$institucions[7]['calificacion'] = 7.6;
-		$institucions[8]['calificacion'] = 7;
+		$limit = 10;
+		$order = array('total ASC');
+		$options = array(
+			'fields' => $fields,
+			'limit'  => $limit,
+			'order'  => $order, 
+		);
+		$tiempos = $this->Tiempo->find('all', $options);
+
+		for ($i = 0; $i < 10; $i++) {
+			$institucions[$i]['calificacion'] = '--';
+			$institucions[$i]['Institucion']['name'] = '--';
+		}
+		
+		$fields = array(
+			'total',
+		);
+		$limit = 1;
+		$order = array('total DESC');
+		$options = array(
+			'fields' => $fields,
+			'limit'  => $limit,
+			'order'  => $order, 
+		);
+		$tiempo_max = $this->Tiempo->find('first', $options);
+		
+		$order = array('total ASC');
+		$options = array(
+			'fields' => $fields,
+			'limit'  => $limit,
+			'order'  => $order, 
+		);
+		$tiempo_min = $this->Tiempo->find('first', $options);
+
+		$i = 0;
+		if ($tiempo_min) {
+			$tiempo_max = $tiempo_max['Tiempo']['total'];
+			$tiempo_min = $tiempo_min['Tiempo']['total'];
+		}
+		foreach ($tiempos as $registro) {
+			$institucions[$i]['calificacion'] = 10 - ($registro['Tiempo']['total'] - $tiempo_min)/$tiempo_max*10;
+			$institucions[$i++]['Institucion']['name'] = $registro['Institucion']['name'];
+		}
 		
 		$this->set('institucions', $institucions);
 		//echo $mensajes;
+
+		
 	}
 
 	/**
@@ -217,4 +254,91 @@ class WebsiteController extends AppController {
 		
 	}
 
+	/**
+	 *
+	 */
+	public function seguimiento($email = 'esau@gmail.com', $codigo = '43370665') {
+		$this->layout = 'seguimiento';
+		$this->loadModel('Denuncia');
+		$options['fields'] = array('Denuncia.id');
+		$options['conditions'] = array(
+			'email' => $email,
+			'codigo' => $codigo,
+		);
+		$denuncia = $this->Denuncia->find('first', $options);
+		$indice = 1;
+		if (count($denuncia)) {
+			if (-1 != $denuncia['Calificacion'][0]['visto']) {
+				$indice += 1;
+			}
+			if (-1 != $denuncia['Calificacion'][0]['respuesta']) {
+				$indice += 1;
+			}
+		}
+		$class = array(
+			1 => 'state-send',
+			2 => 'state-read',
+			3 => 'state-ok',
+		);
+		$this->set('clase', $class[$indice]);
+		$this->set('indice', $indice);
+	}
+
+	/**
+	 *
+	 */
+	public function tiempo() {
+
+		/*
+		$denuncia_id = 1;
+		$tiempo_final = rand(0,1000);
+		
+		$this->loadModel('Denuncia');
+		$options['conditions'] = array(
+			'Denuncia.id' => $denuncia_id,
+		);
+		$denuncia = $this->Denuncia->find('first', $options);
+
+
+		
+		$institucion_id = $denuncia['Denuncia']['institucion_id'];
+		$this->loadModel('Tiempo');
+		$options['conditions'] = array(
+			'Tiempo.institucion_id' => $institucion_id,
+		);
+		$tiempo = $this->Tiempo->find('first', $options);
+		if (!$tiempo) {
+			$this->Tiempo->create();
+			$datos['created']        = date('Y-m-d H:i:s');
+			$datos['institucion_id'] = $institucion_id;
+			$datos['total']         = $tiempo_final;
+		} else {
+			$this->Tiempo->id = $tiempo['Tiempo']['id'];
+			$datos['total']  = ($tiempo['Tiempo']['total'] + $tiempo_final)/2;
+		}
+		$this->Tiempo->save($datos);
+		 
+		$institucion_id = 1;
+		
+		$this->loadModel('Calificacion');
+		$this->Calificacion->recursive = -1;
+		$options['conditions'] = array(
+			'Denuncia.institucion_id'   => $institucion_id,
+			'Calificacion.respuesta !=' => -1,
+		);
+		$options['joins'] = array(
+			array(
+				'table' => 'denuncias',
+				'alias' => 'Denuncia',
+				'type' => 'LEFT',
+				'conditions' => array(
+					'Denuncia.id = Calificacion.denuncia_id',
+				)
+			)
+		);
+		$total = $this->Calificacion->find('count', $options);
+		$this->Calificacion->recursive = 1;
+
+		*/
+	}
 }
