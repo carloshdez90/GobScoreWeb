@@ -16,7 +16,7 @@ body {
   overflow-x: hidden;
   overflow-y: auto;
   margin-top: -20px;
-  background: #000000 url('../img/pattern.png') repeat scroll top center;
+  background: #000000 url('/gobscore/img/administracion/img/pattern.png') repeat scroll top center;
 }
 @media (nax-width: 767px) {
   body {
