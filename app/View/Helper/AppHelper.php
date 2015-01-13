@@ -283,7 +283,7 @@ class AppHelper extends Helper {
 	/**
 	 *
 	 */
-	public function crearBuscar($controller, $action, $mensaje, $band) {
+	public function crearBuscar($controller, $action, $mensaje, $band = true) {
 		$url = $this->url(array('action' => 'add'));
 		$cadena  = '';
 		$cadena .= '<div class="row">'.
@@ -363,7 +363,7 @@ class AppHelper extends Helper {
 		$cadena .= '</div>';
 		$cadena .= '</div>';
 		$cadena .= '</div>';
-		$cadena .= '<script>function asignarId(id) {$("#registro_id").html(id);$("#id").val(id);}</script>';
+		$cadena .= '<script>function asignarId(id){$("#registro_id").html(id);$("#id").val(id);}</script>';
 		return $cadena;
 	}
 	

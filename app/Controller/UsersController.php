@@ -1,5 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
+
 /**
  * Users Controller
  *
@@ -50,13 +52,36 @@ class UsersController extends AppController {
 	public function add() {
 		if ($this->request->is('post')) {
 
-			$this->request->data['User']['password'] = $this->request->data['User']['username'];
+			// Password
+			$password = $this->strongPassword($this->request->data['User']['username']);
+			$this->request->data['User']['password'] = $password;
 			$this->request->data['User']['role']     = 'a';
 			$this->request->data['User']['active']   = true;
 
 			$this->User->create();
 			if ($this->User->save($this->request->data)) {
-				$this->Session->setFlash(__('The user has been saved.'));
+
+					// Envio de clave al usuario
+				$email = new CakeEmail('default');
+				$email->template('administrador');
+				$email->emailFormat('text');
+				$email->from('mail@institucion.gob.sv');
+				$email->to($this->request->data['User']['username']);
+				$email->subject('Datos de registro de GobScore.');
+				$email->viewVars(
+					array(
+						'username' => $this->request->data['User']['username'],
+						'password' => $password
+					)
+				);
+				
+				if ($email->send()) {
+					$mensaje = 'Los datos de la institución y cuenta de '.
+							   'administrador han sido enviados correctamente';
+				}
+				
+				$this->Session->setFlash($mensaje);
+
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
@@ -98,7 +123,7 @@ class UsersController extends AppController {
 	 * @throws NotFoundException
 	 * @param string $id
 	 * @return void
-	 */
+	 *
 	public function delete($id = null) {
 		$this->User->id = $id;
 		if (!$this->User->exists()) {
@@ -116,7 +141,7 @@ class UsersController extends AppController {
 	/**
 	 *
 	 */
-	public $layout = 'administracion';
+	public $layout = 'root';
 
 	/**
 	 *

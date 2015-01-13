@@ -1,0 +1,18 @@
+MONEYBACK "compra más comprando"
+
+Se le ha creado una cuenta de administrador de empresas en MONEYBACK, los datos de acceso a su cuenta son los siguientes:
+
+Usuario: <?php echo $username; ?>
+
+Clave: <?php echo $password; ?>
+
+
+Para cualquier duda, información, quejas sobre atención etc favor de responder este correo electrónico o nos puede contactar de las siguientes formas:
+
+Email: webmail@moneyback.com.mx
+Pagina: www.moneyback.com.mx
+Social media:
+        Facebook: moneybackmx
+        Twitter: @moneybackmx
+
+Por ecología No imprimas este correo a menos que sea realmente necesario

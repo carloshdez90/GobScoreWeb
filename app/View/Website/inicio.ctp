@@ -83,7 +83,7 @@
 							<li>
                                 <a href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'login')); ?>">Ingresar</a>
                             </li>
-							 -->
+							 <-- -->
                         </ul>
                     </div>
                     <!-- End main navigation -->

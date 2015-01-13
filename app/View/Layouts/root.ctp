@@ -69,6 +69,7 @@
 				
 				<div class="row">
 					<div class="col-xs-12">
+						<?php echo $this->Session->flash(); ?>
 						<div class="widget-box">
 							<div class="widget-title">
 								<span class="icon">
@@ -78,7 +79,13 @@
 							</div>
 							<div class="widget-content nopadding">
 								<br>
-								<?php echo $this->fetch('content'); ?>							
+								<div class="row">
+									<div class="col-md-12">
+										 
+										<?php echo $this->fetch('content'); ?>
+									</div>
+								</div>
+								<br>
 							</div>
 						</div>
 					</div>

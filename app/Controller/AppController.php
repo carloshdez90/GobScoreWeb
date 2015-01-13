@@ -236,4 +236,34 @@ class AppController extends Controller {
 		$data = array('mensaje' => $mensaje);
 		return json_encode($data);
 	}
+
+	/**
+	 * Agregar elementos aleatorios al password
+	 */
+	public function strongPassword($password = null) {
+		if (null == $password) {
+			return null;
+		}
+		$limit  = (date('h')*60*60 + (date('i')*60) + date('s'));
+		$password = $limit.$password.rand(0, $limit);
+		return $password;
+	}
+
+	public function delete($id = null) {
+		$modelo = $this->modelClass;
+
+		$id = $this->request->data[$modelo]['id'];
+		$mensaje = 'Operación no permitida!!!';
+		if ($this->request->is('post')) {
+			$this->{$modelo}->id = $id;
+			$datos = array('deleted' => true);
+			$mensaje = 'El registro no ha sido eliminado.';
+			if ($this->{$modelo}->save($datos)) {
+				$mensaje = 'El registro ha sido eliminado con éxito.';
+			}
+		}
+		$this->Session->setFlash($mensaje);
+
+		return $this->redirect(array('action' => 'index'));
+	}
 }

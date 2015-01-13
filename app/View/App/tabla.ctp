@@ -16,6 +16,7 @@
 		<?php endforeach; ?>
 	</tbody>
 </table>
+
 <?php echo $this->Html->modalAdvertencia($modelo); ?>
 
 <?php echo $this->Html->script('bootstrap.min'); ?>

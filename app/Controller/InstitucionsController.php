@@ -1,5 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
+
 /**
  * Institucions Controller
  *
@@ -65,11 +67,34 @@ class InstitucionsController extends AppController {
 		if ($this->request->is('post')) {
 
 			// Password
+			$password = $this->strongPassword($this->request->data['User'][0]['username']);
+			$this->request->data['User'][0]['password'] = $password;
+			$this->request->data['User'][0]['role']     = 'administrador';
 			$this->request->data['User'][0]['password'] = $this->request->data['User'][0]['username'];
 			
 			unset($this->Institucion->User->validate['institucion_id']);
 			if ($this->Institucion->saveAssociated($this->request->data)) {
-				$this->Session->setFlash(__('The institucion has been saved.'));
+
+				// Envio de clave al usuario
+				$email = new CakeEmail('default');
+				$email->template('administrador');
+				$email->emailFormat('text');
+				$email->from('mail@institucion.gob.sv');
+				$email->to($this->request->data['User'][0]['username']);
+				$email->subject('Datos de registro de GobScore.');
+				$email->viewVars(
+					array(
+						'username' => $this->request->data['User'][0]['username'],
+						'password' => $password
+					)
+				);
+				
+				if ($email->send()) {
+					$mensaje = 'Los datos de la institución y cuenta de '.
+							   'administrador han sido enviados correctamente';
+				}
+				
+				$this->Session->setFlash($mensaje);
 				return $this->redirect(array('action' => 'index'));
 			} else {
 				$this->Session->setFlash(__('The institucion could not be saved. Please, try again.'));
