@@ -2,7 +2,7 @@
 <table class="table table-striped table-bordered">
 	<tbody>
 		<tr>
-			<td> Id	</td>
+			<td style="background-color: blue !important; "> Id	</td>
 			<td>
 				<?php echo h($institucion['Institucion']['id']); ?>
 			</td>
