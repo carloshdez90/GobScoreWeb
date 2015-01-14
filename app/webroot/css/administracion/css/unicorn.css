@@ -166,7 +166,7 @@ a:hover {
   z-index: 0;
 }
 #header h1 {
-  background: url("../img/GobScore.png") no-repeat scroll 0 0 transparent;
+  background: url("GobScore.png") no-repeat scroll 0 0 transparent;
   background-size: 140px 35px;
   height: 31px;
   left: 15px;

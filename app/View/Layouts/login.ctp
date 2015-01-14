@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Unicorn Admin</title>
+        <title>GobScore Admin</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<?php echo $this->Html->css('administracion/css/bootstrap.min'); ?>
@@ -42,7 +42,7 @@
 						</div>
 						<div class="form-actions clearfix">
 							<div class="pull-left">
-								<a href="#loginform" class="grey flip-link to-login">Click to login</a>
+								<a href="#loginform" class="grey flip-link to-login">Click para Ingresar</a>
 							</div>
 							<div class="pull-right">
 								<a href="#registerform" class="blue flip-link to-register">Create new account</a>
@@ -50,30 +50,7 @@
 							<input type="submit" class="btn btn-block btn-inverse" value="Recover" />
 						</div>
 					</form>
-					<form id="registerform" action="#">
-						<p>Enter information required to register:</p>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="fa fa-user"></i></span><input class="form-control" type="text" placeholder="Enter Username" />
-						</div>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="fa fa-lock"></i></span><input class="form-control" type="password" placeholder="Choose Password" />
-						</div>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="fa fa-lock"></i></span><input class="form-control" type="password" placeholder="Confirm password" />
-						</div>
-						<div class="input-group">
-							<span class="input-group-addon"><i class="fa fa-envelope"></i></span><input class="form-control" type="text" placeholder="Enter E-mail address" />
-						</div>
-						<div class="form-actions clearfix">
-							<div class="pull-left">
-								<a href="#loginform" class="grey flip-link to-login">Click to login</a>
-							</div>
-							<div class="pull-right">
-								<a href="#recoverform" class="grey flip-link to-recover">Lost password?</a>
-							</div>
-							<input type="submit" class="btn btn-block btn-success" value="Register" />
-						</div>
-					</form>
+					
 				</div>
 			</div>
 			
