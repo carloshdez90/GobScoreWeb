@@ -115,4 +115,18 @@ class FormsController extends AppController {
 	}
 
 	public $layout = 'administracion';
+
+	/**
+	 *
+	 */
+	public function reporte($id = 1) {
+		
+		if (!$this->Form->exists($id)) {
+			throw new NotFoundException(__('Invalid form'));
+		}
+		$options = array('conditions' => array('Form.' . $this->Form->primaryKey => $id));
+		$this->set('form', $this->Form->find('first', $options));
+
+		
+	}
 }

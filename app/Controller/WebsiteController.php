@@ -77,7 +77,6 @@ class WebsiteController extends AppController {
 		$this->set('institucions', $institucions);
 		//echo $mensajes;
 
-		
 	}
 
 	/**
@@ -86,7 +85,7 @@ class WebsiteController extends AppController {
 	public function rendicionCuentas() {
 		$this->layout = 'rendicion';
 		$user_id = rand(1,100);
-		$user_id = 1;
+		$user_id = 2;
 		$this->Session->write('user_id', $user_id);
 
 		$this->loadModel('Form');

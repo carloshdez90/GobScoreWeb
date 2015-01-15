@@ -17,7 +17,7 @@
 								<div class="btn-group" role="group">
 									<button type="button"
 											class="btn btn-primary"
-											onClick="calificarPregunta(0)">Si</button>
+											onClick="calificarPregunta(1)">Si</button>
 								</div>
 								<div class="btn-group" role="group">
 									<button type="button"
