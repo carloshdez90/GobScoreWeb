@@ -43,21 +43,8 @@
 			
 			<div id="sidebar">
 				
-				<ul>
-					<li class="active">
-						<a href="<?php echo $this->Html->url(array('controller' => 'institucions', 'action' => 'index')); ?>">
-							<i class="fa fa-home"></i>
-							<span>Instituciones</span>
-						</a>
-					</li>
-					
-					<li>
-						<a href="admins.html">
-							<i class="fa fa-users"></i>
-							<span>Administradores</span>
-						</a>
-					</li>
-				</ul>
+				<?php include 'menu/'.$tipo_usuario.'.ctp' ?>
+				
 			</div>
 			
 			<div id="content">
@@ -81,7 +68,7 @@
 								<br>
 								<div class="row">
 									<div class="col-md-12">
-										 
+										
 										<?php echo $this->fetch('content'); ?>
 									</div>
 								</div>

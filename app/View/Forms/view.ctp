@@ -39,21 +39,19 @@
 </div>
 
 <?php echo $this->Html->script('servidor'); ?>
-<script>
-	$.ajax({
-		'type'    : 'post',
-		'url'     : 'http://'+servidor+'/questions/indexAjax',
-		'success' : function (data) {
-			$('#questions').html(data);
-		}
-	});				   
+<script>			   
 	function cargar() {
 		$.ajax({
 			'type'    : 'post',
 			'url'     : 'http://'+servidor+'/questions/indexAjax',
+			'data'    : {
+				'foreign' : 'form_id',
+ 				'form_id' : form_id,
+			},
 			'success' : function (data) {
 				$('#questions').html(data);
 			}
 		});	
 	}
+	cargar();
 </script>

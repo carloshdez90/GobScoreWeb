@@ -69,7 +69,7 @@ class AppController extends Controller {
 		}
 		$this->set('name', $name);
 		$this->set('band', true);
-
+		
 	}
 
 	/**
@@ -144,9 +144,14 @@ class AppController extends Controller {
 		$this->layout = 'ajax';
 		$modelo = $this->modelClass;
 		$this->{$modelo}->recursive = 0;
+		
 		$conditions = array(
 			$modelo.'.deleted' => false,
 		);
+		if (isset($_POST['foreign'])) {
+			$foreign = $_POST['foreign'];
+			$conditions[$modelo.'.'.$foreign] = $_POST[$foreign];
+		}
 		$this->Paginator->settings = array(
 			$modelo => array(
 				'limit' => $this->limit,
@@ -154,8 +159,11 @@ class AppController extends Controller {
 			)
 		);
 		$this->set('registros', $this->Paginator->paginate());
-		$this->set('total', $this->{$modelo}->find('count'));
-		$total = ($this->{$modelo}->find('count') + $this->limit -1)/$this->limit;
+		//$this->set('total', $this->{$modelo}->find('count', $conditions));
+		$options = array(
+			'conditions' => $conditions
+		);
+		$total = ($this->{$modelo}->find('count', $options) + $this->limit - 1)/$this->limit;
 		$this->set('total', floor($total));
 		$this->set('pagina', 1);
 		$this->set('limit', $this->limit);
@@ -185,6 +193,10 @@ class AppController extends Controller {
 		$conditions = array(
 			$modelo.'.deleted' => false,
 		);
+		if (isset($_GET['foreign'])) {
+			$foreign = $_GET['foreign'];
+			$conditions[$modelo.'.'.$foreign] = $_GET[$foreign];
+		}
 		$name = 'name';
         if ('Denuncia' === $modelo) {
             $name = 'codigo';
@@ -265,5 +277,17 @@ class AppController extends Controller {
 		$this->Session->setFlash($mensaje);
 
 		return $this->redirect(array('action' => 'index'));
+	}
+
+	/**
+	 * Constructor
+	 */
+	public function __construct($collections = array(), $settings = array()) {
+		parent::__construct($collections, $settings);
+		// Cargamos los componentes de autenticación
+		$this->Auth = $this->Components->load('Auth', array('className' => 'Auth'));
+		// Verificamos si el usuario es un administrador
+		$this->set('tipo_usuario', $this->Auth->user('role'));
+		
 	}
 }

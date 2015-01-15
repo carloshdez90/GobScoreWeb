@@ -63,4 +63,28 @@
 			}
  		});
 	});
+
+	
+	
+	function buscar(controller, action, pagina) {
+		$.ajax({
+			type    : 'get',
+			url     : 'http://'+servidor+'/'+controller+'/'+action,
+			data    : {
+				foreign : 'form_id',
+ 				form_id : form_id,
+				pagina : pagina,
+				buscar : $('#buscar').val(),
+				limit  : $('#limit').val()
+			},
+			success : function (data) {
+				$('#pagination').html(data);
+			},
+			error   : function(e) {
+				alert(pagina)
+				alert("An error occurred: " + e.responseText.message);
+			}
+		});	
+	}
+
 </script>

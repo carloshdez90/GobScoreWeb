@@ -104,8 +104,9 @@ class QuestionsController extends AppController {
 	public function ajaxIndex() {
 		$this->layout = 'ajax';
 		$this->Question->recursive = 0;
+		$form_id = $_POST['form_id'];
 		$conditions = array(
-			//'active !=' => 'd',
+			'Question.form_id' => $form_id,
 		);
 		$this->Paginator->settings = array(
 			'Question' => array(

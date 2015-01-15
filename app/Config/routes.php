@@ -43,6 +43,10 @@ Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
 
 
 Router::connect('/administradores', array('controller' => 'users', 'action' => 'index'));
+Router::connect('/administradores/add', array('controller' => 'users', 'action' => 'add'));
+Router::connect('/administradores/view/*', array('controller' => 'users', 'action' => 'view'));
+Router::connect('/administradores/edit/*', array('controller' => 'users', 'action' => 'edit'));
+Router::connect('/administradores/delete/*', array('controller' => 'users', 'action' => 'delete'));
 
 
 /**
