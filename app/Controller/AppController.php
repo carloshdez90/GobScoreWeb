@@ -46,7 +46,9 @@ class AppController extends Controller {
 		);
 
 		if ('Denuncia' == $modelo) {
-			$conditions = array();
+			$conditions = array(
+				'Institucion.id' => $this->Auth->user('institucion_id')
+			);
 		}
 		$this->Paginator->settings = array(
 			$modelo => array(
@@ -90,7 +92,9 @@ class AppController extends Controller {
 			$modelo.'.deleted' => false,
 		);
 		if ('Denuncia' == $modelo) {
-			$conditions = array();
+			$conditions = array(
+				'Institucion.id' => $this->Auth->user('institucion_id')
+			);
 		}
 		$name = 'name';
         if ('Denuncia' === $modelo) {
