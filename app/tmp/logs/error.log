@@ -13306,3 +13306,39 @@ Request URL: /gobscore/css/administracion/js/unicorn.login.css
 Stack Trace:
 #0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-01-16 17:35:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-16 17:35:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-16 17:35:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-16 17:35:57 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
