@@ -69,7 +69,7 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'root',
-		'password' => 'p4ss',
+		'password' => 'unafacil',
 		'database' => 'gobscore',
 		'prefix' => '',
 		'encoding' => 'utf8',
