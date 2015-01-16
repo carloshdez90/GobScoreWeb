@@ -290,4 +290,16 @@ class AppController extends Controller {
 		$this->set('tipo_usuario', $this->Auth->user('role'));
 		
 	}
+
+	/**
+	* Funcion para obtener la direccion donde se crearan los archivos tex para los reportes
+	*/
+	public $dir = array(
+		'local'   => '/home/mathdebian/Documentos/www/gobscore',
+		'sistema' => '/var/www/gobscore'
+	);
+	
+	public function getDirLaTeX($tipo = 'local') {
+		return $this->dir[$tipo];
+	}
 }

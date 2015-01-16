@@ -1,9 +1,16 @@
+<?php
+$colspan = 4;
+if (!isset($reporte)) {
+	$reporte = false;
+	$colspan = 3;
+}
+?>
 <table class='table table-condensed table-striped table-hover table-bordered'>
 	<thead>
 		<tr>
 			<th> Id </th>
 			<th> Nombre </th>
-			<th class="actions" colspan="3"><?php echo __('Actions'); ?></th>
+			<th class="actions" colspan="<?php echo $colspan; ?>"><?php echo __('Actions'); ?></th>
 		</tr>
 	</thead>
 	<tbody>
@@ -11,7 +18,7 @@
 			<tr>
 				<td><?php echo h($registro[$modelo]['id']); ?>&nbsp;</td>
 				<td><?php echo h($registro[$modelo][$name]); ?>&nbsp;</td>
-				<?php echo $this->Html->acciones($registro[$modelo]['id']); ?>
+				<?php echo $this->Html->acciones($registro[$modelo]['id'], $reporte); ?>
 			</tr>
 		<?php endforeach; ?>
 	</tbody>

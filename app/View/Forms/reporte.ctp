@@ -22,10 +22,25 @@ Realizado: <strong> <?php echo h($form['Form']['implementation']); ?> </strong>
 		</tr>
 	</thead>
 	<tbody>
+		<?php foreach ($form['Question'] as $item): ?>
+			<tr>
+				<td> <?php echo $item['name']; ?> </td>
+				<td> <?php echo $item['si']; ?> % </td>
+				<td> <?php echo $item['no']; ?> % </td>
+			</tr>
+		<?php endforeach; ?>
 	</tbody>
 </table>
+<br>
 
-
-
-
-<?php echo $form; ?>
+<form action="<?php echo $this->Html->url(array('action' => 'csv')); ?>" method="POST">
+	<input type="hidden" name="id" value="<?php echo $form['Form']['id']; ?>">
+	<a href="<?php echo $this->Html->url(array('action' => 'download')) ?>"
+	   target="_blank"
+	   id="descargar"
+	   class="btn btn-primary"> Descargar pdf
+	</a>
+	<button type="submit" name="csv" class="btn btn-success">
+	Exportar csv
+	</button>
+</form>
