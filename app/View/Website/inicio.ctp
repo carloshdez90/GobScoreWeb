@@ -1055,6 +1055,12 @@
 											}
 										});
 									</script>
+									<?php $band = $this->Session->flash(); ?>
+									<?php if ($band): ?>
+										<script>
+											alert('Tu denuncia ha sido enviada con éxito.')
+										</script>
+									<?php endif; ?>
                             </div>
                         </div>
                     </div>

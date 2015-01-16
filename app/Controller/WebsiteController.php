@@ -7,7 +7,11 @@ class WebsiteController extends AppController {
 	 */
 	public function inicio() {
 		$this->loadModel('Mensaje');
+		$conditions = array(
+			'Denuncia.mostrar' => true,
+		);
 		$options = array(
+			'conditions' => $conditions,
 			'limit' => 9,
 			'order' => array('Mensaje.created DESC'),
 		);
@@ -71,6 +75,7 @@ class WebsiteController extends AppController {
 		foreach ($tiempos as $registro) {
 			$institucions[$i]['calificacion'] = 10 - ($registro['Tiempo']['total'] -
 													  $tiempo_min)/$tiempo_max*10;
+			$institucions[$i]['calificacion'] = floor($institucions[$i]['calificacion']/3*100)/100;
 			$institucions[$i++]['Institucion']['name'] = $registro['Institucion']['name'];
 		}
 		
@@ -241,6 +246,7 @@ class WebsiteController extends AppController {
 			
 			//unset($this->Empresa->User->validate['Denuncia_id']);
 			if ($this->Denuncia->Mensaje->saveAssociated($this->request->data)) {
+				$this->Session->setFlash(1);
 				return $this->redirect(array('action' => 'inicio'));
 			}
 			

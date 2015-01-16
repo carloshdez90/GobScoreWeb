@@ -9,6 +9,8 @@
 <?php echo $this->Form->input('institucion_id', array('label' => '')); ?>
 <?php echo $this->Form->input('Mensaje.contenido', array('type' => 'textarea', 'placeholder' => 'Escribe tu denuncia', 'label' => '')); ?>
 
+<?php echo $this->Form->input('mostrar', array('type' => 'select', 'label' => '', 'options' => array(false => 'No mostrar', true => 'Mostrar'))); ?> 
+
 <?php echo $this->Form->submit('Enviar denuncia', array('class'  => 'message-btn')); ?>
 
 <?php echo $this->Form->end(); ?>
