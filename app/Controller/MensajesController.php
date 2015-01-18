@@ -63,6 +63,11 @@ class MensajesController extends AppController {
 					'Denuncia.id' => $denuncia_id,
 				);
 				$denuncia = $this->Denuncia->find('first', $options);
+
+				// Guardando el estado de la denuncia
+				$this->Denuncia->id = $denuncia['Denuncia']['id'];
+				$datos = array('estado' => 1);
+				$this->Denuncia->save($datos);
 				
 				$this->loadModel('Calificacion');
 				$options['conditions'] = array(

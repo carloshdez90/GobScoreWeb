@@ -66,6 +66,11 @@ class DenunciasController extends AppController {
 				'created'      => $fecha_f,
 			);
 			$this->Calificacion->save($datos);
+
+			// Cambiar estado de la denuncia a visto
+			$datos = array('estado' => 0);
+			$this->Denuncia->id = $id;
+			$this->Denuncia->save($datos);
 		}
 		/*
 		$fecha_i = date('Y-m-d H:i:s');

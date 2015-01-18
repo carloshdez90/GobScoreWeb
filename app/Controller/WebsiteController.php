@@ -237,15 +237,16 @@ class WebsiteController extends AppController {
 				$total = $this->Denuncia->find('count', $options);
 			}
 
-			$this->request->data['Denuncia']['codigo']      = $codigo;
-			$this->request->data['Denuncia']['solucionada'] = 0;
-			$this->request->data['Denuncia']['created']     = date('Y-m-d H:i:s');
+			$this->request->data['Denuncia']['codigo']  = $codigo;
+			$this->request->data['Denuncia']['estado']  = -1;
+			$this->request->data['Denuncia']['created'] = date('Y-m-d H:i:s');
 			
 			$this->request->data['Mensaje']['tipo']    = 'd';
 			$this->request->data['Mensaje']['created'] = date('Y-m-d H:i:s');
 			
 			//unset($this->Empresa->User->validate['Denuncia_id']);
 			if ($this->Denuncia->Mensaje->saveAssociated($this->request->data)) {
+				
 				$this->Session->setFlash(1);
 				return $this->redirect(array('action' => 'inicio'));
 			}
@@ -272,88 +273,67 @@ class WebsiteController extends AppController {
 	/**
 	 *
 	 */
-	public function seguimiento($email = 'esau@gmail.com', $codigo = '43370665') {
-		$this->layout = 'seguimiento';
-		$this->loadModel('Denuncia');
-		$options['fields'] = array('Denuncia.id');
-		$options['conditions'] = array(
-			'email' => $email,
-			'codigo' => $codigo,
-		);
-		$denuncia = $this->Denuncia->find('first', $options);
-		$indice = 1;
-		if (count($denuncia)) {
-			if (-1 != $denuncia['Calificacion'][0]['visto']) {
-				$indice += 1;
-			}
-			if (-1 != $denuncia['Calificacion'][0]['respuesta']) {
-				$indice += 1;
-			}
+	public function seguimiento($email = '', $codigo = '') {
+		
+		if ($this->request->is('POST')) {
+			$email = $this->request->data['email'];
+			$codigo = $this->request->data['codigo'];
+			
+			$this->layout = 'seguimiento';
+			$this->loadModel('Denuncia');
+			$options['fields'] = array('Denuncia.id', 'Denuncia.estado');
+			$options['conditions'] = array(
+				'email' => $email,
+				'codigo' => $codigo,
+			);
+			$denuncia = $this->Denuncia->find('first', $options);
+			$indice = $denuncia['Denuncia']['estado'];
+			$class = array(
+				-1 => 'state-send',
+				0  => 'state-read',
+				1  => 'state-ok',
+			);
+			$this->set('clase', $class[$indice]);
+			$this->set('indice', $indice);
+		} else {
+			return $this->redirect(array('action' => 'inicio'));
 		}
-		$class = array(
-			1 => 'state-send',
-			2 => 'state-read',
-			3 => 'state-ok',
-		);
-		$this->set('clase', $class[$indice]);
-		$this->set('indice', $indice);
+		
 	}
 
+
+	/**
+	 *
+	 */
+	public function verificacion() {
+		$this->autoRender = false;
+		$this->request->onlyAllow('ajax');
+		$this->response->type('json');
+
+		if ($this->request->is('post')) {
+			
+			$email = $_POST['email'];
+			$codigo = $_POST['codigo'];
+			$this->loadModel('Denuncia');
+			$options['conditions'] = array(
+				'email'  => $email,
+				'codigo' => $codigo,
+			);
+			$total = $this->Denuncia->find('count', $options);
+			$data = array('error' => 1);
+			if ($total) {
+				$data = array('email' => $email, 'codigo' => $codigo);
+			}
+			return json_encode($data);
+			
+		}
+		return;
+	}
+	
 	/**
 	 *
 	 */
 	public function tiempo() {
 
-		/*
-		$denuncia_id = 1;
-		$tiempo_final = rand(0,1000);
-		
-		$this->loadModel('Denuncia');
-		$options['conditions'] = array(
-			'Denuncia.id' => $denuncia_id,
-		);
-		$denuncia = $this->Denuncia->find('first', $options);
-
-
-		
-		$institucion_id = $denuncia['Denuncia']['institucion_id'];
-		$this->loadModel('Tiempo');
-		$options['conditions'] = array(
-			'Tiempo.institucion_id' => $institucion_id,
-		);
-		$tiempo = $this->Tiempo->find('first', $options);
-		if (!$tiempo) {
-			$this->Tiempo->create();
-			$datos['created']        = date('Y-m-d H:i:s');
-			$datos['institucion_id'] = $institucion_id;
-			$datos['total']         = $tiempo_final;
-		} else {
-			$this->Tiempo->id = $tiempo['Tiempo']['id'];
-			$datos['total']  = ($tiempo['Tiempo']['total'] + $tiempo_final)/2;
-		}
-		$this->Tiempo->save($datos);
-		 
-		$institucion_id = 1;
-		
-		$this->loadModel('Calificacion');
-		$this->Calificacion->recursive = -1;
-		$options['conditions'] = array(
-			'Denuncia.institucion_id'   => $institucion_id,
-			'Calificacion.respuesta !=' => -1,
-		);
-		$options['joins'] = array(
-			array(
-				'table' => 'denuncias',
-				'alias' => 'Denuncia',
-				'type' => 'LEFT',
-				'conditions' => array(
-					'Denuncia.id = Calificacion.denuncia_id',
-				)
-			)
-		);
-		$total = $this->Calificacion->find('count', $options);
-		$this->Calificacion->recursive = 1;
-
-		*/
 	}
 }

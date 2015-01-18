@@ -19,7 +19,7 @@
 			</tr>
 			<tr>
 				<td> Estado </td>
-				<td> <?php echo h($denuncia['Denuncia']['solucionada']); ?>&nbsp; </td>
+				<td> <?php echo h($denuncia['Denuncia']['estado']); ?>&nbsp; </td>
 			</tr>
 		</tbody>
 	</table>

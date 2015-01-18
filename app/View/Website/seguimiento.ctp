@@ -1,3 +1,4 @@
+
 <div class="container-fluid">
 	<div class="row">
 	  	<div class="col-md-2"></div>
@@ -64,24 +65,24 @@
 <?php endif; ?>
 
 <script>
-    $(document).on('ready', function(){
+	$(document).on('ready', function(){
 		var mensaje = {};
 		
-    	mensaje[1] = 'GobScore ha enviado tu mensaje a la institución correspondiente, '+
-				   'puedes dar seguimiento de tu caso por este medio, utilizando el '+
-				   'código de referencia y tu correo electrónico.';
-    	mensaje[2] = 'GobScore te informa que la institución ha recibido y leído tu mensaje. '+
-				   'Cuando exista respuesta se te notificará por correo electrónico.';
-    	mensaje[3] = 'La institución ha dado respuesta a tu mensaje, por favor revisa tu '+
-				   'correo electrónico. Además Gobscore te invita valorar la utilidad de la '+
-				   'respuesta brindada.';
+    	mensaje[-1] = 'GobScore ha enviado tu mensaje a la institución correspondiente, '+
+					 'puedes dar seguimiento de tu caso por este medio, utilizando el '+
+					 'código de referencia y tu correo electrónico.';
+    	mensaje[0] = 'GobScore te informa que la institución ha recibido y leído tu mensaje. '+
+					 'Cuando exista respuesta se te notificará por correo electrónico.';
+    	mensaje[1] = 'La institución ha dado respuesta a tu mensaje, por favor revisa tu '+
+					 'correo electrónico. Además Gobscore te invita valorar la utilidad de la '+
+					 'respuesta brindada.';
 
 		var indice = '<?php echo $indice; ?>';
 		var clase  = '<?php echo $clase; ?>';
 
     	$('.state-message').html(mensaje[indice]);
 		$('#mensaje').addClass(clase);
-			
+		
     	$(':radio').change(
 			function(){
 				$('.choice').text( this.value + ' stars' );
@@ -97,5 +98,6 @@
 		});
 		
 
-    });
+	});
 </script>
+

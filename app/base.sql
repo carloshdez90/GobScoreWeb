@@ -30,6 +30,7 @@ drop table forms;
 create table forms(
    id int(11) not null primary key auto_increment,
 	name varchar(500) not null unique,
+	implementation date not null,
 	status boolean not null,
 	institucion_id int(11) not null,
 	deleted boolean not null,
@@ -86,9 +87,10 @@ create table denuncias(
    nombre varchar(255) not null,
    email varchar(255) not null,
    tipo_id varchar(2) not null,
+	mostrar boolean not null,
    codigo varchar(16) not null,
    institucion_id int(11) not null,
-   solucionada boolean not null,
+   estado int(2) not null,
    created datetime not null,
    updated TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP
 );
@@ -124,8 +126,21 @@ create table tiempos(
 );
 
 
-
-select count(calificacions.id) from calificacions, denuncias where denuncias.id=calificacions.denuncia_id and denuncias.institucion_id=1 and calificacions.respuesta!=-1;
-
 insert into users values(1,'Administrador','xscharliexs@gmail.com','42aa600817f47639d605f74dbe228af30dadc47a','root',0,0,'2015-01-10 15:16:38','2015-01-10 15:16:38');
+
+
+
+/*select count(calificacions.id) from calificacions, denuncias where denuncias.id=calificacions.denuncia_id and denuncias.institucion_id=1 and calificacions.respuesta!=-1;*/
+
+
+select questions.id, count(answer) from answers, questions, forms  where forms.id=questions.form_id and questions.id=answers.question_id and forms.id=1 and answer=1 group by question_id;
+
+select question_id, count(answer) from answers  where answer=0 group by question_id;
+
+
+
+select questions.id, count(answer) from answers, questions, forms  where forms.id=questions.form_id and questions.id=answers.question_id and forms.id=1 and answer=0 group by question_id;
+
+
+
 

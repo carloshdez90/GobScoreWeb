@@ -40,6 +40,7 @@ Router::connect('/rendicion-de-cuentas', array('controller' => 'website', 'actio
 Router::connect('/crear-denuncias', array('controller' => 'website', 'action' => 'denuncias'));
 Router::connect('/seguimiento', array('controller' => 'website', 'action' => 'seguimiento'));
 Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
+Router::connect('/verificacion', array('controller' => 'website', 'action' => 'verificacion'));
 
 
 Router::connect('/administradores', array('controller' => 'users', 'action' => 'index'));

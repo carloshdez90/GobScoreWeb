@@ -44,10 +44,10 @@ class AppController extends Controller {
 		$conditions = array(
 			$modelo.'.deleted' => false,
 		);
-
 		if ('Denuncia' == $modelo) {
 			$conditions = array(
-				'Institucion.id' => $this->Auth->user('institucion_id')
+				'Institucion.id' => $this->Auth->user('institucion_id'),
+				'Denuncia.estado' => -1,
 			);
 		}
 		$this->Paginator->settings = array(
@@ -93,7 +93,8 @@ class AppController extends Controller {
 		);
 		if ('Denuncia' == $modelo) {
 			$conditions = array(
-				'Institucion.id' => $this->Auth->user('institucion_id')
+				'Institucion.id' => $this->Auth->user('institucion_id'),
+				'Denuncia.estado' => $_GET['estado'],
 			);
 		}
 		$name = 'name';
@@ -137,7 +138,7 @@ class AppController extends Controller {
 	)
 	);
 	public function beforeFilter() {
-	$this->Auth->allow('inicio','login', 'rendicionCuentas', 'getFormulario', 'getPregunta', 'calificarPregunta', 'seguimiento', 'tiempo', 'denuncias');				
+	$this->Auth->allow('inicio','login', 'rendicionCuentas', 'getFormulario', 'getPregunta', 'calificarPregunta', 'seguimiento', 'tiempo', 'denuncias', 'verificacion');				
 	}
 	/**/
 

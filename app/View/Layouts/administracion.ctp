@@ -18,7 +18,9 @@
 		<![endif]-->
 		
 		<?php echo $this->Html->script('jquery.min'); ?>
-
+		<?php echo $this->Html->script('servidor'); ?>
+		<?php echo $this->Html->script('pagination'); ?>
+		
 	</head>	
 	<body data-color="grey" class="flat">
 		<div id="wrapper">
@@ -87,7 +89,7 @@
 		<?php echo $this->Html->script('administracion/js/unicorn.dashboard'); ?>
 
 		<?php echo $this->Html->script('jquery.min'); ?>
-		<?php echo $this->Html->script('servidor'); ?>
-		<?php echo $this->Html->script('pagination'); ?>
+		
+		
 	</body>
 </html>

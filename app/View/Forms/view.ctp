@@ -1,32 +1,32 @@
 
-		<table class="table table-striped table-bordered">
-			<tbody>
-				<tr>
-					<td> Id	</td>
-					<td>
-						<?php echo h($form['Form']['id']); ?>
-					</td>
-				</tr>
-				<tr>
-					<td> Nombre	</td>
-					<td>
-						<?php echo h($form['Form']['name']); ?>
-					</td>
-				</tr>
-				<tr>
-					<td> Estado	</td>
-					<td>
-						<?php echo h($form['Form']['status']); ?>
-					</td>
-				</tr>
-				<tr>
-					<td> Creado	</td>
-					<td>
-						<?php echo h($form['Form']['created']); ?>
-					</td>
-				</tr>
-			</tbody>
-		</table>
+<table class="table table-striped table-bordered">
+	<tbody>
+		<tr>
+			<td> Id	</td>
+			<td>
+				<?php echo h($form['Form']['id']); ?>
+			</td>
+		</tr>
+		<tr>
+			<td> Nombre	</td>
+			<td>
+				<?php echo h($form['Form']['name']); ?>
+			</td>
+		</tr>
+		<tr>
+			<td> Estado	</td>
+			<td>
+				<?php echo h($form['Form']['status']); ?>
+			</td>
+		</tr>
+		<tr>
+			<td> Creado	</td>
+			<td>
+				<?php echo h($form['Form']['created']); ?>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
 
 
