@@ -10,6 +10,17 @@ if (!isset($reporte)) {
 		<tr>
 			<th> Id </th>
 			<th> Nombre </th>
+			<?php if ($adicional): ?>
+				<th>
+					<?php echo $adicional['titulo']; ?>
+					<?php
+					$modelo_tmp = $modelo;
+					if (isset($adicional['padre'])) {
+						$modelo_tmp = $adicional['padre'];
+					}
+					?>
+				</th>
+			<?php endif; ?>
 			<th class="actions" colspan="<?php echo $colspan; ?>"><?php echo __('Actions'); ?></th>
 		</tr>
 	</thead>
@@ -18,6 +29,9 @@ if (!isset($reporte)) {
 			<tr>
 				<td><?php echo h($registro[$modelo]['id']); ?>&nbsp;</td>
 				<td><?php echo h($registro[$modelo][$name]); ?>&nbsp;</td>
+				<?php if ($adicional): ?>
+					<td><?php echo h($registro[$modelo_tmp][$adicional['indice']]); ?>&nbsp;</td>
+				<?php endif; ?>
 				<?php if (null != $acciones): ?>
 					<?php echo $this->Html->{$acciones}($registro[$modelo]['id'], $reporte); ?>
 				<?php endif; ?>

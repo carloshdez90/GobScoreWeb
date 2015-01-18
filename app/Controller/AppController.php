@@ -44,6 +44,7 @@ class AppController extends Controller {
 					$modelo.'.deleted' => false,
 				),
 				'acciones' => 'acciones',
+				'adicional' => null,
 			),
 			'User-root' => array(
 				'conditions' => array(
@@ -51,6 +52,7 @@ class AppController extends Controller {
 					$modelo.'.role !=' => 'root',
 				),
 				'acciones' => 'acciones',
+				'adicional' => array('titulo' => 'Institución', 'indice' => 'name', 'padre' => 'Institucion'),
 			),
 			'Form-administrador' => array(
 				'conditions' => array(
@@ -58,6 +60,7 @@ class AppController extends Controller {
 					$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
 				),
 				'acciones' => 'acciones',
+				'adicional' => array('titulo' => 'Fecha de realización', 'indice' => 'implementation'),
 			),
 			'Denuncia-administrador' => array(
 				'conditions' => array(
@@ -65,11 +68,13 @@ class AppController extends Controller {
 					$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
 				),
 				'acciones' => 'una',
+				'adicional' => array('titulo' => 'Fecha', 'indice' => 'created'),
 			),
 		);
 		$resultado = array(
 			'conditions' => array(),
 			'acciones' => 'acciones',
+			'adicional' => null,
 		);
 		if (isset($configurations[$modelo.'-'.$role])) {
 			$resultado = $configurations[$modelo.'-'.$role];
@@ -111,6 +116,9 @@ class AppController extends Controller {
 		$this->set('band', true);
 
 		$this->set('acciones', $configurations['acciones']);
+		$this->set('adicional', $configurations['adicional']);
+
+		
 	}
 
 	/**
@@ -160,7 +168,9 @@ class AppController extends Controller {
 		$this->set('modelo', $modelo);
 		$this->set('controller', $this->params['controller']);
         $this->set('name', $name);
+		
 		$this->set('acciones', $configurations['acciones']);
+		$this->set('adicional', $configurations['adicional']);
 	}
 
 	/**
