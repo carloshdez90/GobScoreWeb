@@ -34,22 +34,60 @@ class AppController extends Controller {
 	
 	public $layout = 'root';
 
-	
+	/**
+	 *
+	 */
+	public function getConfigurations($modelo, $role, $params) {
+		$configurations = array(
+			'Institucion-root' => array(
+				'conditions' => array(
+					$modelo.'.deleted' => false,
+				),
+				'acciones' => 'acciones',
+			),
+			'User-root' => array(
+				'conditions' => array(
+					$modelo.'.deleted' => false,
+					$modelo.'.role !=' => 'root',
+				),
+				'acciones' => 'acciones',
+			),
+			'Form-administrador' => array(
+				'conditions' => array(
+					$modelo.'.deleted' => false,
+					$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
+				),
+				'acciones' => 'acciones',
+			),
+			'Denuncia-administrador' => array(
+				'conditions' => array(
+					$modelo.'.estado' => $params['estado'],
+					$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
+				),
+				'acciones' => 'una',
+			),
+		);
+		$resultado = array(
+			'conditions' => array(),
+			'acciones' => 'acciones',
+		);
+		if (isset($configurations[$modelo.'-'.$role])) {
+			$resultado = $configurations[$modelo.'-'.$role];
+		}
+		return $resultado;
+	}
 	/**
 	 *
 	 */
 	public function index($modelo = 'User') {
 		$modelo = $this->modelClass;
 		$this->{$modelo}->recursive = 0;
-		$conditions = array(
-			$modelo.'.deleted' => false,
+		$configurations = $this->getConfigurations(
+			$modelo,
+			$this->Auth->user('role'),
+			array('estado' => -1)
 		);
-		if ('Denuncia' == $modelo) {
-			$conditions = array(
-				'Institucion.id' => $this->Auth->user('institucion_id'),
-				'Denuncia.estado' => -1,
-			);
-		}
+		$conditions = $configurations['conditions'];
 		$this->Paginator->settings = array(
 			$modelo => array(
 				'limit' => $this->limit,
@@ -71,7 +109,8 @@ class AppController extends Controller {
 		}
 		$this->set('name', $name);
 		$this->set('band', true);
-		
+
+		$this->set('acciones', $configurations['acciones']);
 	}
 
 	/**
@@ -88,15 +127,11 @@ class AppController extends Controller {
 		}
 		$this->layout = 'ajax';
 		$this->{$modelo}->recursive = 0;
-		$conditions = array(
-			$modelo.'.deleted' => false,
-		);
-		if ('Denuncia' == $modelo) {
-			$conditions = array(
-				'Institucion.id' => $this->Auth->user('institucion_id'),
-				'Denuncia.estado' => $_GET['estado'],
-			);
-		}
+		$configurations = $this->getConfigurations(
+			$modelo,
+			$this->Auth->user('role'),
+			array('estado' => $_GET['estado']));
+		$conditions = $configurations['conditions'];
 		$name = 'name';
         if ('Denuncia' === $modelo) {
             $name = 'codigo';
@@ -125,6 +160,7 @@ class AppController extends Controller {
 		$this->set('modelo', $modelo);
 		$this->set('controller', $this->params['controller']);
         $this->set('name', $name);
+		$this->set('acciones', $configurations['acciones']);
 	}
 
 	/**

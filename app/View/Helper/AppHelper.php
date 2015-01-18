@@ -443,7 +443,21 @@ class AppHelper extends Helper {
 	}
 
 
-
+	/**
+	 *
+	 */
+	public function una($id) {
+		$cadena  = '';
+		
+		$cadena .= '<td class="actions">';
+		$cadena .= '<center><a class="btn btn-xs btn-warning derecho"';
+		$cadena .= '   href="'.$this->url(array('action' => 'reporte', $id)).'">';
+		$cadena .= '     &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;&nbsp;';
+		$cadena .= '</a></center>';
+		$cadena .= '</td>';
+		
+		return $cadena;
+	}
 
 
 

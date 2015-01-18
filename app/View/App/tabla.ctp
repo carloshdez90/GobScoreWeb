@@ -18,7 +18,9 @@ if (!isset($reporte)) {
 			<tr>
 				<td><?php echo h($registro[$modelo]['id']); ?>&nbsp;</td>
 				<td><?php echo h($registro[$modelo][$name]); ?>&nbsp;</td>
-				<?php echo $this->Html->acciones($registro[$modelo]['id'], $reporte); ?>
+				<?php if (null != $acciones): ?>
+					<?php echo $this->Html->{$acciones}($registro[$modelo]['id'], $reporte); ?>
+				<?php endif; ?>
 			</tr>
 		<?php endforeach; ?>
 	</tbody>
