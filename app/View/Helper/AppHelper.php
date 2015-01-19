@@ -451,7 +451,7 @@ class AppHelper extends Helper {
 		
 		$cadena .= '<td class="actions">';
 		$cadena .= '<center><a class="btn btn-xs btn-warning derecho"';
-		$cadena .= '   href="'.$this->url(array('action' => 'reporte', $id)).'">';
+		$cadena .= '   href="'.$this->url(array('action' => 'view', $id)).'">';
 		$cadena .= '     &nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-search"></span>&nbsp;&nbsp;&nbsp;';
 		$cadena .= '</a></center>';
 		$cadena .= '</td>';
