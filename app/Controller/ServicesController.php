@@ -78,24 +78,24 @@ class ServicesController extends AppController {
 			}
 			
 			$mostrar = true;
-			if (isset($_POST['show'])) {
-				$mostrar = $_POST['show'];
+			if (isset($this->request->data['show'])) {
+				$mostrar = $this->request->data['show'];
 			}
 			$estado = 0;
 			$created = date('Y-m-d H:i:s');
 			$datos = array(
 				'Denuncia' => array(
-					'nombre'           => $_POST['name'],
-					'email'          => $_POST['email'],
-					'tipo_id'        => $_POST['delation_info'],
+					'nombre'         => $this->request->data['name'],
+					'email'          => $this->request->data['email'],
+					'tipo_id'        => $this->request->data['delation_info'],
 					'mostrar'        => $mostrar,
 					'codigo'         => $codigo,
-					'institucion_id' => $_POST['delation_institution'],
+					'institucion_id' => $this->request->data['delation_institution'],
 					'estado'         => $estado,
 					'created'        => $created,
 				),
 				'Mensaje' => array(
-					'contenido' => $_POST['message'],
+					'contenido' => $this->request->data['message'],
 					'tipo' => 'd',
 					'created' => $created,
 				),
