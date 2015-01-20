@@ -151,6 +151,5 @@ class InstitucionsController extends AppController {
 	 *
 	 */
 	public $layout = 'root';
-
 }
 
