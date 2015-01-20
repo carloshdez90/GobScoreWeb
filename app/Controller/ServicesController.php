@@ -1,12 +1,14 @@
 <?php
 
 class ServicesController extends AppController {
+	public $layout = 'ajax';
+	
 	/**
 	 *
 	 */
 	public function instituciones() {
 		$this->autoRender = false;
-		$this->request->onlyAllow('ajax');
+		//$this->request->onlyAllow('ajax');
 		$this->response->type('json');
 
 		$this->loadModel('Institucion');
@@ -24,5 +26,9 @@ class ServicesController extends AppController {
 		}
 		
 		return json_encode($datos);
+	}
+
+	public function pruebas() {
+		
 	}
 }
