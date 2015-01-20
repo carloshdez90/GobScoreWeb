@@ -6,7 +6,7 @@ class ServicesController extends AppController {
 	 */
 	public function instituciones() {
 		$this->autoRender = false;
-		//$this->request->onlyAllow('ajax');
+		$this->request->onlyAllow('ajax');
 		$this->response->type('json');
 
 		$this->loadModel('Institucion');
