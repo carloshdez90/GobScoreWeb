@@ -62,7 +62,8 @@ class ServicesController extends AppController {
 
 		$resultado = array('result' => -1);
 		if ($this->request->is('POST')) {
-			$this->loadModel('Denuncias');
+			$this->loadModel('Denuncia');
+			$this->Denuncia->create();
 			
 			$total = 1;
 			while ($total) {
@@ -75,14 +76,16 @@ class ServicesController extends AppController {
 				);
 				$total = $this->Denuncia->find('count', $options);
 			}
+			
 			$mostrar = true;
 			if (isset($_POST['show'])) {
 				$mostrar = $_POST['show'];
 			}
+			$estado = 0;
 			$created = date('Y-m-d H:i:s');
 			$datos = array(
 				'Denuncia' => array(
-					'name'           => $_POST['name'],
+					'nombre'           => $_POST['name'],
 					'email'          => $_POST['email'],
 					'tipo_id'        => $_POST['delation_info'],
 					'mostrar'        => $mostrar,
@@ -107,4 +110,7 @@ class ServicesController extends AppController {
 		return json_encode($resultado);
 	}
 
+	public function pruebas() {
+		
+	}
 }
