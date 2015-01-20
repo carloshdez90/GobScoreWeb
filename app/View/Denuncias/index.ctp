@@ -23,7 +23,11 @@
 			type    : 'get',
 			url     : 'http://'+servidor+'/'+controller+'/'+action,
 			data    : {
- 				estado : estado,
+				adicional : {
+					'index' : 'estado',
+					'value' : estado,
+				},
+				estado : estado,
 				pagina : pagina,
 				buscar : $('#buscar').val(),
 				limit  : $('#limit').val()

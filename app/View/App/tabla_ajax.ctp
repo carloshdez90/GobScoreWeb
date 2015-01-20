@@ -3,7 +3,9 @@
 		<tr>
 			<th> Id </th>
 			<th> Nombre </th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<?php if ($eliminar): ?>
+				<th class="actions"><?php echo __('Actions'); ?></th>
+			<?php endif; ?>
 		</tr>
 	</thead>
 	<tbody>
@@ -11,7 +13,9 @@
 			<tr>
 				<td><?php echo h($registro[$modelo]['id']); ?>&nbsp;</td>
 				<td><?php echo h($registro[$modelo][$name]); ?>&nbsp;</td>
-				<?php echo $this->Html->eliminar($registro[$modelo]['id']); ?>
+				<?php if ($eliminar): ?>
+					<?php echo $this->Html->eliminar($registro[$modelo]['id']); ?>
+				<?php endif; ?>
 			</tr>
 		<?php endforeach; ?>
 	</tbody>

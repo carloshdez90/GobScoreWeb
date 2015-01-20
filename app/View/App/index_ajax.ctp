@@ -1,8 +1,16 @@
+<?php
+
+$mensaje = '';
+if ($eliminar) {
+	$mensaje = 'Agregar '.$modelo;
+}
+
+?>
 <div class="">
 	<!--  --
 	<h2 class="text-align-right"><?php echo __($modelo); ?></h2>
 	<!--  -->
-	<?php echo $this->Html->crearBuscarHijo($controller, 'paginationAjax', 'Agregar '.$modelo, $total); ?>
+	<?php echo $this->Html->crearBuscarHijo($controller, 'paginationAjax', $mensaje, $total); ?>
 	<div id="pagination">
 		<?php if ($registros): ?>
 			<?php include ROOT.'/app/View/App/tabla_ajax.ctp'; ?>
@@ -38,7 +46,6 @@
 
 
 
-<?php echo $this->Html->script('bootstrap.min'); ?>
 
 
 <script>

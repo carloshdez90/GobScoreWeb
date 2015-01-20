@@ -568,4 +568,27 @@ class AppHelper extends Helper {
 		$cadena .= '<script>function asignarId(id){$("#registro_id").html(id);$("#id").val(id);}</script>';
 		return $cadena;
 	}
+
+
+	/**
+	 * Acciones: Ver Reporte
+	 */
+	public function accionesVerReporte($id, $reporte = null) {
+		$cadena  = '';
+		$cadena .= '<td class="actions" colspan="2">';
+		$cadena .= '<a class="btn btn-xs btn-default izquierdo" style="width:105%;"';
+		$cadena .= '   href="'.$this->url(array('action' => 'view', $id)).'">';
+		$cadena .= '     <span class="glyphicon glyphicon-search"></span>';
+		$cadena .= '</a>';
+		$cadena .= '</td>';
+		if (true == $reporte) {
+			$cadena .= '<td class="actions" colspan="2">';
+			$cadena .= '<a class="btn btn-xs btn-success derecho" style="width:105%;"';
+			$cadena .= '   href="'.$this->url(array('action' => 'reporte', $id)).'">';
+			$cadena .= '     <span class="glyphicon glyphicon-file"></span>';
+			$cadena .= '</a>';
+			$cadena .= '</td>';
+		}
+		return $cadena;
+	}
 }

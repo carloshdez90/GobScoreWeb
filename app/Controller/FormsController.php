@@ -16,8 +16,6 @@ class FormsController extends AppController {
 	 */
 	public $components = array('Paginator', 'Session');
 
-
-
 	/**
 	 * view method
 	 *

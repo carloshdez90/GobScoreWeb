@@ -38,7 +38,7 @@
 <div id="questions">
 </div>
 
-<?php echo $this->Html->script('servidor'); ?>
+
 <script>			   
 	function cargar() {
 		$.ajax({

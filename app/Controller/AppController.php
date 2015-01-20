@@ -38,6 +38,14 @@ class AppController extends Controller {
 	 *
 	 */
 	public function getConfigurations($modelo, $role, $params) {
+		$estado = -1;
+		if (isset($params['estado'])) {
+			$estado = $params['estado'];
+		}
+		$implementation = '>=';
+		if (isset($params['implementation'])) {
+			$implementation = $params['implementation'];
+		}
 		$configurations = array(
 			'Institucion-root' => array(
 				'conditions' => array(
@@ -58,13 +66,14 @@ class AppController extends Controller {
 				'conditions' => array(
 					$modelo.'.deleted' => false,
 					$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
+					$modelo.'.implementation '.$implementation => date('Y-m-d'),
 				),
 				'acciones' => 'acciones',
 				'adicional' => array('titulo' => 'Fecha de realización', 'indice' => 'implementation'),
 			),
 			'Denuncia-administrador' => array(
 				'conditions' => array(
-					$modelo.'.estado' => $params['estado'],
+					$modelo.'.estado' => $estado,
 					$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
 				),
 				'acciones' => 'una',
@@ -81,6 +90,83 @@ class AppController extends Controller {
 		}
 		return $resultado;
 	}
+
+	/**
+	 *
+	 */
+	public function verReporte($registros) {
+		$fields = array('Answer.id');
+		$joins = array(
+			array(
+				'table' => 'questions',
+				'alias' => 'Question',
+				'type' => 'INNER',
+				'conditions' => array(
+					'Form.id = Question.form_id',
+				)
+			),
+			array(
+				'table' => 'answers',
+				'alias' => 'Answer',
+				'type' => 'INNER',
+				'conditions' => array(
+					'Question.id = Answer.question_id',
+				)
+			),
+
+		);
+		
+		$options = array(
+			'fields' => $fields,
+			'joins' => $joins,
+		);
+		$i = 0;
+		foreach ($registros as $registro) {
+			$options['conditions']['Form.id'] = $registro['Form']['id'];
+			$tmp = $this->Form->find('count', $options);
+			$registros[$i++]['lleno'] = $tmp;
+		}
+
+		return $registros;
+	}
+
+		/**
+	 *
+	 */
+	public function eliminarForm($id) {
+		$this->loadModel('Form');
+		$fields = array('Answer.id');
+		$joins = array(
+			array(
+				'table' => 'questions',
+				'alias' => 'Question',
+				'type' => 'INNER',
+				'conditions' => array(
+					'Form.id = Question.form_id',
+				)
+			),
+			array(
+				'table' => 'answers',
+				'alias' => 'Answer',
+				'type' => 'INNER',
+				'conditions' => array(
+					'Question.id = Answer.question_id',
+				)
+			),
+
+		);
+		
+		$options = array(
+			'fields' => $fields,
+			'joins' => $joins,
+		);
+
+		$options['conditions']['Form.id'] = $id;
+		$tmp = $this->Form->find('count', $options);
+
+		return $tmp;
+	}
+	
 	/**
 	 *
 	 */
@@ -99,7 +185,13 @@ class AppController extends Controller {
 				'conditions' => $conditions,
 			)
 		);
-		$this->set('registros', $this->Paginator->paginate());
+		$registros = $this->Paginator->paginate();
+		if ('Form' == $modelo) {
+			$registros = $this->verReporte($registros);
+		}
+		$this->set('registros',$registros);
+
+		
 		$this->set('total', $this->{$modelo}->find('count'));
 		$total = ($this->{$modelo}->find('count') + $this->limit -1)/$this->limit;
 		$this->set('total', floor($total));
@@ -133,12 +225,19 @@ class AppController extends Controller {
 			// Si hemos seleccionado un limite este sera configurado
 			$this->limit = $_GET['limit'];
 		}
+		$params = array();
+		if (isset($_GET['adicional'])) {
+			$params = array(
+				$_GET['adicional']['index'] => $_GET['adicional']['value']
+			);
+		}
+		//array('estado' => $_GET['estado'])
 		$this->layout = 'ajax';
 		$this->{$modelo}->recursive = 0;
 		$configurations = $this->getConfigurations(
 			$modelo,
 			$this->Auth->user('role'),
-			array('estado' => $_GET['estado']));
+			$params);
 		$conditions = $configurations['conditions'];
 		$name = 'name';
         if ('Denuncia' === $modelo) {
@@ -156,7 +255,12 @@ class AppController extends Controller {
 				'conditions' => $conditions
 			),
 		);
-		$this->set('registros', $this->Paginator->paginate());
+		$registros = $this->Paginator->paginate();
+		if ('Form' == $modelo) {
+			$registros = $this->verReporte($registros);
+		}
+		$this->set('registros',$registros);
+		
 		$options = array(
 			'conditions' => $conditions
 		);
@@ -195,10 +299,12 @@ class AppController extends Controller {
 		$this->layout = 'ajax';
 		$modelo = $this->modelClass;
 		$this->{$modelo}->recursive = 0;
+
 		
 		$conditions = array(
 			$modelo.'.deleted' => false,
 		);
+		$foreign = null;
 		if (isset($_POST['foreign'])) {
 			$foreign = $_POST['foreign'];
 			$conditions[$modelo.'.'.$foreign] = $_POST[$foreign];
@@ -209,7 +315,15 @@ class AppController extends Controller {
 				'conditions' => $conditions,
 			)
 		);
-		$this->set('registros', $this->Paginator->paginate());
+		$registros = $this->Paginator->paginate();
+
+		$eliminar = true;
+		if ($foreign) {
+			$eliminar = !$this->eliminarForm($_POST[$foreign]);
+		}
+		$this->set('eliminar', $eliminar);
+
+		$this->set('registros', $registros);
 		//$this->set('total', $this->{$modelo}->find('count', $conditions));
 		$options = array(
 			'conditions' => $conditions
@@ -244,6 +358,7 @@ class AppController extends Controller {
 		$conditions = array(
 			$modelo.'.deleted' => false,
 		);
+		$foreign = null;
 		if (isset($_GET['foreign'])) {
 			$foreign = $_GET['foreign'];
 			$conditions[$modelo.'.'.$foreign] = $_GET[$foreign];
@@ -264,7 +379,16 @@ class AppController extends Controller {
 				'conditions' => $conditions
 			),
 		);
-		$this->set('registros', $this->Paginator->paginate());
+		
+		$registros = $this->Paginator->paginate();
+		$this->set('registros', $registros);
+		
+		$eliminar = true;
+		if ($foreign) {
+			$eliminar = !$this->eliminarForm($_GET[$foreign]);
+		}
+		$this->set('eliminar', $eliminar);
+
 		$options = array(
 			'conditions' => $conditions
 		);

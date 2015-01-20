@@ -33,7 +33,15 @@ if (!isset($reporte)) {
 					<td><?php echo h($registro[$modelo_tmp][$adicional['indice']]); ?>&nbsp;</td>
 				<?php endif; ?>
 				<?php if (null != $acciones): ?>
-					<?php echo $this->Html->{$acciones}($registro[$modelo]['id'], $reporte); ?>
+					<?php
+					$tmp = '';
+					if (isset($registro['lleno'])) {
+						if ($registro['lleno']) {
+							$tmp = 'VerReporte';
+						}
+					}
+					?>
+					<?php echo $this->Html->{$acciones.$tmp}($registro[$modelo]['id'], $reporte); ?>
 				<?php endif; ?>
 			</tr>
 		<?php endforeach; ?>
