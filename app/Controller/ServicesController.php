@@ -51,5 +51,60 @@ class ServicesController extends AppController {
 		return json_encode($datos);
 	}
 
-	//public function pruebas() {}
+		/**
+		 *
+		 */
+	public $limite = 99999999;
+	public function guardarDenuncia() {
+		$this->autoRender = false;
+		//$this->request->onlyAllow('ajax');
+		$this->response->type('json');
+
+		$resultado = array('result' => -1);
+		if ($this->request->is('POST')) {
+			$this->loadModel('Denuncias');
+			
+			$total = 1;
+			while ($total) {
+				$codigo = rand(0, $this->limite);
+				$conditions = array(
+					'codigo' => $codigo
+				);
+				$options = array(
+					'conditions' => $conditions,
+				);
+				$total = $this->Denuncia->find('count', $options);
+			}
+			$mostrar = true;
+			if (isset($_POST['show'])) {
+				$mostrar = $_POST['show'];
+			}
+			$created = date('Y-m-d H:i:s');
+			$datos = array(
+				'Denuncia' => array(
+					'name'           => $_POST['name'],
+					'email'          => $_POST['email'],
+					'tipo_id'        => $_POST['delation_info'],
+					'mostrar'        => $mostrar,
+					'codigo'         => $codigo,
+					'institucion_id' => $_POST['delation_institution'],
+					'estado'         => $estado,
+					'created'        => $created,
+				),
+				'Mensaje' => array(
+					'contenido' => $_POST['message'],
+					'tipo' => 'd',
+					'created' => $created,
+				),
+			);
+
+			$resultado = array('result' => 0);
+			if ($this->Denuncia->save($datos)) {
+				$resultado = array('result' => 1);
+			}
+		}
+		
+		return json_encode($resultado);
+	}
+
 }

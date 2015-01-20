@@ -291,7 +291,7 @@ class AppController extends Controller {
 		$this->Auth->allow('inicio','login', 'rendicionCuentas',
 						   'getFormulario', 'getPregunta', 'calificarPregunta',
 						   'seguimiento', 'tiempo', 'denuncias', 'verificacion',
-						   'instituciones', 'tipoDenuncias');				
+						   'instituciones', 'tipoDenuncias', 'guardarDenuncia');				
 	}
 	/**/
 
