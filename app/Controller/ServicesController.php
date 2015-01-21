@@ -62,6 +62,9 @@ class ServicesController extends AppController {
 
 		$resultado = array('result' => -1);
 		if ($this->request->is('POST')) {
+			
+			$this->_decipher_data();
+			
 			$this->loadModel('Denuncia');
 			$this->Denuncia->create();
 			
@@ -78,31 +81,31 @@ class ServicesController extends AppController {
 			}
 			
 			$mostrar = true;
-			if (isset($this->request->data['show'])) {
-				$mostrar = $this->request->data['show'];
+			if (isset($this->request->useful_data['show'])) {
+				$mostrar = $this->request->useful_data['show'];
 			}
 			$estado = 0;
 			$created = date('Y-m-d H:i:s');
 			$datos = array(
 				'Denuncia' => array(
-					'nombre'         => $this->request->data['name'],
-					'email'          => $this->request->data['email'],
-					'tipo_id'        => $this->request->data['delation_info'],
+					'nombre'         => $this->request->useful_data['name'],
+					'email'          => $this->request->useful_data['email'],
+					'tipo_id'        => $this->request->useful_data['delation_info'],
 					'mostrar'        => $mostrar,
 					'codigo'         => $codigo,
-					'institucion_id' => $this->request->data['delation_institution'],
+					'institucion_id' => $this->request->useful_data['delation_institution'],
 					'estado'         => $estado,
 					'created'        => $created,
 				),
 				'Mensaje' => array(
-					'contenido' => $this->request->data['message'],
+					'contenido' => $this->request->useful_data['message'],
 					'tipo' => 'd',
 					'created' => $created,
 				),
 			);
 			$resultado = array('result' => 0);
 			if ($this->Denuncia->save($datos)) {
-				$resultado = array('result' => $_POST['data']->{'name'});
+				$resultado = array('result' => 1);
 			}
 		}
 		
@@ -111,5 +114,19 @@ class ServicesController extends AppController {
 
 	public function pruebas() {
 		
+	}
+
+	protected function _decipher_data() {
+		$contentType = $this->request->header('Content-Type');
+		$sendsJson = (strpos($contentType, 'json') !== false);
+		$sendsUrlEncodedForm = (strpos($contentType, 'x-www-form-urlencoded') !== false);
+
+		if ($sendsJson) {
+			$this->request->useful_data = $this->request->input('json_decode', true);
+		}
+		if ($sendsUrlEncodedForm) {
+			$this->request->useful_data = $this->request->data;
+		}
+		return $this->request->useful_data;
 	}
 }
