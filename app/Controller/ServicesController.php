@@ -88,7 +88,7 @@ class ServicesController extends AppController {
 			$created = date('Y-m-d H:i:s');
 			$datos = array(
 				'Denuncia' => array(
-					'nombre'         => $this->request->useful_data['data']['data']['name'],
+					'nombre'         => $this->request->useful_data['data']['name'],
 					'email'          => $this->request->useful_data['data']['email'],
 					'tipo_id'        => $this->request->useful_data['data']['delation_info'],
 					'mostrar'        => $mostrar,
