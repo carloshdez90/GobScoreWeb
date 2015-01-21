@@ -109,7 +109,10 @@ class ServicesController extends AppController {
 			}
 		}
 		
-		return json_encode($resultado);
+		//return json_encode($resultado);
+		return json_encode($this->request->useful_data);
+
+		
 	}
 
 	public function pruebas() {
