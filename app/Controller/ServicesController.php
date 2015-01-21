@@ -81,24 +81,24 @@ class ServicesController extends AppController {
 			}
 			
 			$mostrar = true;
-			if (isset($this->request->data['show'])) {
-				$mostrar = $this->request->data['show'];
+			if (isset($this->request->useful_data['data']['show'])) {
+				$mostrar = $this->request->useful_data['data']['show'];
 			}
 			$estado = 0;
 			$created = date('Y-m-d H:i:s');
 			$datos = array(
 				'Denuncia' => array(
-					'nombre'         => $this->request->data['name'],
-					'email'          => $this->request->data['email'],
-					'tipo_id'        => $this->request->data['delation_info'],
+					'nombre'         => $this->request->useful_data['data']['data']['name'],
+					'email'          => $this->request->useful_data['data']['email'],
+					'tipo_id'        => $this->request->useful_data['data']['delation_info'],
 					'mostrar'        => $mostrar,
 					'codigo'         => $codigo,
-					'institucion_id' => $this->request->data['delation_institution'],
+					'institucion_id' => $this->request->useful_data['data']['delation_institution'],
 					'estado'         => $estado,
 					'created'        => $created,
 				),
 				'Mensaje' => array(
-					'contenido' => $this->request->data['message'],
+					'contenido' => $this->request->useful_data['data']['message'],
 					'tipo' => 'd',
 					'created' => $created,
 				),
@@ -122,11 +122,11 @@ class ServicesController extends AppController {
 		$sendsUrlEncodedForm = (strpos($contentType, 'x-www-form-urlencoded') !== false);
 
 		if ($sendsJson) {
-			$this->request->data = $this->request->input('json_decode', true);
+			$this->request->useful_data = $this->request->input('json_decode', true);
 		}
 		if ($sendsUrlEncodedForm) {
-			$this->request->data = $this->request->data;
+			$this->request->useful_data = $this->request->data;
 		}
-		return $this->request->data;
+		return $this->request->useful_data;
 	}
 }
