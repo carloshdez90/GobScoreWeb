@@ -100,10 +100,9 @@ class ServicesController extends AppController {
 					'created' => $created,
 				),
 			);
-
 			$resultado = array('result' => 0);
 			if ($this->Denuncia->save($datos)) {
-				$resultado = array('result' => 1);
+				$resultado = array('result' => $_POST['data']->{'name'});
 			}
 		}
 		
