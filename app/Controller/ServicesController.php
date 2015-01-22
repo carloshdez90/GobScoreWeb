@@ -60,13 +60,15 @@ class ServicesController extends AppController {
 		//$this->request->onlyAllow('ajax');
 		$this->response->type('json');
 
-		$resultado = array('result' => -1);
+		$resultado = array('response' => -1);
 		if ($this->request->is('POST')) {
 			
 			$this->_decipher_data();
 			
 			$this->loadModel('Denuncia');
 			$this->Denuncia->create();
+
+			$data = $this->request->input('json_decode');
 			
 			$total = 1;
 			while ($total) {
@@ -81,36 +83,44 @@ class ServicesController extends AppController {
 			}
 			
 			$mostrar = true;
-			if (isset($this->request->useful_data['show'])) {
-				$mostrar = $this->request->useful_data['show'];
+			if (isset($data->{'show'})) {
+				$mostrar = $data->{'show'};
 			}
 			$estado = 0;
 			$created = date('Y-m-d H:i:s');
 			$datos = array(
 				'Denuncia' => array(
-					'nombre'         => $this->request->useful_data['name'],
-					'email'          => $this->request->useful_data['email'],
-					'tipo_id'        => $this->request->useful_data['delation_info'],
+					'nombre'         => $data->{'name'},
+					'email'          => $data->{'email'},
+					'tipo_id'        => $data->{'delation_info'},
 					'mostrar'        => $mostrar,
 					'codigo'         => $codigo,
-					'institucion_id' => $this->request->useful_data['delation_institution'],
+					'institucion_id' => $data->{'delation_institution'},
 					'estado'         => $estado,
 					'created'        => $created,
 				),
 				'Mensaje' => array(
-					'contenido' => $this->request->useful_data['message'],
+					'contenido' => $data->{'message'},
 					'tipo' => 'd',
 					'created' => $created,
 				),
 			);
-			$resultado = array('result' => 0);
-			if ($this->Denuncia->save($datos)) {
-				$resultado = array('result' => 1);
+			$resultado = array('response' => 0);
+			$salvar = $this->Denuncia->save($datos);
+			if ($salvar) {
+				$resultado = array('response' => 1);
+			}else{
+			    debug($this->Denuncia->invalidFields());
+			    return false;
 			}
 		}
 		
+                //return json_encode($salvar);
 		return json_encode($resultado);
 		//return json_encode($this->request->useful_data);
+		//return json_encode($this->request->input('json_decode'));
+		//$datos = $this->request->input('json_decode');
+		//return $datos->{'message'};
 
 		
 	}

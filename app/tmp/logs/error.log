@@ -20961,3 +20961,137 @@ Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
 Stack Trace:
 #0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2015-01-22 14:34:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/respond.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-22 14:34:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-22 14:34:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-22 14:34:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/unicorn.login.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-22 14:34:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery-ui.custom.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-22 14:34:33 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /gobscore/css/administracion/js/jquery.min.css
+Stack Trace:
+#0 /var/www/gobscore/app/webroot/index.php(108): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2015-01-22 14:40:34 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/var/www/gobscore/app/Controller/ServicesController.php, line 116]
+2015-01-22 14:40:34 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /gobscore/services/guardarDenuncia
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/gobsco...', 116)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/gobsco...', 116, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/gobsco...', 116, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-22 14:44:18 Error: Fatal Error (1): Cannot use object of type stdClass as array in [/var/www/gobscore/app/Controller/ServicesController.php, line 116]
+2015-01-22 14:44:18 Error: [FatalErrorException] Cannot use object of type stdClass as array
+Request URL: /gobscore/services/guardarDenuncia
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Cannot use obje...', '/var/www/gobsco...', 116)
+#1 [internal function]: ErrorHandler::handleError(1, 'Cannot use obje...', '/var/www/gobsco...', 116, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Cannot use obje...', '/var/www/gobsco...', 116, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-22 15:37:45 Error: Fatal Error (4): syntax error, unexpected ''created'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/gobscore/app/Controller/ServicesController.php, line 105]
+2015-01-22 15:37:45 Error: [FatalErrorException] syntax error, unexpected ''created'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /gobscore/services/instituciones
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/gobsco...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/gobsco...', 105, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/gobsco...', 105, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-22 15:38:16 Error: Fatal Error (4): syntax error, unexpected ''created'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/gobscore/app/Controller/ServicesController.php, line 105]
+2015-01-22 15:38:16 Error: [FatalErrorException] syntax error, unexpected ''created'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /gobscore/services/instituciones
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/gobsco...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/gobsco...', 105, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/gobsco...', 105, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-22 15:39:02 Error: Fatal Error (4): syntax error, unexpected ''created'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in [/var/www/gobscore/app/Controller/ServicesController.php, line 105]
+2015-01-22 15:39:02 Error: [FatalErrorException] syntax error, unexpected ''created'' (T_CONSTANT_ENCAPSED_STRING), expecting ')'
+Request URL: /gobscore/services/instituciones
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/var/www/gobsco...', 105)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/var/www/gobsco...', 105, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/var/www/gobsco...', 105, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-22 15:49:24 Error: Fatal Error (1): Call to undefined method ServicesController::save() in [/var/www/gobscore/app/Controller/ServicesController.php, line 113]
+2015-01-22 15:49:24 Error: [FatalErrorException] Call to undefined method ServicesController::save()
+Request URL: /gobscore/services/guardarDenuncia
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/gobsco...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/gobsco...', 113, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/gobsco...', 113, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-22 15:50:42 Error: Fatal Error (1): Call to undefined method ServicesController::save() in [/var/www/gobscore/app/Controller/ServicesController.php, line 109]
+2015-01-22 15:50:42 Error: [FatalErrorException] Call to undefined method ServicesController::save()
+Request URL: /gobscore/services/guardarDenuncia
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to undefin...', '/var/www/gobsco...', 109)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to undefin...', '/var/www/gobsco...', 109, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to undefin...', '/var/www/gobsco...', 109, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2015-01-22 15:53:45 Error: Fatal Error (1): Call to a member function invalidFields() on a non-object in [/var/www/gobscore/app/Controller/ServicesController.php, line 113]
+2015-01-22 15:53:45 Error: [FatalErrorException] Call to a member function invalidFields() on a non-object
+Request URL: /gobscore/services/guardarDenuncia
+Stack Trace:
+#0 /var/www/gobscore/lib/Cake/Error/ErrorHandler.php(203): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/var/www/gobsco...', 113)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/var/www/gobsco...', 113, Array)
+#2 /var/www/gobscore/lib/Cake/Core/App.php(931): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/var/www/gobsco...', 113, Array)
+#3 /var/www/gobscore/lib/Cake/Core/App.php(904): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
