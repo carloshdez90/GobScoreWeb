@@ -126,7 +126,7 @@ class ServicesController extends AppController {
 	}
 
 	public function pruebas() {
-		
+
 	}
 
 	protected function _decipher_data() {
@@ -156,11 +156,11 @@ class ServicesController extends AppController {
 			$this->_decipher_data();
 			$data = $this->request->input('json_decode');
 
-			$email  = $data->{'mail'};
-			$codigo = $data->{'idtrack'};
+			//$email  = $data->{'mail'};
+			//$codigo = $data->{'idtrack'};
 
-			//$codigo = '54794358';
-			//$email = 'esau@gmail.com';
+			$codigo = '54794358';
+			$email = 'esau@gmail.com';
 			
 			$this->loadModel('Denuncia');
 			$options['fields'] = array('Denuncia.id', 'Denuncia.estado');

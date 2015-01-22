@@ -16,10 +16,8 @@ class WebsiteController extends AppController {
 			'order' => array('Mensaje.created DESC'),
 		);
 		$mensajes = $this->Mensaje->find('all', $options);
-		$total = count($mensajes) - 1;
-		if (-1 == $total) {
-			$total = 0;
-		}
+		$total = count($mensajes);
+
 		for ($i = $total; $i < 10; $i++) {
 			$mensajes[$i]['Denuncia']['nombre']   = '';
 			$mensajes[$i]['Mensaje']['contenido'] = '';
