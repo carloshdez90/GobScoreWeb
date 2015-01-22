@@ -105,7 +105,7 @@ class ServicesController extends AppController {
 				),
 			);
 			$resultado = array('response' => 0);
-			$salvar = $this->Denuncia->Mensaje->saveAssociated($datos)
+			$salvar = $this->Denuncia->Mensaje->saveAssociated($datos);
 			if ($salvar) {
 				$resultado = array('response' => 1);
 			}else{
