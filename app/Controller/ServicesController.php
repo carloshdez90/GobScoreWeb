@@ -152,9 +152,10 @@ class ServicesController extends AppController {
 
 		$resultado = array('response' => -1);
 		if ($this->request->is('POST')) {
+
 			$data = $this->request->input('json_decode');
 
-			$email  = $data->{'email'};
+			$email  = $data->{'mail'}
 			$codigo = $data->{'idtrack'};
 			
 			$this->loadModel('Denuncia');
