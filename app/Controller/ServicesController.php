@@ -156,7 +156,7 @@ class ServicesController extends AppController {
 			$this->_decipher_data();
 			$data = $this->request->input('json_decode');
 
-			$email  = $data->{'mail'}
+			$email  = $data->{'mail'};
 			$codigo = $data->{'idtrack'};
 
 			//$codigo = '54794358';
