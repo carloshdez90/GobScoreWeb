@@ -153,11 +153,15 @@ class ServicesController extends AppController {
 		$resultado = array('response' => -1);
 		if ($this->request->is('POST')) {
 
+			$this->_decipher_data();
 			$data = $this->request->input('json_decode');
 
 			$email  = $data->{'mail'}
 			$codigo = $data->{'idtrack'};
 
+			//$codigo = '54794358';
+			//$email = 'esau@gmail.com';
+			
 			$this->loadModel('Denuncia');
 			$options['fields'] = array('Denuncia.id', 'Denuncia.estado');
 			$options['conditions'] = array(
