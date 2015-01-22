@@ -81,24 +81,24 @@ class ServicesController extends AppController {
 			}
 			
 			$mostrar = true;
-			if (isset($this->request->useful_data['data']['show'])) {
-				$mostrar = $this->request->useful_data['data']['show'];
+			if (isset($this->request->useful_data['show'])) {
+				$mostrar = $this->request->useful_data['show'];
 			}
 			$estado = 0;
 			$created = date('Y-m-d H:i:s');
 			$datos = array(
 				'Denuncia' => array(
-					'nombre'         => $this->request->useful_data['data']['name'],
-					'email'          => $this->request->useful_data['data']['email'],
-					'tipo_id'        => $this->request->useful_data['data']['delation_info'],
+					'nombre'         => $this->request->useful_data['name'],
+					'email'          => $this->request->useful_data['email'],
+					'tipo_id'        => $this->request->useful_data['delation_info'],
 					'mostrar'        => $mostrar,
 					'codigo'         => $codigo,
-					'institucion_id' => $this->request->useful_data['data']['delation_institution'],
+					'institucion_id' => $this->request->useful_data['delation_institution'],
 					'estado'         => $estado,
 					'created'        => $created,
 				),
 				'Mensaje' => array(
-					'contenido' => $this->request->useful_data['data']['message'],
+					'contenido' => $this->request->useful_data['message'],
 					'tipo' => 'd',
 					'created' => $created,
 				),
@@ -109,8 +109,8 @@ class ServicesController extends AppController {
 			}
 		}
 		
-		//return json_encode($resultado);
-		return json_encode($this->request->useful_data);
+		return json_encode($resultado);
+		//return json_encode($this->request->useful_data);
 
 		
 	}
