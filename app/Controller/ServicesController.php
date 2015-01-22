@@ -157,7 +157,7 @@ class ServicesController extends AppController {
 
 			$email  = $data->{'mail'}
 			$codigo = $data->{'idtrack'};
-			
+
 			$this->loadModel('Denuncia');
 			$options['fields'] = array('Denuncia.id', 'Denuncia.estado');
 			$options['conditions'] = array(
@@ -166,7 +166,7 @@ class ServicesController extends AppController {
 			);
 			$denuncia = $this->Denuncia->find('first', $options);
 			$resultado = array('response' => 0);
-			if (!$denuncia) {
+			if ($denuncia) {
 				$indice = $denuncia['Denuncia']['estado'];
 				$resultado = array(
 					-1 => 1,
