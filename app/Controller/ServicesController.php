@@ -66,7 +66,6 @@ class ServicesController extends AppController {
 			$this->_decipher_data();
 			
 			$this->loadModel('Denuncia');
-			$this->Denuncia->create();
 
 			$data = $this->request->input('json_decode');
 			
@@ -106,7 +105,7 @@ class ServicesController extends AppController {
 				),
 			);
 			$resultado = array('response' => 0);
-			$salvar = $this->Denuncia->save($datos);
+			$salvar = $this->Denuncia->Mensaje->saveAssociated($datos)
 			if ($salvar) {
 				$resultado = array('response' => 1);
 			}else{
