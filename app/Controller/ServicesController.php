@@ -142,4 +142,39 @@ class ServicesController extends AppController {
 		}
 		return $this->request->useful_data;
 	}
+
+	/**
+	 * Estado de la denuncia
+	 */
+	public function seguimiento() {
+		$this->autoRender = false;
+		$this->response->type('json');
+
+		$resultado = array('response' => -1);
+		if ($this->request->is('POST')) {
+			$data = $this->request->input('json_decode');
+
+			$email  = $data->{'email'};
+			$codigo = $data->{'idtrack'};
+			
+			$this->loadModel('Denuncia');
+			$options['fields'] = array('Denuncia.id', 'Denuncia.estado');
+			$options['conditions'] = array(
+				'email'  => $email,
+				'codigo' => $codigo,
+			);
+			$denuncia = $this->Denuncia->find('first', $options);
+			$resultado = array('response' => 0);
+			if (!$denuncia) {
+				$indice = $denuncia['Denuncia']['estado'];
+				$resultado = array(
+					-1 => 1,
+					0  => 2,
+					1  => 3,
+				);
+				$resultado = array('response' => $resultado[$indice]);
+			}
+		}
+		return json_encode($resultado);
+	}
 }
