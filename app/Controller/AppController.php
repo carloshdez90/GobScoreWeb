@@ -42,10 +42,57 @@ class AppController extends Controller {
 		if (isset($params['estado'])) {
 			$estado = $params['estado'];
 		}
-		$implementation = '>=';
-		if (isset($params['implementation'])) {
-			$implementation = $params['implementation'];
+		$condicion = '';
+		if (isset($params['contestados'])) {
+			$contestados = $params['contestados'];
+			if (0 == $contestados) {
+				$condicion = ' !=';	
+			}
 		}
+		$fecha = date('Y-m-24');
+		$regla = $modelo.'-'.$role;
+		if ('Form-administrador' === $regla) {
+			$this->loadModel('Form');
+			$this->Form->recursive = 0;
+			$fields = array('Form.id');
+			$conditions = array(
+				$modelo.'.deleted' => false,
+				$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
+				$modelo.'.implementation <' => $fecha,
+			);
+			$joins = array(
+				array(
+					'table' => 'questions',
+					'alias' => 'Question',
+					'type' => 'INNER',
+					'conditions' => array(
+						'Form.id = Question.form_id',
+					)
+				),
+				array(
+					'table' => 'answers',
+					'alias' => 'Answer',
+					'type' => 'INNER',
+					'conditions' => array(
+						'Question.id = Answer.question_id',
+					)
+				),
+			);
+			$group = array('Form.id');
+			$options = array(
+				'fields' => $fields,
+				'conditions' => $conditions,
+				'joins' => $joins,
+				'group' => $group,
+			);
+			$formularios = $this->Form->find('all', $options);
+			$i = 0;
+			$ids = array();
+			foreach ($formularios as $formulario) {
+				$ids[$i++] = $formulario['Form']['id'];
+			}
+		}
+		
 		$configurations = array(
 			'Institucion-root' => array(
 				'conditions' => array(
@@ -66,7 +113,7 @@ class AppController extends Controller {
 				'conditions' => array(
 					$modelo.'.deleted' => false,
 					$modelo.'.institucion_id' => $this->Auth->user('institucion_id'),
-					$modelo.'.implementation '.$implementation => date('Y-m-d'),
+					$modelo.'.id'.$condicion => $ids,
 				),
 				'acciones' => 'acciones',
 				'adicional' => array('titulo' => 'Fecha de realización', 'indice' => 'implementation'),

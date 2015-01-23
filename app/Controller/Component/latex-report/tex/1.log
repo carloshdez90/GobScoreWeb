@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.16)  19 JAN 2015 06:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.1.16)  23 JAN 2015 08:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -777,19 +777,19 @@ LaTeX Info: Redefining \% on input line 3.
 ### semi simple group (level 1) entered at line 1 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 4266 strings out of 494958
- 59851 string characters out of 6179386
- 126290 words of memory out of 5000000
- 7426 multiletter control sequences out of 15000+600000
+ 4264 strings out of 494958
+ 59835 string characters out of 6179386
+ 122290 words of memory out of 5000000
+ 7424 multiletter control sequences out of 15000+600000
  22751 words of font info for 21 fonts, out of 8000000 for 9000
  40 hyphenation exceptions out of 8191
- 38i,10n,43p,1995b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,10n,43p,1336b,384s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/quattrocento/qtr
 cnt_zievlx.enc}</usr/share/texlive/texmf-dist/fonts/type1/impallari/quattrocent
 o/Quattrocento-Bold.pfb></usr/share/texlive/texmf-dist/fonts/type1/impallari/qu
 attrocento/QuattrocentoRegular.pfb>
 Output written on /home/mathdebian/Documentos/www/gobscore/app/Controller/Compo
-nent/latex-report/tex/1.pdf (1 page, 83820 bytes).
+nent/latex-report/tex/1.pdf (1 page, 69225 bytes).
 PDF statistics:
  17 PDF objects out of 1000 (max. 8388607)
  11 compressed objects within 1 object stream

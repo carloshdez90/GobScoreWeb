@@ -3,10 +3,10 @@
 <?php $reporte = true; ?>
 
 <button class="btn btn-primary" id="nuevos">
-	Formularios nuevos
+	Formularios cerrados
 </button>
 <button class="btn btn-default" id="anteriores">
-	Formularios anteriores
+	Formularios no cerrados
 </button>
 
 <br>
@@ -17,7 +17,7 @@
 <script>
 	var controller = '<?php echo $controller; ?>';
 	var estado = -1;
-	var implementation = '>=';
+	var contestados = 1;
 	
 	function buscar(controller, action, pagina) {
 		$.ajax({
@@ -25,8 +25,8 @@
 			url     : 'http://'+servidor+'/'+controller+'/'+action,
 			data    : {
 				adicional : {
-					'index' : 'implementation',
-					'value' : implementation,
+					'index' : 'contestados',
+					'value' : contestados,
 				}, 
 				estado : estado,
 				pagina : pagina,
@@ -44,11 +44,11 @@
 	}
 	
 	$('#nuevos').click(function () {
-		implementation = '>=';
+		contestados = 1;
 		buscar(controller,'pagination',1);
 	})
 	$('#anteriores').click(function () {
-		implementation = '<';
+		contestados = 0;
 		buscar(controller,'pagination',1);
 	})
 
