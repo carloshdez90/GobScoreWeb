@@ -38,6 +38,7 @@ class AppController extends Controller {
 	 *
 	 */
 	public function getConfigurations($modelo, $role, $params) {
+		$ids = array();
 		$estado = -1;
 		if (isset($params['estado'])) {
 			$estado = $params['estado'];

@@ -12,7 +12,7 @@
 </button>
 
 
-<?php include ROOT.'/app/View/App/index.ctp'; ?>
+<?php include ROOT.'/app/View/Denuncias/app_index.ctp'; ?>
 
 <script>
 	var controller = '<?php echo $controller; ?>';

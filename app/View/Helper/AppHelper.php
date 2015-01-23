@@ -591,4 +591,14 @@ class AppHelper extends Helper {
 		}
 		return $cadena;
 	}
+
+	public $tipo_denuncias = array(
+		'Empleado perdiendo el tiempo.',
+		'Acoso sexual',
+		'Acoso laboral',
+		'Abando de trabajo',
+		'Uso inadecuado de propiedad publica',
+		'Soborno',
+		'Negligencia',
+	);
 }
