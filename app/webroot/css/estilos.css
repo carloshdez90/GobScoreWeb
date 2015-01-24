@@ -55,18 +55,17 @@ a:focus {
 
 .izquierdo {
 	margin-top : -1px;
-	margin-right : -4px;
+	width : 100%;
 }
 
 .centro {
 	margin-top : -1px;
-	margin-left : -4px;
-	margin-right : -4px;
+	width : 100%;
 }
 
 .derecho {
 	margin-top : -1px;
-	margin-left : -4px;
+	width : 100%;
 }
 
 .without-bordes {
