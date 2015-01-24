@@ -1,1 +1,1 @@
-<?php include ROOT.'/app/View/App/pagination.ctp'; ?>
+<?php include ROOT.'/app/View/Denuncias/app_pagination.ctp'; ?>
