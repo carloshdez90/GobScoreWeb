@@ -6,7 +6,7 @@
 	Formularios cerrados
 </button>
 <button class="btn btn-default" id="anteriores">
-	Formularios no cerrados
+	Formularios abiertos
 </button>
 
 <br>
