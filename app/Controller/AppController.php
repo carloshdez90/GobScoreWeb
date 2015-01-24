@@ -108,7 +108,16 @@ class AppController extends Controller {
 					$modelo.'.role !=' => 'root',
 				),
 				'acciones' => 'acciones',
-				'adicional' => array('titulo' => 'Institución', 'indice' => 'name', 'padre' => 'Institucion'),
+				'adicional' => array('titulo' => 'Institución',
+									 'indice' => 'name',
+									 'padre' => 'Institucion'),
+			),
+			'Tipo-root' => array(
+				'conditions' => array(
+					$modelo.'.deleted' => false,
+				),
+				'acciones' => 'acciones',
+				'adicional' => null,
 			),
 			'Form-administrador' => array(
 				'conditions' => array(

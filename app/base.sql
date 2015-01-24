@@ -80,6 +80,14 @@ insert into questions (name, form_id) values ('¿El funcionario dio respuesta a 
 
 
 
+drop table tipo;
+create table tipo(
+   id int(11) not null primary key auto_increment,
+   name varchar(255) not null,
+   deleted boolean not null,
+   created datetime not null,
+   updated TIMESTAMP not null DEFAULT CURRENT_TIMESTAMP
+);
 
 drop table denuncias;
 create table denuncias(
@@ -126,7 +134,7 @@ create table tiempos(
 );
 
 
-insert into users values(1,'Administrador','xscharliexs@gmail.com','42aa600817f47639d605f74dbe228af30dadc47a','root',0,0,'2015-01-10 15:16:38','2015-01-10 15:16:38');
+insert into users values(1,'Administrador','administrador','4755bbc684fb003401e1542f5c1e5f065b507746','root',0,0,'2015-01-10 15:16:38','2015-01-10 15:16:38');
 
 
 
@@ -142,5 +150,14 @@ select question_id, count(answer) from answers  where answer=0 group by question
 select questions.id, count(answer) from answers, questions, forms  where forms.id=questions.form_id and questions.id=answers.question_id and forms.id=1 and answer=0 group by question_id;
 
 
+
+select count(answers.id) from answers, questions, forms where forms.id=questions.form_id and questions.id=answers.question_id and forms.id=3;
+
+select count(id) from denuncias;
+
+select forms.id, forms.implementation from answers, questions, forms where forms.id=questions.form_id and questions.id=answers.question_id and forms.institucion_id=1 and forms.implementation<'2015-01-24' group by forms.id;
+
+
+select forms.id, questions.id implementation from answers, questions, forms where forms.id=questions.form_id and questions.id=answers.question_id and forms.institucion_id=1;
 
 

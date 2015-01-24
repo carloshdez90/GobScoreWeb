@@ -1,0 +1,86 @@
+<div class="tipos view">
+<h2><?php echo __('Tipo'); ?></h2>
+	<dl>
+		<dt><?php echo __('Id'); ?></dt>
+		<dd>
+			<?php echo h($tipo['Tipo']['id']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Name'); ?></dt>
+		<dd>
+			<?php echo h($tipo['Tipo']['name']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Deleted'); ?></dt>
+		<dd>
+			<?php echo h($tipo['Tipo']['deleted']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Created'); ?></dt>
+		<dd>
+			<?php echo h($tipo['Tipo']['created']); ?>
+			&nbsp;
+		</dd>
+		<dt><?php echo __('Updated'); ?></dt>
+		<dd>
+			<?php echo h($tipo['Tipo']['updated']); ?>
+			&nbsp;
+		</dd>
+	</dl>
+</div>
+<div class="actions">
+	<h3><?php echo __('Actions'); ?></h3>
+	<ul>
+		<li><?php echo $this->Html->link(__('Edit Tipo'), array('action' => 'edit', $tipo['Tipo']['id'])); ?> </li>
+		<li><?php echo $this->Form->postLink(__('Delete Tipo'), array('action' => 'delete', $tipo['Tipo']['id']), array(), __('Are you sure you want to delete # %s?', $tipo['Tipo']['id'])); ?> </li>
+		<li><?php echo $this->Html->link(__('List Tipos'), array('action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Tipo'), array('action' => 'add')); ?> </li>
+		<li><?php echo $this->Html->link(__('List Denuncias'), array('controller' => 'denuncias', 'action' => 'index')); ?> </li>
+		<li><?php echo $this->Html->link(__('New Denuncia'), array('controller' => 'denuncias', 'action' => 'add')); ?> </li>
+	</ul>
+</div>
+<div class="related">
+	<h3><?php echo __('Related Denuncias'); ?></h3>
+	<?php if (!empty($tipo['Denuncia'])): ?>
+	<table cellpadding = "0" cellspacing = "0">
+	<tr>
+		<th><?php echo __('Id'); ?></th>
+		<th><?php echo __('Nombre'); ?></th>
+		<th><?php echo __('Email'); ?></th>
+		<th><?php echo __('Tipo Id'); ?></th>
+		<th><?php echo __('Mostrar'); ?></th>
+		<th><?php echo __('Codigo'); ?></th>
+		<th><?php echo __('Institucion Id'); ?></th>
+		<th><?php echo __('Estado'); ?></th>
+		<th><?php echo __('Created'); ?></th>
+		<th><?php echo __('Updated'); ?></th>
+		<th class="actions"><?php echo __('Actions'); ?></th>
+	</tr>
+	<?php foreach ($tipo['Denuncia'] as $denuncia): ?>
+		<tr>
+			<td><?php echo $denuncia['id']; ?></td>
+			<td><?php echo $denuncia['nombre']; ?></td>
+			<td><?php echo $denuncia['email']; ?></td>
+			<td><?php echo $denuncia['tipo_id']; ?></td>
+			<td><?php echo $denuncia['mostrar']; ?></td>
+			<td><?php echo $denuncia['codigo']; ?></td>
+			<td><?php echo $denuncia['institucion_id']; ?></td>
+			<td><?php echo $denuncia['estado']; ?></td>
+			<td><?php echo $denuncia['created']; ?></td>
+			<td><?php echo $denuncia['updated']; ?></td>
+			<td class="actions">
+				<?php echo $this->Html->link(__('View'), array('controller' => 'denuncias', 'action' => 'view', $denuncia['id'])); ?>
+				<?php echo $this->Html->link(__('Edit'), array('controller' => 'denuncias', 'action' => 'edit', $denuncia['id'])); ?>
+				<?php echo $this->Form->postLink(__('Delete'), array('controller' => 'denuncias', 'action' => 'delete', $denuncia['id']), array(), __('Are you sure you want to delete # %s?', $denuncia['id'])); ?>
+			</td>
+		</tr>
+	<?php endforeach; ?>
+	</table>
+<?php endif; ?>
+
+	<div class="actions">
+		<ul>
+			<li><?php echo $this->Html->link(__('New Denuncia'), array('controller' => 'denuncias', 'action' => 'add')); ?> </li>
+		</ul>
+	</div>
+</div>

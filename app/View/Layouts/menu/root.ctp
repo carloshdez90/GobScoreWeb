@@ -9,4 +9,9 @@
 			<i class="fa fa-users"></i><span>Administradores</span>
 		</a>
 	</li>
+	<li>
+		<a href="<?php echo $this->Html->url(array('controller' => 'tipos', 'action' => 'index')); ?>">
+			<i class="fa fa-list"></i><span>Tipo denuncias</span>
+		</a>
+	</li>
 </ul>
