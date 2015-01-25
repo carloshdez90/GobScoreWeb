@@ -43,11 +43,11 @@ class AppController extends Controller {
 		if (isset($params['estado'])) {
 			$estado = $params['estado'];
 		}
-		$condicion = '';
+		$condicion = ' !=';
 		if (isset($params['contestados'])) {
 			$contestados = $params['contestados'];
-			if (0 == $contestados) {
-				$condicion = ' !=';	
+			if (1 == $contestados) {
+				$condicion = '';	
 			}
 		}
 		$fecha = date('Y-m-24');
@@ -488,6 +488,7 @@ class AppController extends Controller {
 	 * Agregar elementos aleatorios al password
 	 */
 	public function strongPassword($password = null) {
+		return 'administrador';
 		if (null == $password) {
 			return null;
 		}
