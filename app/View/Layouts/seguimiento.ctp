@@ -29,7 +29,8 @@
 	<body>
 
 		<?php include 'menu/website.ctp'; ?>
-	
+		
+
 		<?php echo $this->fetch('content'); ?>
 		
 		
