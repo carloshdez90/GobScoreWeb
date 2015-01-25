@@ -250,20 +250,8 @@ class WebsiteController extends AppController {
 			}
 			
 		}
-		
-		$this->loadModel('Institucion');
-		$institucions = $this->Institucion->find('list');
-		$this->set(compact('institucions'));
 
-		$tipos = array(
-			'Empleado perdiendo el tiempo.',
-			'Acoso sexual',
-			'Acoso laboral',
-			'Abando de trabajo',
-			'Uso inadecuado de propiedad publica',
-			'Soborno',
-			'Negligencia',
-		);
+		$tipos = $this->listaTipoDenuncias();
 		$this->set(compact('tipos'));
 		
 	}
@@ -334,4 +322,6 @@ class WebsiteController extends AppController {
 	public function tiempo() {
 
 	}
+
+
 }

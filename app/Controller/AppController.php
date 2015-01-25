@@ -537,4 +537,18 @@ class AppController extends Controller {
 	public function getDirLaTeX($tipo = 'local') {
 		return $this->dir[$tipo];
 	}
+
+	/**
+	 *
+	 */
+	public function listaTipoDenuncias($opcion = 'list') {
+		$this->loadModel('Institucion');
+		$institucions = $this->Institucion->find('list');
+		$this->set(compact('institucions'));
+		$this->loadModel('Tipo');
+		$conditions = array('Tipo.deleted' => false);
+		$options = array('conditions' => $conditions);
+		$tipos = $this->Tipo->find($opcion, $options);
+		return $tipos;
+	}
 }

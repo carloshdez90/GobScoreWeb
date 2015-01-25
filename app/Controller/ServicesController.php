@@ -36,17 +36,15 @@ class ServicesController extends AppController {
 		//$this->request->onlyAllow('ajax');
 		$this->response->type('json');
 
-		$datos = array(
-			'delation_infos' => array(
-				array('id' => 1, 'kind' => 'Empleado perdiendo el tiempo'),
-				array('id' => 2, 'kind' => 'Acoso laboral'),
-				array('id' => 3, 'kind' => 'Acoso sexual'),
-				array('id' => 4, 'kind' => 'Abandono de trabajo'),
-				array('id' => 5, 'kind' => 'Uso inadecuado de la propiedad pública'),
-				array('id' => 6, 'kind' => 'Soborno'),
-				array('id' => 7, 'kind' => 'Negligencia'),
-			)
-		);
+		$tipos = $this->listaTipoDenuncias('all');
+		$i = 0;
+		$datos = array();
+		foreach ($tipos as $tipo) {
+			$datos['delation_info'][$i++] = array(
+				'id'   => $tipo['Tipo']['id'],
+				'kind' => $tipo['Tipo']['name'],
+			);
+		}
 
 		return json_encode($datos);
 	}
