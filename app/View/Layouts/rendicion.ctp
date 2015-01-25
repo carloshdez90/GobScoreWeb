@@ -51,7 +51,7 @@
 		
 		
 	    <div class="footer">
-            <p>&copy; 2013 All Rights Reserved | GobScore | Developer by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
+            <p>&copy; 2015 All Rights Reserved | GobScore | Developer by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->

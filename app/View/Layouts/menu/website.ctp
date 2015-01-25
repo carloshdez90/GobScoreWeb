@@ -21,30 +21,14 @@
 			<ul class="nav navbar-nav navbar-right">
 				<?php $inicio = $this->Html->url(array('controller' => 'website', 'action' => 'inicio')); ?>
 				<li>
-					<a href="<?php echo $inicio; ?>">Inicio</a>
+					<a href="<?php echo $inicio; ?>" style="color:white !important;">Inicio</a>
 				</li>
 				<li>
-					<a href="<?php echo $inicio; ?>">GobScore</a>
-				</li>
+                                        <a href="#" id="seguimiento" style="color:white !important;">Seguimiento</a>
+                                </li>
 				<li>
-					<a href="<?php echo $inicio; ?>">Ranking</a>
-				</li>
-				<li>
-					<a href="<?php echo $inicio; ?>">Interacciones</a>
-				</li>
-				
-				<li>
-					<a href="<?php echo $inicio; ?>">Participar</a>
-				</li>
-				<li>
-                    <a href="#" id="rendicion">Rendición</a>
-                </li>
-				<li>
-                    <a href="#" id="seguimiento">Seguimiento</a>
-                </li>
-				<li>
-                    <a href="#" id="ingresar">Ingresar</a>
-                </li>
+                                        <a href="#" id="ingresar" style="color:white !important;">Ingresar</a>
+                                </li>
 
 				<script>
 					$('#rendicion').click(function (){
