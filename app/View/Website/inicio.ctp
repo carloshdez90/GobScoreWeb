@@ -331,7 +331,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[0]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[0]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[0]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo //$institucions[0]['descripcion']; ?></div>
                                     
@@ -358,7 +358,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[1]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[1]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[1]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[1]['descripcion']; ?></div>
                                     
@@ -383,7 +383,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[2]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[2]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[2]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[2]['descripcion']; ?></div>
                                     
@@ -408,7 +408,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[3]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[3]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[3]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[3]['descripcion']; ?></div>
                                     
@@ -433,7 +433,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[4]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[4]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[4]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[4]['descripcion']; ?></div>
                                     
@@ -458,7 +458,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[5]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[5]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[5]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[5]['descripcion']; ?></div>
                                     
@@ -483,7 +483,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[6]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[6]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[6]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[6]['descripcion']; ?></div>
                                     
@@ -508,7 +508,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[7]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[7]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[7]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[7]['descripcion']; ?></div>
                                     
@@ -533,7 +533,7 @@
                                 </div>
                                 <div class="project-info">
                                     <div> <h3>Calificación: <?php echo $institucions[8]['calificacion']; ?></h3></div>
-                                    <p><h3>Institución: <?php echo $institucions[8]['Institucion']['name']; ?></h3></p>
+                                    <p><h3><?php echo $institucions[8]['Institucion']['name']; ?></h3></p>
                                     <div>
                                         <?php //echo $institucions[8]['descripcion']; ?></div>
                                     
@@ -546,31 +546,27 @@
                     <!-- End details for portfolio project 9 -->
                     <!-- *********** BLOQUES  para la info mejor rankeada ************************************-->
 
-                    <ul id="portfolio-grid" class="thumbnails row">
-
-                        <!-- *********** INICIO Del BLOQUE ************-->
+                   <!-- *********** INICIO Del BLOQUE ************-->
+                    <ul id="portfolio-grid" class="thumbnails row">			
                         <li class="span4 mix web">
                             <div class="thumbnail">
                                 <img src="images/Portfolio01.png" alt="project 1">
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv">
                                     <i class="icon-plus"></i>
-                                    <div style="font-size:10px; ">Ver más</div>
-
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[0]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[0]['Institucion']['name']; ?></p>
+                                <h3>Calificación: <strong><?php echo $institucions[0]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[0]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
-                        <!-- *********** FIN del BLOQUE ************-->
                         <li class="span4 mix photo">
                             <div class="thumbnail">
                                 <img src="images/Portfolio02.png" alt="project 2">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv1">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[1]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[1]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong> <?php echo $institucions[1]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[1]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -580,19 +576,21 @@
                                 <a href="#single-project" class="more show_hide" rel="#slidingDiv2">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[2]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[2]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong> <?php echo $institucions[2]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[2]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
+                        <!-- *********** FIN del BLOQUE ************-->
+
                         <li class="span4 mix web">
                             <div class="thumbnail">
                                 <img src="images/Portfolio04.png" alt="project 4">
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv3">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[3]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[3]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong> <?php echo $institucions[3]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[3]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -602,8 +600,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv4">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[4]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[4]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong> <?php echo $institucions[4]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[4]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -613,8 +611,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv5">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[5]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[5]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong> <?php echo $institucions[5]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[5]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -624,8 +622,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv6">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[6]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[6]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong> <?php echo $institucions[6]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[6]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -634,8 +632,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv7">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo 6.5; ?></h3>
-                                <p>Institución: <?php echo $institucions[7]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong><?php echo $institucions[7]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[7]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -645,8 +643,8 @@
                                 <a href="#single-project" class="show_hide more" rel="#slidingDiv8">
                                     <i class="icon-plus"></i>
                                 </a>
-                                <h3>Calificación: <?php echo $institucions[8]['calificacion']; ?></h3>
-                                <p>Institución: <?php echo $institucions[8]['Institucion']['name']; ?></p>
+                                <h3>Calificación:<strong> <?php echo $institucions[8]['calificacion']; ?></strong></h3>
+                                <p><?php echo $institucions[8]['Institucion']['name']; ?></p>
                                 <div class="mask"></div>
                             </div>
                         </li>
@@ -1227,5 +1225,43 @@
 
 		<!--*********************************** FIN MODAL ******************************************-->
 
+		<script>
+		$(window).load(function(){
+			alturaMax = 0
+			/*determinar la altura maxima*/
+			$('.thumbnail').delay(1000).each(function(index){
+				var altura = $(this).height();			
+				if(altura > alturaMax){
+					alturaMax = altura;
+				}				
+			});
+			
+			/*Asignar la altura maxima */
+			$('.thumbnail').each(function(index){
+                                $(this).height(alturaMax);
+                        });
+			console.log(alturaMax);
+
+			/*Comentarios*/
+
+			alturaMax = 0 
+                        /*determinar la altura maxima*/
+                        $('.testimonial').each(function(index){
+                                var altura = $(this).height();
+                                if(altura > alturaMax){
+                                        alturaMax = altura;
+                                }
+                        });
+
+                        /*Asignar la altura maxima */
+                        $('.testimonial').each(function(index){
+                                $(this).height(alturaMax);
+                        });
+                        //console.log(alturaMax);
+
+		});
+		</script>
+
     </body>
 </html>
+
