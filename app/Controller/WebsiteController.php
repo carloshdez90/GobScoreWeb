@@ -73,7 +73,7 @@ class WebsiteController extends AppController {
 		foreach ($tiempos as $registro) {
 			$institucions[$i]['calificacion'] = 10 - ($registro['Tiempo']['total'] -
 													  $tiempo_min)/$tiempo_max*10;
-			$institucions[$i]['calificacion'] = floor($institucions[$i]['calificacion']/3*100)/100;
+			$institucions[$i]['calificacion'] = floor($institucions[$i]['calificacion']*100)/100;
 			$institucions[$i++]['Institucion']['name'] = $registro['Institucion']['name'];
 		}
 		
