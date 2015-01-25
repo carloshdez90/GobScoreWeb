@@ -1,11 +1,14 @@
 <?php $band = true; ?>
-<?php $mensaje = 'Crear '.$modelo; ?>
+<?php $mensaje = false; ?>
 <?php $reporte = true; ?>
 
-<button class="btn btn-primary" id="nuevos">
+<a class="btn btn-primary btn-sm" href="<?php echo $this->Html->url(array('action' => 'add')); ?>">
+	Crear formulario
+</a>
+<button class="btn btn-success btn-sm" id="nuevos">
 	Formularios cerrados
 </button>
-<button class="btn btn-default" id="anteriores">
+<button class="btn btn-default btn-sm" id="anteriores">
 	Formularios abiertos
 </button>
 
