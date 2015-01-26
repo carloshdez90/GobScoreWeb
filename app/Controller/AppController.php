@@ -260,6 +260,8 @@ class AppController extends Controller {
 		$name = 'name';
 		if ('Denuncia' === $modelo) {
 			$name = 'codigo';
+			$tipos = $this->listaTipoDenuncias();
+			$this->set(compact('tipos'));
 		}
 		$this->set('name', $name);
 		$this->set('band', true);
@@ -299,6 +301,8 @@ class AppController extends Controller {
 		$name = 'name';
         if ('Denuncia' === $modelo) {
             $name = 'codigo';
+			$tipos = $this->listaTipoDenuncias();
+			$this->set(compact('tipos'));
         }
 		if ('' != $buscar) {
 			$conditions['OR'] = array(

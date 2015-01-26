@@ -30,7 +30,7 @@ if (!isset($reporte)) {
 			<tr>
 				<td><?php echo h($registro[$modelo]['id']); ?>&nbsp;</td>
 				<td><?php echo h($registro[$modelo][$name]); ?>&nbsp;</td>
-				<td><?php echo h($this->Html->tipo_denuncias[$registro[$modelo]['tipo_id']]); ?>&nbsp;</td>
+				<td><?php echo h($tipos[$registro[$modelo]['tipo_id']]); ?>&nbsp;</td>
 				<?php if ($adicional): ?>
 					<td><?php echo h($registro[$modelo_tmp][$adicional['indice']]); ?>&nbsp;</td>
 				<?php endif; ?>
