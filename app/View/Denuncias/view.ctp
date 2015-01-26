@@ -2,29 +2,25 @@
 	<table class="table table-condensed table-bordered table-striped table-hover">
 		<tbody>
 			<tr>
-				<td> Id	</td>
-				<td> <?php echo h($denuncia['Denuncia']['id']); ?>&nbsp; </td>
-			</tr>
-			<tr>
 				<td> Tipo de denuncia </td>
-				<td> <?php echo h($denuncia['Denuncia']['tipo_id']); ?>&nbsp; </td>
+				<td> <?php echo h($tipos[$denuncia['Denuncia']['tipo_id']]); ?>&nbsp; 
+				</td>
 			</tr>
 			<tr>
-				<td> Codigo	</td>
+				<td> Código de referencia </td>
 				<td> <?php echo h($denuncia['Denuncia']['codigo']); ?>&nbsp; </td>
 			</tr>
 			<tr>
-				<td> Institucion </td>
-				<td> <?php echo h($denuncia['Institucion']['name']); ?>&nbsp; </td>
+				<td> Correo asociado </td>
+				<td> <?php echo h($denuncia['Denuncia']['email']); ?>&nbsp; </td>
 			</tr>
 			<tr>
-				<td> Estado </td>
-				<td> <?php echo h($denuncia['Denuncia']['estado']); ?>&nbsp; </td>
+				<td> Fecha y hora de envío </td>
+				<td> <?php echo h($denuncia['Denuncia']['created']); ?>&nbsp; </td>
 			</tr>
 		</tbody>
 	</table>
 </div>
-
 
 <div class="related">
 	<?php if (!empty($denuncia['Mensaje'][0])): ?>
@@ -55,7 +51,7 @@
 		<?php echo $this->Form->input('contenido', array('type' => 'textarea', 'placeholder' => 'Respuesta al ciudadano.')); ?>
 		<?php echo $this->Form->hidden('denuncia_id', array('value' => $denuncia['Denuncia']['id'])); ?>
 		
-		<?php echo $this->Form->submit('Enviar denuncia', array('class'  => 'btn btn-sm btn-primary')); ?>
+		<?php echo $this->Form->submit('Responder', array('class'  => 'btn btn-sm btn-primary')); ?>
 		<?php echo $this->Form->end(); ?>
 	<?php endif; ?>
 </div>

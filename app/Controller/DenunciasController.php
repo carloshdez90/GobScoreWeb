@@ -72,6 +72,10 @@ class DenunciasController extends AppController {
 			$this->Denuncia->id = $id;
 			$this->Denuncia->save($datos);
 		}
+
+		$tipos = $this->listaTipoDenuncias();
+		$this->set(compact('tipos'));
+		
 		/*
 		$fecha_i = date('Y-m-d H:i:s');
 		$fecha_f = date('Y-m-13 00:00:00');
