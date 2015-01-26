@@ -9,6 +9,7 @@ class WebsiteController extends AppController {
 		$this->loadModel('Mensaje');
 		$conditions = array(
 			'Denuncia.mostrar' => true,
+			'Mensaje.tipo' => 'd',
 		);
 		$options = array(
 			'conditions' => $conditions,
