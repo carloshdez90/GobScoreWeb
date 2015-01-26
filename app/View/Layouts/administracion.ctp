@@ -30,8 +30,8 @@
 				<a id="menu-trigger" href="#"><i class="fa fa-bars"></i></a>	
 			</div>
 	
-		<div style="text-align:center;">
-			<div style="color:#888;font-weight:bold; margin:0 auto;">
+		<div style="text-align:center; position:absolute; top:0.5em; right: 10%; width:80%;">
+			<div style="color:#888;font-weight:bold; margin:0 auto; width:auto;">
 				Secretaría de Participación Ciudadana, Transparencia y Anticorrupción
 			</div>
 		</div>
