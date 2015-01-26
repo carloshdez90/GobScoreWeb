@@ -50,7 +50,7 @@ class AppController extends Controller {
 				$condicion = '';	
 			}
 		}
-		$fecha = date('Y-m-24');
+		$fecha = date('Y-m-d');
 		$regla = $modelo.'-'.$role;
 		if ('Form-administrador' === $regla) {
 			$this->loadModel('Form');
