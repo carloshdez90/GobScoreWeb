@@ -40,6 +40,8 @@
 
 
 	            <ul class="btn-group">					
+			
+			
 	                <li class="btn"><a title="" href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'logout')); ?>"><i class="fa fa-user"></i> <span class="text">Cerrar sesión</span></a></li>
 	            </ul>
 	        </div>
@@ -48,11 +50,6 @@
 				<?php include 'menu/'.$tipo_usuario.'.ctp' ?>
 			</div>
 			
-<div style="text-align:center;">
-                        <div style="color:#888;font-weight:bold; margin:0 auto;">
-                                Secretaría de Participación Ciudadana, Transparencia y Anticorrupción
-                        </div>
-                </div>
 			<div id="content">
 				
 				<div id="breadcrumb">
