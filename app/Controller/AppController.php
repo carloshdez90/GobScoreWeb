@@ -488,7 +488,7 @@ class AppController extends Controller {
 	 * Agregar elementos aleatorios al password
 	 */
 	public function strongPassword($password = null) {
-		return 'administrador';
+		return 'adminpass';
 		if (null == $password) {
 			return null;
 		}
