@@ -6,13 +6,13 @@ class OperacionesController extends AppController {
 	/**
 	 *
 	 */
-	public function changePassword() {
-		$message = 'Accion no permitida.';
-		if ($this->Auth->user('username')) {
+	public function recuperarPassword() {
+		$this->layout = 'login';
+		if ($this->request->is('post')) {
 			$username = $this->request->data['User']['username'];
-			$mensaje = $this->__resetPassword($username);			
+			$mensaje = $this->__resetPassword($username);
+			return $this->redirect(array('controller' => 'users', 'action' => 'login'));
 		}
-		return $this->redirect(array('Controller' => 'institucions', 'action' => 'index'));
 	}
 
 	protected function __resetPassword($username = '') {
