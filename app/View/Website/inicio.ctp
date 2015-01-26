@@ -996,7 +996,7 @@
                         <h1>Participa enviando tu denuncia o comentario.</h1>
                     </div>
                 </div>
-                <div class="map-wrapper" style="background: url('images/Slider.png');">
+                <div class="map-wrapper" style="background: url('images/Slider.png'); height:100%;">
 					<div style="background-color: rgba(255,255,255,0.5)">
 						<div class="map-canvas" id="map-canvas"></div>
 						<div class="container">
@@ -1024,9 +1024,27 @@
 											</script>
 										<?php endif; ?>
 								</div>
+					<div class="span1">
+                                        </div>
+                                        <div class="span6" style="background-color:#014370; text-align:justify; padding:1em; margin-top:-1.5em;">
+						La participación ciudadana es de vital importancia para mejorar los servicios públicos, este es un medio pensado para recibir tus opiniones, quejas o denuncias.
+                                                <p><strong>¿Cómo funciona?</strong>
+							Solo tienes que enviar tu queja o denuncia a la institución correspondiente, gobscore se encarga de hacer llegar tu opinión, evaluando todo el proceso hasta que recibas una respuesta, también te permite saber en qué etapa se encuentra tu caso a través  un número de referencia y te da la oportunidad de evaluar todo el proceso.
+                                                </p>
+
+                                                <p><strong>¿Cómo ayuda tu opinión?</strong>
+							La Secretaría de Participación Ciudadana, Transparencia y Anticorrupción, se encarga de evaluar los resultados brindados a través de la plataforma junto con tu evaluación y realiza las observaciones correspondientes a través de los mecanismos orientados para mejorar el funcionamiento de las instituciones públicas, con lo que se busca únicamente mejorar la calidad de los servicios brindados a la población.
+                                                </p>
+                                        </div>
+
+
+	
 							</div>
 						</div>
 					</div>
+
+
+
 					<!--
 					<div class="container">
 					<div class="span9 center contact-info">
@@ -1076,10 +1094,11 @@
                 </div>
             </div>
         </div>
+
         <!-- Contact section edn -->
         <!-- Footer section start -->
         <div class="footer">
-            <p>&copy; 2013 All Rights Reserved | GobScore | Developer by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
+            <p>&copy; 2015 All Rights Reserved | GobScore | Developer by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->
