@@ -119,7 +119,7 @@
                     <div class="da-slide">
                         <h2 class="fittext2">Bienvenido a GobScore</h2>
                         <h4>Nos interesa conocer tu opinión</h4>
-                        <p>Por medio de la participacion cuidadana, hagamos un mejor El Salvador, dejando atras la corrupcion y mal uso de los fondos públicos.</p>
+                        <p>Por medio de la participación cuidadana, hagamos un mejor El Salvador, dejando atrás la corrupción y mal uso de los fondos públicos.</p>
                         <a href="#" class="da-link button">Participar</a>
                         <div class="da-img">
 							<?php echo $this->Html->image('images/GobScore.png', array('width' => 320, 'alt' => 'image01')); ?>
@@ -130,7 +130,7 @@
                     <div class="da-slide">
                         <h2>InfoÚtil El Salvador</h2>
                         <h4>Información que empodera al usuario</h4>
-                        <p>Es una herramienta que busca empoderar al usuario para  que este pueda interactuar y puntuar toda la informacion que gracias a la Ley de acceso a la informacion publica, puede ser consultada en infoÚtil.</p>
+                        <p>Es una herramienta que busca empoderar al usuario para  que este pueda interactuar y puntuar toda la información que gracias a la Ley de acceso a la información pública, puede ser consultada en infoÚtil.</p>
                         <a href="#" class="da-link button">Visitar</a>
                         <div class="da-img">
 							<?php echo $this->Html->image('images/InfoUtil.png', array('width' => 320)); ?>
@@ -141,7 +141,7 @@
                     <div class="da-slide">
                         <h2>El Salvador Online</h2>
                         <h4>El gobierno de El Salvador</h4>
-                        <p>Le apuesta fuertemente al avance técnologico en materia de las técnologias de la información y crea este tipo de espacios para que el cuidadano aporte en materia de las tic's dentro del gobierno.</p>
+                        <p>Le apuesta fuertemente al avance tecnológico en materia de las tecnologías de la información y crea este tipo de espacios para que el cuidadano aporte en materia de las tic's dentro del gobierno.</p>
                         <a href="#" class="da-link button">Visitar</a>
                         <div class="da-img">
 							<?php echo $this->Html->image('images/logosv.png', array('width' => 320)); ?>
@@ -151,8 +151,8 @@
                     <!-- Start third slide -->
                     <div class="da-slide">
                         <h2>Gobierno Abierto</h2>
-                        <h4>Participa y unamonos para crecer</h4>
-                        <p>Las tecnologias de la información han cambiado la forma de hacer gobierno, por eso se presenta la estrategia del gobierno abierto, que incentiva la participación cuidadana.</p>
+                        <h4>Participa y unámonos para crecer</h4>
+                        <p>Las tecnologías de la información han cambiado la forma de hacer gobierno, por eso se presenta la estrategia del gobierno abierto, que incentiva la participación cuidadana.</p>
                         <a href="#" class="da-link button">Visitar</a>
                         <div class="da-img">
 							<?php echo $this->Html->image('images/logoGA.png', array('width' => 320)); ?>
@@ -177,7 +177,7 @@
                     <!--<h1>¿Que es GobScore?</h1>-->
 					<?php echo $this->Html->image('images/GobScore.png', array('width' => 400, 'height' => 200)); ?>
                     <!-- Section's title goes here -->
-                    <p>Este proyecto es una plataforma para la calificacion y puntuacion de las instituciones de gobierno, de acuerdo a un puntaje calculado en base a las denuncias de la población.</p>
+                    <p>Este proyecto es una plataforma para la calificación y puntuación de las instituciones de gobierno, de acuerdo a un puntaje calculado en base a las denuncias de la población.</p>
                     <!--Simple description for section goes here. -->
                 </div>
                 <!--<div class="row-fluid">
@@ -187,7 +187,7 @@
                 <img class="img-circle" src="images/Servicio1.png" alt="service 1">
                 </div>
                 <h3>Plataforma Web</h3>
-                <p>Puntuacion de las la información de gobierno</p>
+                <p>Puntuación de la información de gobierno</p>
                 </div>
                 </div>
                 <div class="span4">
@@ -853,7 +853,7 @@
                         </div>
                     </div>
                     <p class="testimonial-text">
-                        "La ciudadania participando en GobsScore promueves la transparencia."
+                        "Participando en GobsScore promueves la transparencia."
                     </p>
                 </div>
             </div>
@@ -1098,7 +1098,7 @@
         <!-- Contact section edn -->
         <!-- Footer section start -->
         <div class="footer">
-            <p>&copy; 2015 All Rights Reserved | GobScore | Developer by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
+            <p>&copy; 2015 All Rights Reserved | GobScore | Developed by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->

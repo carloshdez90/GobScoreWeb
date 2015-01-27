@@ -11,7 +11,7 @@
 	  	<div class="col-md-8">
 			<div class="panel info-panel panel-primary">
 				<!-- Default panel contents -->
-				<div class="panel-heading">Seleccione la institucion</div>
+				<div class="panel-heading">Seleccione la institución</div>
 				<div class="panel-body">
 					<p>Escoga la institución</p>
 				</div>

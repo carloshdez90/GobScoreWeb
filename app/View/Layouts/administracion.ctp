@@ -64,7 +64,7 @@
 								<span class="icon">
 									<i class="fa fa-th"></i>
 								</span>
-								<h5>Static table</h5>
+								<h5> </h5>
 							</div>
 							<div class="widget-content nopadding">
 								<br>
@@ -78,7 +78,7 @@
 			
 			<div class="row">
 				<div id="footer" class="col-xs-12">
-					2014 - 2015 &copy; Gobscore Admin. Powered by <a href="http://geekoders.com">Geekoders</a>
+					2015 &copy; Gobscore Admin. Developed by <a href="http://geekoders.com">Geekoders</a>
 				</div>
 			</div>
 		</div>

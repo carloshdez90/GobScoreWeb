@@ -47,7 +47,7 @@
                                 <a href="#home">Mensajes Recibidos</a>
                             </li>
                             <li>
-                                <a href="#service">Rendicion de cuentas</a>
+                                <a href="#service">Rendición de cuentas</a>
                             </li>
                             <li>
                                 <a href="#clients">Salir</a>

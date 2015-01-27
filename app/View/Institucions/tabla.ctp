@@ -3,7 +3,7 @@
 		<tr>
 			<th> Id </th>
 			<th> Nombre </th>
-			<th class="actions"><?php echo __('Actions'); ?></th>
+			<th class="actions"><?php echo __('Acciones'); ?></th>
 		</tr>
 	</thead>
 	<tbody>

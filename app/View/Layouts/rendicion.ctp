@@ -2,7 +2,7 @@
 <html lang="es">
 	<head>
 		<meta charset="UTF-8">
-		<title>Rendicion</title>
+		<title>Rendición</title>
 		
 		<link href="http://fonts.googleapis.com/css?family=Roboto:400,300,700&amp;subset=latin,latin-ext"
 			  rel="stylesheet" type="text/css">
@@ -53,7 +53,7 @@
 		
 		
 	    <div class="footer">
-            <p>&copy; 2015 All Rights Reserved | GobScore | Developer by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
+            <p>&copy; 2015 All Rights Reserved | GobScore | Developed by <a href="http://geekoders.com"> <button class="btn btn-primary"> Geekoders </button> </a></p>
         </div>
         <!-- Footer section end -->
         <!-- ScrollUp button start -->
