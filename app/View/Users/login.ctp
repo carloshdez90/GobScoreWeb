@@ -18,5 +18,6 @@ echo $this->Form->create('User');
 <div class="form-actions clearfix">	
 	<input type="submit" class="btn btn-block btn-primary btn-default" value="Ingresar" />
 </div>
+<a href="<?php echo $this->Html->url(array('controller' => 'operaciones', 'action' => 'recuperarPassword')) ?>"> Solicitar cambio de contraseña </a>
 <?php echo $this->Form->end(); ?>
 

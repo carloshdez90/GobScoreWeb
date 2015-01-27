@@ -414,7 +414,11 @@ class AppController extends Controller {
 	public function paginationAjax() {
 		$modelo = $this->modelClass;
 		$pagina = $_GET['pagina'];
-		$buscar = $_GET['buscar'];
+		$buscar = '';
+		if (isset($_GET['buscar'])) {
+			// Si hemos seleccionado un limite este sera configurado
+			$buscar = $_GET['buscar'];
+		}
 		if (isset($_GET['limit'])) {
 			// Si hemos seleccionado un limite este sera configurado
 			$this->limit = $_GET['limit'];
@@ -530,7 +534,7 @@ class AppController extends Controller {
 		$this->Auth = $this->Components->load('Auth', array('className' => 'Auth'));
 		// Verificamos si el usuario es un administrador
 		$this->set('tipo_usuario', $this->Auth->user('role'));
-		
+		$this->set('modelo', $this->modelClass);
 	}
 
 	/**

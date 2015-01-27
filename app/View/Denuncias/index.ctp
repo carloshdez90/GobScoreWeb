@@ -2,13 +2,13 @@
 <?php $mensaje = false; ?>
 
 <button class="btn btn-primary" id="nuevos">
-	Nuevos
+	Nuevas
 </button>
 <button class="btn btn-default" id="vistos">
-	Leidos
+	Leidas
 </button>
 <button class="btn btn-success" id="resueltos">
-	Resueltos
+	Resueltas
 </button>
 
 

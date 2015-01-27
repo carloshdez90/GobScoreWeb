@@ -27,7 +27,13 @@
 		</tr>
 	</tbody>
 </table>
-
+<br>
+<div style="text-align:right">
+	<a href="<?php echo $this->Html->url(array('action' => 'edit', $form['Form']['id'])) ?>"
+	   class="btn btn-primary btn-sm"> Editar información </a>
+	<a href="<?php echo $this->Html->url(array('action' => 'index')) ?>"
+	   class="btn btn-default btn-sm"> Regresar </a>
+</div>
 
 
 <script>

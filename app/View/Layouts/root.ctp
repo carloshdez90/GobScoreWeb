@@ -40,7 +40,30 @@
 					</li>
 	            </ul>
 	        </div>
-			
+
+			<?php
+
+			$institucions = '';
+			$users = '';
+			$tipos = '';
+
+			switch ($modelo) {
+				case 'Institucion' :
+					$breadcrumb = 'Instituciones';
+					$institucions = 'active';
+					break;
+				case 'User' :
+					$breadcrumb = 'Administradores';
+					$users = 'active';
+					break;
+				case 'Tipo' :
+					$breadcrumb = 'Tipos de denuncias';
+					$tipos = 'active';
+					break;
+			}
+
+			?>
+
 			<div id="sidebar">
 				
 				<?php include 'menu/'.$tipo_usuario.'.ctp' ?>
@@ -51,7 +74,7 @@
 				
 				<div id="breadcrumb">
 					<a href="#" title="Go to Home" class="tip-bottom"><i class="fa fa-home"></i> Inicio</a>
-					<a href="#" class="current">Instituciones</a>
+					<a href="#" class="current"><?php echo $breadcrumb; ?></a>
 				</div>
 				
 				<div class="row">
@@ -62,7 +85,6 @@
 								<span class="icon">
 									<i class="fa fa-th"></i>
 								</span>
-								<h5>Static table</h5>
 							</div>
 							<div class="widget-content nopadding">
 								<br>

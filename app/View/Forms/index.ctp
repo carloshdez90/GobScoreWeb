@@ -5,12 +5,13 @@
 <a class="btn btn-primary btn-sm" href="<?php echo $this->Html->url(array('action' => 'add')); ?>">
 	Crear formulario
 </a>
-<button class="btn btn-success btn-sm" id="nuevos">
-	Formularios cerrados
-</button>
 <button class="btn btn-default btn-sm" id="anteriores">
 	Formularios abiertos
 </button>
+<button class="btn btn-success btn-sm" id="nuevos">
+	Formularios cerrados
+</button>
+
 
 <br>
 <br>

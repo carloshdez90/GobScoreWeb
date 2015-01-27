@@ -34,7 +34,7 @@
 				</div>
 				<div id="loginbox">
 					<?php echo $this->fetch('content'); ?>
-				
+
 					<form id="recoverform" action="#">
 						<p>Enter your e-mail address below and we will send you instructions how to recover a password.</p>
 						<div class="input-group">

@@ -25,8 +25,8 @@ Realizado: <strong> <?php echo h($form['Form']['implementation']); ?> </strong>
 		<?php foreach ($form['Question'] as $item): ?>
 			<tr>
 				<td> <?php echo $item['name']; ?> </td>
-				<td> <?php echo $item['si']; ?> % </td>
-				<td> <?php echo $item['no']; ?> % </td>
+				<td style="text-align:center"> <?php echo $item['si']; ?> % </td>
+				<td style="text-align:center"> <?php echo $item['no']; ?> % </td>
 			</tr>
 		<?php endforeach; ?>
 	</tbody>
@@ -38,9 +38,10 @@ Realizado: <strong> <?php echo h($form['Form']['implementation']); ?> </strong>
 	<a href="<?php echo $this->Html->url(array('action' => 'download')) ?>"
 	   target="_blank"
 	   id="descargar"
-	   class="btn btn-primary"> Descargar pdf
+	   class="btn btn-primary btn-sm"> Descargar pdf
 	</a>
-	<button type="submit" name="csv" class="btn btn-success">
+	<button type="submit" name="csv" class="btn btn-success btn-sm">
 	Exportar csv
 	</button>
+	<a href="<?php echo $this->Html->url(array('action' => 'index')) ?>" class="btn btn-default btn-sm"> Regresar </a>
 </form>

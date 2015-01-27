@@ -29,23 +29,39 @@
 				
 				<a id="menu-trigger" href="#"><i class="fa fa-bars"></i></a>	
 			</div>
-	
-		<div style="text-align:center; position:absolute; top:0.5em; right: 10%; width:80%;">
-			<div style="color:#888;font-weight:bold; margin:0 auto; width:auto;">
+			
+			<div style="text-align:center; position:absolute; top:0.5em; right: 10%; width:80%;">
+				<div style="color:#888;font-weight:bold; margin:0 auto; width:auto;">
 				Secretaría de Participación Ciudadana, Transparencia y Anticorrupción
+				</div>
 			</div>
-		</div>
-		<div id="user-nav">
+			<div id="user-nav">
 
 
 
-	            <ul class="btn-group">					
-			
-			
-	                <li class="btn"><a title="" href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'logout')); ?>"><i class="fa fa-user"></i> <span class="text">Cerrar sesión</span></a></li>
-	            </ul>
-	        </div>
-			
+				<ul class="btn-group">					
+					
+					
+					<li class="btn"><a title="" href="<?php echo $this->Html->url(array('controller' => 'users', 'action' => 'logout')); ?>"><i class="fa fa-user"></i> <span class="text">Cerrar sesión</span></a></li>
+				</ul>
+			</div>
+			<?php
+
+			$denuncias = '';
+			$forms = '';
+
+			switch ($modelo) {
+				case 'Denuncia' :
+					$breadcrumb = 'Denuncias';
+					$denuncias = 'active';
+					break;
+				case 'Form' :
+					$breadcrumb = 'Rendición';
+					$forms = 'active';
+					break;
+			}
+
+			?>
 			<div id="sidebar">
 				<?php include 'menu/'.$tipo_usuario.'.ctp' ?>
 			</div>
@@ -54,7 +70,7 @@
 				
 				<div id="breadcrumb">
 					<a href="#" title="Go to Home" class="tip-bottom"><i class="fa fa-home"></i> Inicio</a>
-					<a href="#" class="current">Instituciones</a>
+					<a href="#" class="current"><?php echo $breadcrumb; ?></a>
 				</div>
 				
 				<div class="row">
@@ -64,11 +80,15 @@
 								<span class="icon">
 									<i class="fa fa-th"></i>
 								</span>
-								<h5> </h5>
 							</div>
 							<div class="widget-content nopadding">
+									<br>
+								<div class="row">
+									<div class="col-md-12">
+										<?php echo $this->fetch('content'); ?>
+									</div>
+								</div>
 								<br>
-								<?php echo $this->fetch('content'); ?>							
 							</div>
 						</div>
 					</div>

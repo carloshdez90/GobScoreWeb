@@ -22,7 +22,7 @@ if (!isset($reporte)) {
 					?>
 				</th>
 			<?php endif; ?>
-			<th class="actions" colspan="<?php echo $colspan; ?>"><?php echo __('Actions'); ?></th>
+			<th class="actions" colspan="<?php echo $colspan; ?>"><?php echo __('Ver'); ?></th>
 		</tr>
 	</thead>
 	<tbody>

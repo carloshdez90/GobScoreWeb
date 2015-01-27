@@ -55,7 +55,7 @@ class UsersController extends AppController {
 			// Password
 			$password = $this->strongPassword($this->request->data['User']['username']);
 			$this->request->data['User']['password'] = $password;
-			$this->request->data['User']['role']     = 'a';
+			$this->request->data['User']['role']     = 'administrador';
 			$this->request->data['User']['active']   = true;
 
 			$this->User->create();

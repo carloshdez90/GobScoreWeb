@@ -21,6 +21,12 @@
 		</tbody>
 	</table>
 </div>
+<br>
+<div style="text-align:right;">
+	<a href="<?php echo $this->Html->url(array('action' => 'index')) ?>"
+	   class="btn btn-default btn-sm"> Regresar </a>
+</div>
+
 
 <div class="related">
 	<?php if (!empty($denuncia['Mensaje'][0])): ?>
@@ -34,7 +40,7 @@
 		</table>
 	<?php endif; ?>
 </div>
-
+<br>
 <div class="related">
 	<?php if (!empty($denuncia['Mensaje'][1])): ?>
 		<table cellpadding = "0" cellspacing = "0">
@@ -48,7 +54,7 @@
 	<?php else: ?>
 		<?php echo $this->Form->create('Mensaje', array('controller' => 'mensajes', 'action' => 'add')); ?>
 		
-		<?php echo $this->Form->input('contenido', array('type' => 'textarea', 'placeholder' => 'Respuesta al ciudadano.')); ?>
+		<?php echo $this->Form->input('contenido', array('label' => 'Respuesta al ciudadano', 'type' => 'textarea', 'placeholder' => 'Respuesta al ciudadano.')); ?>
 		<?php echo $this->Form->hidden('denuncia_id', array('value' => $denuncia['Denuncia']['id'])); ?>
 		
 		<?php echo $this->Form->submit('Responder', array('class'  => 'btn btn-sm btn-primary')); ?>

@@ -13,4 +13,3 @@ echo $this->Form->create('User');
 	<input type="submit" class="btn btn-block btn-primary btn-default" value="Solicitar clave" />
 </div>
 <?php echo $this->Form->end(); ?>
-
