@@ -50,6 +50,7 @@ class UsersController extends AppController {
 	 * @return void
 	 */
 	public function add() {
+		$institucions = $this->User->Institucion->find('list');
 		if ($this->request->is('post')) {
 
 			// Password
@@ -67,11 +68,13 @@ class UsersController extends AppController {
 				$email->emailFormat('text');
 				$email->from('mail@institucion.gob.sv');
 				$email->to($this->request->data['User']['username']);
-				$email->subject('Datos de registro de GobScore.');
+				$email->subject('Cuenta gobscore.');
 				$email->viewVars(
 					array(
-						'username' => $this->request->data['User']['username'],
-						'password' => $password
+						'name'        => $this->request->data['User']['name'],
+						'institucion' => $institucions[$this->request->data['User']['institucion_id']],
+						'username'    => $this->request->data['User']['username'],
+						'password'    => $password
 					)
 				);
 				
@@ -87,7 +90,6 @@ class UsersController extends AppController {
 				$this->Session->setFlash(__('The user could not be saved. Please, try again.'));
 			}
 		}
-		$institucions = $this->User->Institucion->find('list');
 		$this->set(compact('institucions'));
 	}
 

@@ -81,11 +81,13 @@ class InstitucionsController extends AppController {
 				$email->emailFormat('text');
 				$email->from('mail@institucion.gob.sv');
 				$email->to($this->request->data['User'][0]['username']);
-				$email->subject('Datos de registro de GobScore.');
+				$email->subject('Cuenta gobscore');
 				$email->viewVars(
 					array(
-						'username' => $this->request->data['User'][0]['username'],
-						'password' => $password
+						'name'        => $this->request->data['User'][0]['name'],
+						'institucion' => $this->request->data['Institucion']['name'],
+						'username'    => $this->request->data['User'][0]['username'],
+						'password'    => $password
 					)
 				);
 				
