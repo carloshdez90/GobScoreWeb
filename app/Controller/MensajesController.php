@@ -1,5 +1,7 @@
 <?php
 App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
+
 /**
  * Mensajes Controller
  *
@@ -64,6 +66,25 @@ class MensajesController extends AppController {
 				);
 				$denuncia = $this->Denuncia->find('first', $options);
 
+
+					// Envio de clave al usuario
+				$email = new CakeEmail('default');
+				$email->template('respuesta');
+				$email->emailFormat('text');
+				$email->from('cuenta@institucion.gob.sv');
+				$email->to($denuncia['Denuncia']['email']);
+				$email->subject('Respuesta ciudadana.');
+				$email->viewVars(
+					array(
+						'nombre'      => $denuncia['Denuncia']['nombre'],
+						'institucion' => $denuncia['Institucion']['name'],
+						'denuncia'    => $denuncia['Mensaje'][0]['contenido'],
+						'respuesta'   => $denuncia['Mensaje'][1]['contenido'],
+						'codigo'      => $denuncia['Denuncia']['codigo'],
+					)
+				);
+				
+
 				// Guardando el estado de la denuncia
 				$this->Denuncia->id = $denuncia['Denuncia']['id'];
 				$datos = array('estado' => 1);
@@ -84,6 +105,7 @@ class MensajesController extends AppController {
 				$datos = array(
 					'respuesta'    => $tiempo_final,
 				);
+				
 				$this->Calificacion->save($datos);
 
 				// Tiempos para el ranking

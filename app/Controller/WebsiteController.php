@@ -1,4 +1,6 @@
 <?php
+App::uses('AppController', 'Controller');
+App::uses('CakeEmail', 'Network/Email');
 
 class WebsiteController extends AppController {
 	public $layout = 'default';
@@ -246,8 +248,27 @@ class WebsiteController extends AppController {
 			
 			//unset($this->Empresa->User->validate['Denuncia_id']);
 			if ($this->Denuncia->Mensaje->saveAssociated($this->request->data)) {
+
+					// Envio de clave al usuario
+				$email = new CakeEmail('default');
+				$email->template('denuncia');
+				$email->emailFormat('text');
+				$email->from('cuenta@institucion.gob.sv');
+				$email->to($this->request->data['Denuncia']['email']);
+				$email->subject('Denuncia enviada con éxito.');
+				$email->viewVars(
+					array(
+						'nombre' => $this->request->data['Denuncia']['nombre'],
+						'codigo' => $codigo,
+					)
+				);
 				
-				$this->Session->setFlash(1);
+				$mensaje = 0;
+				if ($email->send()) {
+					$mensaje = 1;
+				}
+				
+				$this->Session->setFlash($mensaje);
 				return $this->redirect(array('action' => 'inicio'));
 			}
 			

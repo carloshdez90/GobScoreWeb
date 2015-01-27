@@ -90,7 +90,8 @@ class InstitucionsController extends AppController {
 						'password'    => $password
 					)
 				);
-				
+				$mensaje = 'Los datos de la institución y cuenta de '.
+						   'administrador no han sido enviados.';
 				if ($email->send()) {
 					$mensaje = 'Los datos de la institución y cuenta de '.
 							   'administrador han sido enviados correctamente';
