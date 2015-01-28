@@ -25,7 +25,7 @@
 	<body data-color="grey" class="flat">
 		<div id="wrapper">
 			<div id="header">
-				<h1><a href="./index.html">GobScore</a></h1>
+				<h1>GobScore</h1>
 				
 				<a id="menu-trigger" href="#"><i class="fa fa-bars"></i></a>	
 			</div>
