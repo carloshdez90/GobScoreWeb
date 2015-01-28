@@ -214,9 +214,9 @@ class FormsController extends AppController {
 		$latex->usepackage('', 'supertabular');
 		$latex->usepackage('', 'fancyhdr');
 
-		$latex->usepackage('', 'quattrocento');
+		$latex->usepackage('light,math', 'kurier');
 
-		$dir = $this->getDirLaTeX();
+		$dir = $this->getDirLaTeX('sistema');
 
 		$encabezado = '\begin{Huge}\textbf{'.$form['Institucion']['name'].'}\end{Huge}'.
 					  '\\\\ ~ \\\\ \begin{Large}\textbf{Reporte de Evaluación}\end{Large}';
