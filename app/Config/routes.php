@@ -41,6 +41,7 @@ Router::connect('/crear-denuncias', array('controller' => 'website', 'action' =>
 Router::connect('/seguimiento', array('controller' => 'website', 'action' => 'seguimiento'));
 Router::connect('/login', array('controller' => 'users', 'action' => 'login'));
 Router::connect('/verificacion', array('controller' => 'website', 'action' => 'verificacion'));
+Router::connect('/recuperar-password', array('controller' => 'operaciones', 'action' => 'recuperarPassword'));
 
 
 Router::connect('/administradores', array('controller' => 'users', 'action' => 'index'));
@@ -48,6 +49,7 @@ Router::connect('/administradores/add', array('controller' => 'users', 'action' 
 Router::connect('/administradores/view/*', array('controller' => 'users', 'action' => 'view'));
 Router::connect('/administradores/edit/*', array('controller' => 'users', 'action' => 'edit'));
 Router::connect('/administradores/delete/*', array('controller' => 'users', 'action' => 'delete'));
+
 
 
 /**

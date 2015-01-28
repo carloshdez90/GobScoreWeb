@@ -384,7 +384,7 @@ class FormsController extends AppController {
 		// a view
 		$institucion_id = $this->Auth->user('institucion_id');
 		$this->response->file(
-			'/pdfs/'.$institucion_id.'.pdf',
+			'pdfs/'.$institucion_id.'.pdf',
 			array('download' => true, 'name' => 'reporte_institucion_'.$institucion_id)
 			//'/pdfs/1.pdf',
 			//array('download' => true, 'name' => 'prueba.pdf')
