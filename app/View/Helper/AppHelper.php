@@ -201,7 +201,7 @@ class AppHelper extends Helper {
 		$cadena .= '     <span class="glyphicon glyphicon-search"></span>';
 		$cadena .= '</a>';
 		$cadena .= '</td>';
-		if (true == $reporte) {
+		if (0) {
 			$cadena .= '<td class="actions">';
 			$cadena .= '<a class="btn btn-xs btn-success centro"';
 			$cadena .= '   href="'.$this->url(array('action' => 'reporte', $id)).'">';
@@ -575,20 +575,20 @@ class AppHelper extends Helper {
 	 */
 	public function accionesVerReporte($id, $reporte = null) {
 		$cadena  = '';
-		$cadena .= '<td class="actions" colspan="2">';
+		$cadena .= '<td class="actions">';
 		$cadena .= '<a class="btn btn-xs btn-default izquierdo"';
 		$cadena .= '   href="'.$this->url(array('action' => 'view', $id)).'">';
 		$cadena .= '     <span class="glyphicon glyphicon-search"></span>';
 		$cadena .= '</a>';
 		$cadena .= '</td>';
-		$cadena .= '<td class="actions" colspan="2">';
+		$cadena .= '<td class="actions">';
 		$cadena .= '<a class="btn btn-xs btn-primary centro"';
 		$cadena .= '   href="'.$this->url(array('action' => 'edit', $id)).'">';
 		$cadena .= '     <span class="glyphicon glyphicon-edit"></span>';
 		$cadena .= '</a>';
 		$cadena .= '</td>';
 		if (true == $reporte) {
-			$cadena .= '<td class="actions" colspan="2">';
+			$cadena .= '<td class="actions">';
 			$cadena .= '<a class="btn btn-xs btn-success derecho"';
 			$cadena .= '   href="'.$this->url(array('action' => 'reporte', $id)).'">';
 			$cadena .= '     <span class="glyphicon glyphicon-file"></span>';
