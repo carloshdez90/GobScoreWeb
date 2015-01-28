@@ -83,7 +83,7 @@ class MensajesController extends AppController {
 						'codigo'      => $denuncia['Denuncia']['codigo'],
 					)
 				);
-				
+				$email->send();
 
 				// Guardando el estado de la denuncia
 				$this->Denuncia->id = $denuncia['Denuncia']['id'];
