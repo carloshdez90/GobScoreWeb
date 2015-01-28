@@ -131,7 +131,7 @@ class FormsController extends AppController {
 		$this->Auth->recursive = 0;
 		$fields = array('Question.id', 'COUNT(Answer.answer) AS total');
 		$conditions = array(
-			'Forms.id' => 1,
+			'Forms.id' => $id,
 			'Answer.answer' => 0,
 		);
 		$joins = array(
