@@ -97,10 +97,10 @@
 	
 		$(".basic").jRating({
 			step:true,
-			showRateInfo:false
+			showRateInfo:false,
+			
 		});
 
-		$('.rate-value').val('3')
 		$('.basic').on('click', function() {
 			$.ajax({
 				'type' : 'post',
@@ -116,7 +116,6 @@
 					alert('No se ha podido efectuar la calificación.')
 				}				
 			});
-			console.log($('.rate-value').val());
 		});
 		
 	});
