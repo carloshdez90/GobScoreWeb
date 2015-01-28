@@ -353,7 +353,7 @@ class AppController extends Controller {
 						   'getFormulario', 'getPregunta', 'calificarPregunta',
 						   'seguimiento', 'tiempo', 'denuncias', 'verificacion',
 						   'instituciones', 'tipoDenuncias', 'guardarDenuncia',
-						   'recuperarPassword',
+						   'recuperarPassword','calificar',
 						   'pruebas');				
 	}
 	/**/

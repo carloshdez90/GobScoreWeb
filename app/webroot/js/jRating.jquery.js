@@ -14,7 +14,7 @@
 			/** String vars **/
 			bigStarsPath : 'icons/stars.png', // path of the icon stars.png
 			smallStarsPath : 'icons/small.png', // path of the icon small.png
-			phpPath : 'http://'+servidor+'/php/jRating.php', // path of the php file jRating.php
+			//phpPath : 'php/jRating.php', // path of the php file jRating.php
 			type : 'big', // can be set to 'small' or 'big'
 
 			/** Boolean vars **/
@@ -27,7 +27,7 @@
 			/** Integer vars **/
 			length:5, // number of star to display
 			decimalLength : 0, // number of decimals.
-			rateMax : 20, // maximal rate - integer from 0 to 9999 (or more)
+			rateMax : 5, // maximal rate - integer from 0 to 9999 (or more)
 			rateInfosX : -45, // relative position in X axis of the info box when mouseover
 			rateInfosY : 5, // relative position in Y axis of the info box when mouseover
 			nbRates : 1,
@@ -149,51 +149,53 @@
 
 					if (opts.showRateInfo) $("p.jRatingInfos").fadeOut('fast',function(){$(this).remove();});
 					e.preventDefault();
-					var rate = getNote(newWidth);
+					rate = getNote(newWidth);
 					average.width(newWidth);
 
 
 					/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-						$('.datasSent p').html('<strong>idBox : </strong>'+idBox+'<br /><strong>rate : </strong>'+rate+'<br /><strong>action :</strong> rating');
+						$('.datasSent').html('<input class="rate-value" style="display: none;" value='+rate+'></input>');
 						$('.serverResponse p').html('<strong>Loading...</strong>');
 					/** END ONLY FOR THE DEMO **/
 
 					if(opts.onClick) opts.onClick( element, rate );
 
 					if(opts.sendRequest) {
-						$.post(opts.phpPath,{
-								idBox : idBox,
-								rate : rate,
-								action : 'rating'
-							},
-							function(data) {
-								if(!data.error)
-								{
-									/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-										$('.serverResponse p').html(data.server);
-									/** END ONLY FOR THE DEMO **/
+						 
+						 //console.log(rate);
+						// $.post(opts.phpPath,{
+						// 		idBox : idBox,
+						// 		rate : rate,
+						// 		action : 'rating'
+						// 	},
+						// 	function(data) {
+						// 		if(!data.error)
+						// 		{
+						// 			/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
+						// 				$('.serverResponse p').html(data.server);
+						// 			/** END ONLY FOR THE DEMO **/
 
 
-									/** Here you can display an alert box,
-										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
-										exemple :	*/
-									if(opts.onSuccess) opts.onSuccess( element, rate );
-								}
-								else
-								{
+						// 			/** Here you can display an alert box,
+						// 				or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
+						// 				exemple :	*/
+						// 			if(opts.onSuccess) opts.onSuccess( element, rate );
+						// 		}
+						// 		else
+						// 		{
 
-									/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
-										$('.serverResponse p').html(data.server);
-									/** END ONLY FOR THE DEMO **/
+						// 			/** ONLY FOR THE DEMO, YOU CAN REMOVE THIS CODE **/
+						// 				$('.serverResponse p').html(data.server);
+						// 			/** END ONLY FOR THE DEMO **/
 
-									/** Here you can display an alert box,
-										or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
-										exemple :	*/
-									if(opts.onError) opts.onError( element, rate );
-								}
-							},
-							'json'
-						);
+						// 			/** Here you can display an alert box,
+						// 				or use the jNotify Plugin :) http://www.myqjqueryplugins.com/jNotify
+						// 				exemple :	*/
+						// 			if(opts.onError) opts.onError( element, rate );
+						// 		}
+						// 	},
+						// 	'json'
+						// );
 					}
 
 				}

@@ -97,7 +97,8 @@
 	
 		$(".basic").jRating({
 			step:true,
-			showRateInfo:false
+			showRateInfo:false,
+			
 		});
 
 		$('.rate-value').val('3')

@@ -304,6 +304,7 @@ class WebsiteController extends AppController {
 			);
 			$this->set('clase', $class[$indice]);
 			$this->set('indice', $indice);
+			$this->set('denuncia_id', $denuncia['Denuncia']['id']);
 		} else {
 			return $this->redirect(array('action' => 'inicio'));
 		}
@@ -346,5 +347,35 @@ class WebsiteController extends AppController {
 
 	}
 
+	/**
+	 * Calificar
+	 */
+	public function calificar() {
+		$this->autoRender = false;
+		$this->request->onlyAllow('ajax');
+		$this->response->type('json');
+
+		$data = array('message' => -1);
+		if ($this->request->is('post')) {
+			$denuncia_id  = $_POST['denuncia_id'];
+			$calificacion = $_POST['calificacion'];
+			$this->loadModel('Calificacion');
+			$fields = array('Calificacion.id', 'Calificacion.calificacion');
+			$conditions = array('Calificacion.denuncia_id' => $denuncia_id);
+			$options = array(
+				'fields' => $fields,
+				'conditions' => $conditions,
+			);
+			$tmp = $this->Calificacion->find('first', $options);
+			$this->Calificacion->id = $tmp['Calificacion']['id'];
+			$data = array('message' => 0);
+			if (-1 != $tmp['Calificacion']['calificacion']) {
+				if ($this->Calificacion->save(array('calificacion' => $calificacion))) {
+					$data = array('message' => 1);
+				}	
+			}
+		}
+		return json_encode($data);
+	}
 
 }
