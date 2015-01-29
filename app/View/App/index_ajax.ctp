@@ -3,6 +3,9 @@
 $mensaje = '';
 if ($eliminar) {
 	$mensaje = 'Agregar '.$modelo;
+	if('Question' == $modelo) {
+		$mensaje = 'Agregar pregunta';
+	}
 }
 
 ?>
@@ -37,8 +40,8 @@ if ($eliminar) {
 				</form>
 			</div>
 			<div class="modal-footer">
-				<button type="button" class="btn btn-default" data-dismiss="modal" id="close-button">Close</button>
-				<button type="button" class="btn btn-primary" id="save-button">Save changes</button>
+				<button type="button" class="btn btn-default" data-dismiss="modal" id="close-button">Cerrar</button>
+				<button type="button" class="btn btn-primary" id="save-button">Guardar pregunta</button>
 			</div>
 		</div>
 	</div>
