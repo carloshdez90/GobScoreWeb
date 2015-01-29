@@ -4,7 +4,7 @@
 			<th> Id </th>
 			<th> Nombre </th>
 			<?php if ($eliminar): ?>
-				<th class="actions"><?php echo __('Actions'); ?></th>
+				<th class="actions"><?php echo __('Eliminar'); ?></th>
 			<?php endif; ?>
 		</tr>
 	</thead>

@@ -10,7 +10,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand brand" href="#">
+			<a class="navbar-brand brand" href="<?php echo $this->Html->url(array('action' => 'inicio')) ?>">
 				<?php echo $this->Html->image('GobScore.png', array('width' => '120', 'height' => '40', 'alt' => 'Logo')); ?>
 			</a>
 		</div>
@@ -22,13 +22,14 @@
 				<li>
 					<a href="<?php echo $inicio; ?>" style="color:white !important;">Inicio</a>
 				</li>
+				<!-- 
 				<li>
                     <a href="#" id="seguimiento" style="color:white !important;" data-toggle="modal" data-target="#myModal">Seguimiento</a>
                 </li>
 				<li>
                     <a href="#" id="ingresar" style="color:white !important;">Ingresar</a>
                 </li>
-
+				<!--  -->
 				<script>
 					$(document).on('ready', function(){
 						$('#rendicion').click(function (){
